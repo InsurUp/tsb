@@ -5,7 +5,7 @@ import SpeakerCard from '@/components/ui/SpeakerCard';
 import { Modal, Box, Typography, Backdrop, styled } from '@mui/material';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const SPEAKERS_PER_ROW_MOBILE = 2;
 const INITIAL_ROWS_MOBILE = 3; // İlk 3 sıra, yani 3 * 2 = 6 kart
@@ -75,9 +75,10 @@ margin: auto;
                     <div className="text-center mt-10">
                         <button
                             onClick={handleShowMore}
-                            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition duration-300"
+                            className="text-dark font-bold text-lg cursor-pointer"
                         >
                             Devamını Gör
+                            <FontAwesomeIcon className='ml-2' icon={faChevronDown} />        
                         </button>
                     </div>
                 )}
