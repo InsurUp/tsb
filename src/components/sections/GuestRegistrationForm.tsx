@@ -12,12 +12,14 @@ const MySwal = withReactContent(Swal);
 const GuestRegistrationForm = () => {
     const handleFullNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
+        // Sadece harf ve boşlukları kabul et
         const filteredValue = value.replace(/[^a-zA-ZğĞİıÖöŞşÜüÇç\s]/g, '');
         formik.setFieldValue(name, filteredValue);
     };
 
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
+        // Sadece rakamları kabul et
         const filteredValue = value.replace(/[^0-9]/g, '');
         formik.setFieldValue(name, filteredValue);
     };
@@ -27,7 +29,6 @@ const GuestRegistrationForm = () => {
             formik.setFieldValue('phone', '0');
         }
     };
-
 
     const validationSchema = z.object({
         fullName: z.string().min(1, 'Full Name is required'),
@@ -67,7 +68,7 @@ const GuestRegistrationForm = () => {
                 const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID';
                 const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
                 const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY';
-
+                console.log(serviceId, templateId, publicKey);
                 if (serviceId === 'YOUR_SERVICE_ID' || templateId === 'YOUR_TEMPLATE_ID' || publicKey === 'YOUR_PUBLIC_KEY') {
                     console.error("EmailJS credentials missing. Please check the .env.local file.");
                     MySwal.fire({
@@ -225,7 +226,7 @@ const GuestRegistrationForm = () => {
                             </label>
                             {formik.touched.kvkkConsent && formik.errors.kvkkConsent ? (
                                 <div className="text-red-500 text-sm mt-1">{formik.errors.kvkkConsent}</div>
-                            ) : null}
+                                ) : null}
                         </div>
                         <div className="mb-10">
                             <label className="inline-flex items-center">
