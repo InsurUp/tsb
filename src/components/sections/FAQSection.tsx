@@ -18,9 +18,9 @@ const FAQSection: React.FC = () => {
         setExpanded(isExpanded ? panel : false);
     };
     return (
-        <section className="py-12" style={{ backgroundColor: '#E3F5F2' }}>
+        <section className="md:py-[100px] py-[50px] bg-[#E3F5F2]/53">
             <div className="container mx-auto px-4">
-                <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Sıkça Sorulan Sorular</h2>
+                <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-10">FAQ</h2>
                 <div className="max-w-3xl mx-auto">
                     {faqData.map((item, index) => (
                         <Accordion
@@ -40,7 +40,7 @@ const FAQSection: React.FC = () => {
                             <AccordionSummary
                                 expandIcon={
                                     <div
-                                        className="w-8 h-8 rounded-full flex items-center justify-center"
+                                        className="w-6 h-6 rounded-full flex items-center justify-center"
                                         style={{ backgroundColor: '#00539B' }}
                                     >
                                         <FontAwesomeIcon
@@ -53,12 +53,10 @@ const FAQSection: React.FC = () => {
                                 id={`panel${index}-header`}
                                 sx={{ paddingBlock: '15px' }}
                             >
-                                <Typography variant="h3" className="font-semibold text-gray-700" sx={{ fontSize: '20px', fontWeight: 'medium' }}>{item.question}</Typography>
+                                <Typography variant="h3" className="font-medium! font-['Inter']! text-[#000]" sx={{ fontSize: '20px' }}>{item.question}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography className="text-gray-600">
-                                    {item.answer}
-                                </Typography>
+                                <div className='font-["Inter"]!' dangerouslySetInnerHTML={{ __html: item.answer }}></div>
                             </AccordionDetails>
                         </Accordion>
                     ))}

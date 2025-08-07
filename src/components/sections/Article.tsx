@@ -1,4 +1,3 @@
-import { BannerData } from '@/data/projectData'
 import React from 'react'
 
 function Article() {
@@ -11,16 +10,15 @@ function Article() {
                     </h2>
                     <p className='text-base text-[#000]'>
 
-                        The TSB Summit is a premier event dedicated to the insurance industry, bringing together experts, professionals, and key stakeholdThe International Insurance Summit brings together global leaders, experts, and decision-makers who are shaping the future of the insurance industry.
+                        The International Insurance Summit brings together global leaders, experts, and decision-makers who are shaping the future of the insurance industry.
                         <br />
                         <br />
                         This year’s theme, <strong>“Digital Futures: How Technology is Transforming the Insurance Sector,”</strong> will delve into key topics such as artificial intelligence, data analytics, digital transformation, and emerging technologies.
                         <br />
                         <br />
-                        The summit will provide a dynamic platform to exchange insights, explore global trends, and foster collaboration on sustainable solutions for the evolving insurance landscape. ers. It serves as a platform to discuss the latest trends, innovations, and challenges in insurance.
-                    </p>
+                        The summit will provide a dynamic platform to exchange insights, explore global trends, and foster collaboration on sustainable solutions for the evolving insurance landscape.                    </p>
                 </div>
-           </div>
+            </div>
         </section>
     )
 }

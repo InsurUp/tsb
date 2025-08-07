@@ -36,7 +36,7 @@ const SpeakersSection: React.FC = () => {
         } else {
             setDisplayCount(INITIAL_DISPLAY_COUNT_MOBILE); // Reset to initial on mobile
         }
-    }, [isMobile, speakers.length]); // speakers.length'i bağımlılık olarak ekle
+    }, [isMobile, speakers]); // speakers.length'i bağımlılık olarak ekle
 
     const handleShowMore = () => {
         setDisplayCount(speakers.length);
@@ -63,10 +63,12 @@ margin: auto;
     const speakersToDisplay = isMobile ? speakers.slice(0, displayCount) : speakers;
 
     return (
-        <section className="py-12 bg-gray-50">
-            <div className="container max-w-[850px]! mx-auto px-4">
-                <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Speakers</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-items-center">
+        <section className="py-12 relative overflow-hidden">
+            <Image src="/images/module_shape.png" alt="Speakers Background" className='md:block hidden absolute top-0 left-[50%] -translate-x-1/2' width={1450} height={1250} objectFit="cover" />
+            <Image src="/images/module_shape.png" alt="Speakers Background" className='md:block hidden absolute bottom-0 left-[50%] -translate-x-1/2' width={1450} height={1250} objectFit="cover" />
+            <div className="container max-w-[900px]! mx-auto px-4 relative">
+                <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-10">Speakers</h2>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 sm:gap-x-[80px] gap-x-[20px] sm:gap-y-[30px] gap-y-[10px] justify-items-center">
                     {speakersToDisplay.map((speaker) => (
                         <SpeakerCard key={speaker.id} speaker={speaker} onClick={handleCardClick} />
                     ))}
@@ -78,7 +80,7 @@ margin: auto;
                             className="text-dark font-bold text-lg cursor-pointer"
                         >
                             Devamını Gör
-                            <FontAwesomeIcon className='ml-2' icon={faChevronDown} />        
+                            <FontAwesomeIcon className='ml-2' icon={faChevronDown} />
                         </button>
                     </div>
                 )}

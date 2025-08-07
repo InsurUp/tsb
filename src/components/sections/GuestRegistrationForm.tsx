@@ -31,7 +31,7 @@ const GuestRegistrationForm = () => {
         validate: (values) => {
             try {
                 validationSchema.parse(values);
-            } catch (error: any) {
+            } catch (error) {
                 if (error instanceof z.ZodError) {
                     return error.flatten().fieldErrors;
                 }
@@ -76,12 +76,12 @@ const GuestRegistrationForm = () => {
                 <div className="bg-white md:py-[70px] py-[30px] md:px-[50px] px-[20px] rounded-[30px] shadow-lg  mx-auto">
                     <h2 className="sm:text-4xl text-3xl font-bold sm:mb-10 mb-5">Free Guest Registration Form</h2>
                     <form onSubmit={formik.handleSubmit}>
-                        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[40px] gap-[20px] md:mb-[40px] mb-[20px]">
+                        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[25px] gap-[20px] md:mb-[25px] mb-[20px]">
                             <div>
                                 <input
                                     type="text"
                                     placeholder="Full Name"
-                                    className="w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-lg font-light  focus:outline-none "
+                                    className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="fullName"
                                     name="fullName"
                                     onChange={formik.handleChange}
@@ -96,7 +96,7 @@ const GuestRegistrationForm = () => {
                                 <input
                                     type="email"
                                     placeholder="Email"
-                                    className="w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-lg font-light  focus:outline-none "
+                                    className="placeholder:text-black   w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="email"
                                     name="email"
                                     onChange={formik.handleChange}
@@ -108,12 +108,12 @@ const GuestRegistrationForm = () => {
                                 ) : null}
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[40px] gap-[20px] md:mb-[40px] mb-[20px]">
+                        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[25px] gap-[20px] md:mb-[25px] mb-[20px]">
                             <div>
                                 <input
                                     type="text"
                                     placeholder="Phone"
-                                    className="w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-lg font-light  focus:outline-none "
+                                    className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="phone"
                                     name="phone"
                                     onChange={formik.handleChange}
@@ -128,7 +128,7 @@ const GuestRegistrationForm = () => {
                                 <input
                                     type="text"
                                     placeholder="Company"
-                                    className="w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-lg font-light  focus:outline-none "
+                                    className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="company"
                                     name="company"
                                     onChange={formik.handleChange}
@@ -140,12 +140,12 @@ const GuestRegistrationForm = () => {
                                 ) : null}
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[40px] gap-[20px] mb-[20px]">
+                        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[25px] gap-[20px] mb-[20px]">
                             <div>
                                 <input
                                     type="text"
                                     placeholder="Title"
-                                    className="w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-lg font-light  focus:outline-none "
+                                    className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="title"
                                     name="title"
                                     onChange={formik.handleChange}
@@ -160,7 +160,7 @@ const GuestRegistrationForm = () => {
                                 <input
                                     type="text"
                                     placeholder="Participation Type"
-                                    className="w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-lg font-light  focus:outline-none "
+                                    className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="participationType"
                                     name="participationType"
                                     onChange={formik.handleChange}
@@ -189,7 +189,7 @@ const GuestRegistrationForm = () => {
                                 <div className="text-red-500 text-sm mt-1">{formik.errors.kvkkConsent}</div>
                             ) : null}
                         </div>
-                        <div className="mb-6">
+                        <div className="mb-10">
                             <label className="inline-flex items-center">
                                 <input
                                     type="checkbox"
