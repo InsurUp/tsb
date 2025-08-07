@@ -86,7 +86,7 @@ const AgendaSection: React.FC = () => {
                                                 className="mb-2 p-0! rounded-lg"
                                                 elevation={0}
                                                 sx={{
-                                                    backgroundColor: '#F0F8FF',
+                                                    backgroundColor: 'transparent',
                                                     color: '#00539B',
                                                     '&.MuiAccordion-root:before': {
                                                         display: 'none',
@@ -111,7 +111,7 @@ const AgendaSection: React.FC = () => {
                                                     sx={{ 
                                                         paddingInline: '0 !important',
                                                         marginBlock: '0 !important',
-                                                        backgroundColor: expandedItem === `item-panel-${dayIndex}-${itemIndex}` ? '' : '#F0F8FF',
+                                                        backgroundColor: expandedItem === `item-panel-${dayIndex}-${itemIndex}` ? '' : '',
                                                         color: expandedItem === `item-panel-${dayIndex}-${itemIndex}` ? 'white' : '#00539B',
                                                     }}
                                                     className='md:py-[28px]! py-[0]!'

@@ -19,7 +19,7 @@ export const BannerData: BannerData =
 {
     title: "DIGITAL FUTURES: HOW TECHNOLOGY CHANGES THE INSURANCE SECTOR",
     buttonText: "Sign up now!",
-    buttonHref: "#",
+    buttonHref: "#guest-registration-form",
     eventStartDate: "29 - 30 September",
     eventLocation: "Swissôtel The Bosphorus - İstanbul",
     eventText: "29 - 30 September",
@@ -48,14 +48,7 @@ export const speakers: Speaker[] = [
         title: "Minister of Treasury and Finance (TBC)",
         image: "/images/speakers/mehmet_simsek.png",
         bio: `
-        
-        
-        Sachin Sahni is a part of S&P Global Ratings since 2015, based in DIFC - Dubai office, covering Insurance Ratings spread across MENA, Turkiye & South Africa. As a credit analyst, he manages a large portfolio of insurers and is responsible for assigning and conducting ongoing 
-
-surveillance of their Credit Ratings. Mr. Sahni is also actively involved in market research and has published various insurance industry report cards & articles on industry current affairs. 
-
-He is a qualified Chartered Accountant & MBA (Finance) and has 25 years of experience in Financial Services (Banking & Insurance) encompassing Credit Ratings, Governance, Risk & Compliance, Internal Controls & Statutory Audit.  
-        
+         
         `,
     },
     {
@@ -140,7 +133,7 @@ From 2012 to 2015, she led the Marketing Department at Ziraat Private Pension an
         name: "Yavuz Ölken",
         title: "Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye",
         image: "/images/speakers/yavuz_olken.png",
-        bio: "Yavuz Özkan, KMP Türkiye'de Hayat Dışı Yönetim Kurulu Üyesi ve CEO'sudur.",
+        bio: " ",
     },
     {
         id: 11,
@@ -162,7 +155,7 @@ From 2012 to 2015, she led the Marketing Department at Ziraat Private Pension an
         name: "Hassan El-Shabrawishi",
         title: "AXA International Markets, CEO",
         image: "/images/speakers/hassan.png",
-        bio: "Hassan El-Shabrawishi, AXA International Markets CEO'sudur.",
+        bio: "",
     },
     {
         id: 14,

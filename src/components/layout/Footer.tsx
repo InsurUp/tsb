@@ -27,28 +27,32 @@ const Footer = () => {
             />
             <Typography
               sx={{ color: "#00539B", fontWeight: "bold", fontSize: "20px" }}
+              className="sm:text-lg! text-base!"
             >
               Phone:{" "}
               <a href="tel:+908505029600" style={{ textDecoration: 'underline', color: 'inherit' }}>
                 <Typography
                   component="span"
-                  sx={{ color: "#000", fontSize: "16px", fontWeight: "medium" }}
+                  className="sm:text-base! text-xs!"
+                  sx={{ color: "#000", fontWeight: "medium", mt:"3px",ml:"4px" }}
                 >
                   0850 502 96 00
                 </Typography>
-              </a>
+              </a>  
             </Typography>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <Image src="/images/mail.svg" alt="Email" width={24} height={24} />
             <Typography
               sx={{ color: "#00539B", fontWeight: "bold", fontSize: "20px" }}
+                className="sm:text-lg! text-base!"
             >
               Email:{" "}
               <a href="mailto:davet@tsb.org.tr" style={{ textDecoration: 'underline', color: 'inherit' }}>
                 <Typography
                   component="span"
-                  sx={{ color: "#000", fontSize: "16px", fontWeight: "medium" }}
+                  className="sm:text-base! text-xs!"
+                  sx={{ color: "#000", fontWeight: "medium", mt:"3px",ml:"4px" }}
                 >
                   davet@tsb.org.tr
                 </Typography>
@@ -63,12 +67,14 @@ const Footer = () => {
               height={24}
             />
             <Typography
-              sx={{ color: "#00539B", fontWeight: "bold", fontSize: "20px", display: "flex", alignItems: "start" }}
+              sx={{ color: "#00539B", fontWeight: "bold", fontSize: "18px", display: "flex", alignItems: "start" }}
+                className="sm:text-lg! text-base!"
             >
               Address:{" "}
               <Typography
                 component="span"
-                sx={{ color: "#000", fontSize: "16px", fontWeight: "medium", mt:"3px",ml:"4px" }}
+                className="sm:text-base! text-xs!"
+                sx={{ color: "#000", fontWeight: "medium", mt:"3px",ml:"4px" }}
               >
                 Barbaros Mahallesi Kardelen Sokak No:2
                 <br />

@@ -7,14 +7,14 @@ import emailjs from '@emailjs/browser';
 
 const GuestRegistrationForm = () => {
     const validationSchema = z.object({
-        fullName: z.string().min(1, 'Ad Soyad zorunludur'),
-        email: z.string().email('Geçerli bir e-posta adresi girin').min(1, ' E-posta zorunludur'),
-        phone: z.string().min(1, 'Telefon numarası zorunludur'),
-        company: z.string().min(1, 'Şirket adı zorunludur'),
-        title: z.string().min(1, 'Unvan zorunludur'),
-        participationType: z.string().min(1, 'Katılım Türü zorunludur'),
-        kvkkConsent: z.boolean().refine(val => val === true, { message: 'KVKK Gizlilik Bildirimini kabul etmelisiniz', path: ['kvkkConsent'] }),
-        commercialMessageConsent: z.boolean().refine(val => val === true, { message: 'Ticari Elektronik İleti Metnini kabul etmelisiniz', path: ['commercialMessageConsent'] }),
+        fullName: z.string().min(1, 'Full Name is required'),
+        email: z.string().email('Please enter a valid email address').min(1, 'Email is required'),
+        phone: z.string().min(1, 'Phone number is required'),
+        company: z.string().min(1, 'Company name is required'),
+        title: z.string().min(1, 'Title is required'),
+        participationType: z.string().min(1, 'Participation Type is required'),
+        kvkkConsent: z.boolean().refine(val => val === true, { message: 'You must accept the KVKK Privacy Notice', path: ['kvkkConsent'] }),
+        commercialMessageConsent: z.boolean().refine(val => val === true, { message: 'You must accept the Commercial Electronic Message Text', path: ['commercialMessageConsent'] }),
     });
 
     const formik = useFormik({
@@ -40,14 +40,14 @@ const GuestRegistrationForm = () => {
         },
         onSubmit: async (values, { setSubmitting, resetForm }) => {
             try {
-                // EmailJS kimlik bilgilerinizi buraya veya .env dosyasına ekleyin
+                // Add your EmailJS credentials here or in the .env file
                 const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID';
                 const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
                 const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY';
 
                 if (serviceId === 'YOUR_SERVICE_ID' || templateId === 'YOUR_TEMPLATE_ID' || publicKey === 'YOUR_PUBLIC_KEY') {
-                    console.error("EmailJS kimlik bilgileri eksik. Lütfen .env.local dosyasını kontrol edin.");
-                    alert("Form gönderilirken bir hata oluştu: EmailJS kimlik bilgileri eksik.");
+                    console.error("EmailJS credentials missing. Please check the .env.local file.");
+                    alert("An error occurred while submitting the form: EmailJS credentials missing.");
                     setSubmitting(false);
                     return;
                 }
@@ -56,11 +56,11 @@ const GuestRegistrationForm = () => {
 
                 await emailjs.send(serviceId, templateId, values);
 
-                alert('Form başarıyla gönderildi!');
+                alert('Form submitted successfully!');
                 resetForm();
             } catch (error) {
-                console.error('Email gönderme hatası:', error);
-                alert('Form gönderilirken bir hata oluştu.');
+                console.error('Email sending error:', error);
+                alert('An error occurred while submitting the form.');
             } finally {
                 setSubmitting(false);
             }
@@ -69,6 +69,7 @@ const GuestRegistrationForm = () => {
 
     return (
         <section
+            id="guest-registration-form"
             className="py-12 bg-cover bg-center"
             style={{ backgroundImage: 'url(\'/images/contact_form_bg.png\')' }}
         >
