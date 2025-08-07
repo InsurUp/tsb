@@ -4,6 +4,10 @@ import React from 'react';
 import { useFormik } from 'formik';
 import * as z from 'zod';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+
+const MySwal = withReactContent(Swal);
 
 const GuestRegistrationForm = () => {
     const handleFullNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -66,7 +70,11 @@ const GuestRegistrationForm = () => {
 
                 if (serviceId === 'YOUR_SERVICE_ID' || templateId === 'YOUR_TEMPLATE_ID' || publicKey === 'YOUR_PUBLIC_KEY') {
                     console.error("EmailJS credentials missing. Please check the .env.local file.");
-                    alert("An error occurred while submitting the form: EmailJS credentials missing.");
+                    MySwal.fire({
+                        icon: 'error',
+                        title: 'Hata!',
+                        text: 'Form gönderilirken bir hata oluştu: EmailJS kimlik bilgileri eksik.',
+                    });
                     setSubmitting(false);
                     return;
                 }
@@ -75,11 +83,19 @@ const GuestRegistrationForm = () => {
 
                 await emailjs.send(serviceId, templateId, values);
 
-                alert('Form submitted successfully!');
+                MySwal.fire({
+                    icon: 'success',
+                    title: 'Başarılı!',
+                    text: 'Form başarıyla gönderildi!',
+                });
                 resetForm();
             } catch (error) {
                 console.error('Email sending error:', error);
-                alert('An error occurred while submitting the form.');
+                MySwal.fire({
+                    icon: 'error',
+                    title: 'Hata!',
+                    text: 'Form gönderilirken bir hata oluştu.',
+                });
             } finally {
                 setSubmitting(false);
             }
