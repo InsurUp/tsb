@@ -6,10 +6,29 @@ import * as z from 'zod';
 import emailjs from '@emailjs/browser';
 
 const GuestRegistrationForm = () => {
+    const handleFullNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { name, value } = e.target;
+        const filteredValue = value.replace(/[^a-zA-ZğĞİıÖöŞşÜüÇç\s]/g, '');
+        formik.setFieldValue(name, filteredValue);
+    };
+
+    const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { name, value } = e.target;
+        const filteredValue = value.replace(/[^0-9]/g, '');
+        formik.setFieldValue(name, filteredValue);
+    };
+
+    const handlePhoneFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+        if (e.target.value === '') {
+            formik.setFieldValue('phone', '0');
+        }
+    };
+
+
     const validationSchema = z.object({
         fullName: z.string().min(1, 'Full Name is required'),
         email: z.string().email('Please enter a valid email address').min(1, 'Email is required'),
-        phone: z.string().min(1, 'Phone number is required'),
+        phone: z.string().min(1, 'Phone number is required').min(11, 'Phone number must be 11 digits long').max(11, 'Phone number must be 11 digits long'),
         company: z.string().min(1, 'Company name is required'),
         title: z.string().min(1, 'Title is required'),
         participationType: z.string().min(1, 'Participation Type is required'),
@@ -85,7 +104,7 @@ const GuestRegistrationForm = () => {
                                     className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="fullName"
                                     name="fullName"
-                                    onChange={formik.handleChange}
+                                    onChange={handleFullNameChange}
                                     onBlur={formik.handleBlur}
                                     value={formik.values.fullName}
                                 />
@@ -117,8 +136,10 @@ const GuestRegistrationForm = () => {
                                     className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="phone"
                                     name="phone"
-                                    onChange={formik.handleChange}
+                                    maxLength={11}
+                                    onChange={handlePhoneChange}
                                     onBlur={formik.handleBlur}
+                                    onFocus={handlePhoneFocus}
                                     value={formik.values.phone}
                                 />
                                 {formik.touched.phone && formik.errors.phone ? (

@@ -112,6 +112,7 @@ const Footer = () => {
               color: "#fff",
               padding: "10px 20px", 
               border: "none",
+              width:"max-content",
               borderRadius:"100px",
               cursor: "pointer",
               marginTop: "20px", // Düğmeyi haritanın altına almak için eklendi

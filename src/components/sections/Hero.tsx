@@ -29,7 +29,7 @@ function Hero() {
                     <h1 className='text-2xl sm:text-3xl md:text-5xl font-extrabold max-w-7xl leading-tight'>
                         {BannerData.title}
                     </h1>
-                    <Link href={BannerData.buttonHref} className='mb-0 bg-white/30 text-white font-semibold py-5 px-10 sm:px-18 rounded-[20px] text-2xl sm:text-4xl flex items-center justify-center'>
+                    <Link href={BannerData.buttonHref} className='hover:bg-white hover:text-black transition-all duration-300 mb-0 bg-white/30 text-white font-semibold py-5 px-10 sm:px-18 rounded-[20px] text-2xl sm:text-4xl flex items-center justify-center'>
                         {BannerData.buttonText}
                     </Link>
 
