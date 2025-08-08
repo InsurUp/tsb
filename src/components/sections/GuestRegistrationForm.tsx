@@ -85,16 +85,15 @@ const GuestRegistrationForm = () => {
 
                 MySwal.fire({
                     icon: 'success',
-                    title: 'Başarılı!',
-                    text: 'Form başarıyla gönderildi!',
+                    title: 'Success!',
+                    text: 'Form Sent Successfully',
                 });
                 resetForm();
-            } catch (error) {
-                console.error('Email sending error:', error);
+            } catch (error) { 
                 MySwal.fire({
                     icon: 'error',
-                    title: 'Hata!',
-                    text: 'Form gönderilirken bir hata oluştu.',
+                    title: 'Error!',
+                    text: 'An error occurred while submitting the form.',
                 });
             } finally {
                 setSubmitting(false);
