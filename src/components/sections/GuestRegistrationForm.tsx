@@ -89,7 +89,7 @@ const GuestRegistrationForm = () => {
                     text: 'Form Sent Successfully',
                 });
                 resetForm();
-            } catch (error) { 
+            } catch {  
                 MySwal.fire({
                     icon: 'error',
                     title: 'Error!',
