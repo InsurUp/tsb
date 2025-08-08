@@ -32,12 +32,11 @@ const SpeakersSection: React.FC = () => {
     // Adjust displayCount when isMobile changes
     useEffect(() => {
         if (!isMobile) {
-            setDisplayCount(speakers.length); // Show all on desktop
+          setDisplayCount(speakers.length);
         } else {
-            setDisplayCount(INITIAL_DISPLAY_COUNT_MOBILE); // Reset to initial on mobile
+          setDisplayCount(INITIAL_DISPLAY_COUNT_MOBILE);
         }
-    }, [isMobile, speakers]); // speakers.length'i bağımlılık olarak ekle
-
+      }, [isMobile]);
     const handleShowMore = () => {
         setDisplayCount(speakers.length);
     };
