@@ -25,9 +25,9 @@ export const BannerData: BannerData =
     eventText: "29 - 30 September",
     eventTargetDate: "2025-09-29T09:00:00Z",
     bgImage: "/images/bg-main.webp",
-    tsbLogo: "/images/tsb_logo.png",
+    tsbLogo: "/images/logo_tsb.png",
     summitLogo: "/images/banner-image.png",
-    menuLogo: "/images/menu_logo.png",
+    menuLogo: "/images/menu_logos.png",
     countdownWeeks: 10,
     countdownDays: 5,
     countdownHours: 1800,
@@ -62,6 +62,24 @@ export const speakers: Speaker[] = [
         `,
     },
     {
+        id: 9,
+        name: "Uğur GÜLEN",
+        title: "Chairman, The Association of Insurance, Reinsurance and Pension Companies of Türkiye General Manager, Aksigorta ",
+        image: "/images/speakers/ugur_gulen.png",
+        bio: `
+        Uğur Gülen took his undergraduate and master degrees at the Department of Industrial Engineering at Middle East Technical University. He began his career in 1991 and worked at various positions at Interbank, Denizbank, Ak Internet and MNG Bank. During 2004-2009. He served at AK Emeklilik A.Ş. ve AvivaSA Emeklilik ve Hayat A.Ş. as the Assistant General Manager. He has been assigned as the General Manager and a Board member at Aksigorta since May 2009. In addition to his current duties, he was elected President of the Association of Insurance, Reinsurance and Pension Companies of Türkiye in September 2023. 
+        `,
+    },
+    {
+        id: 15,
+        name: "Thea Utoft Høj Jensen",
+        title: "Director General, Insurance Europe",
+        image: "/images/speakers/theaa.png",
+        bio: `
+         Thea Utoft Høj Jensen is director general of Insurance Europe, the European insurance and reinsurance federation, and secretary general of the Global Federation of Insurance Associations (GFIA). With extensive experience in EU affairs, she previously served as senior managing director at FTI Consulting and financial counsellor for the Denmark to the EU. Thea holds a Master of Arts in Law from the University of Copenhagen. She is a Danish national, and calls Brussels her home since 2016. 
+        `,
+    }, 
+    {
         id: 3,
         name: "Özgür Obalı",
         title: "Secretary General, TSB",
@@ -77,33 +95,6 @@ Obalı has been working as the Secretary General of the Insurance Association of
         `,
     },
     {
-        id: 4,
-        name: "Matt Singleton",
-        title: "Proposition Manager CUO L&H Reinsurance Swiss Re",
-        image: "/images/speakers/matt.png",
-        bio: ` Matt is the Propositions manager in Swiss Re Life & Health's Chief Underwriting Office and is an ageing specialist. He holds an MSc in Gerontology from the Centre for Research on Ageing at The University of Southampton and has in-depth experience of the research, strategy, product development and effective targeting of later-life solutions. 
-Matt is also a qualified marketer with more than 25 years' experience in the financial services industry. `,
-    },
-    {
-        id: 5,
-        name: "Aysun Yıldız",
-        title: "PhD (Assistant Secretary General, TSB)",
-        image: "/images/speakers/aysun-yildiz.png",
-        bio: `
-        Aysun Yıldız Özer earned her BA in International Relations from Middle East Technical University (METU) and pursued specialized training in pension funds at Boston University. She holds a master’s degree in European Economic Integration from the UK and a PhD from Essex Business School.
-She began her career as an Assistant Specialist at the Insurance Directorate of the Turkish Treasury and later served as a Senior Expert in departments responsible for bilateral finance and the management of EU funds.
-From 2012 to 2015, she led the Marketing Department at Ziraat Private Pension and Life Insurance Company. Since 2015, she has been serving as the Assistant Secretary General of the Insurance Association of Türkiye.
-        `,
-    },
-    {
-        id: 6,
-        name: "Robert Gordon",
-        title: "Senior Vice President, American Property Casualty Insurance Association (APCIA) Policy, Research & International ",
-        image: "/images/speakers/robert.png",
-        bio: `
-        Robert Gordon is the Senior Vice President of Policy, Research & International at APCIA, leading insurance policy development at state, federal, and international levels. Previously, he served as senior counsel for the U.S. House Financial Services Committee, contributing to key insurance laws and issues like data security, privacy, and liability reform. `
-    },
-    {
         id: 7,
         name: "Sachin Sahni",
         title: "Asscociate Director, S&P Global Ratings",
@@ -111,51 +102,6 @@ From 2012 to 2015, she led the Marketing Department at Ziraat Private Pension an
         bio: ` 
         Sachin Sahni is a part of S&P Global Ratings since 2015, based in DIFC - Dubai office, covering Insurance Ratings spread across MENA, Turkiye & South Africa. As a credit analyst, he manages a large portfolio of insurers and is responsible for assigning and conducting ongoing surveillance of their Credit Ratings. Mr. Sahni is also actively involved in market research and has published various insurance industry report cards & articles on industry current affairs. He is a qualified Chartered Accountant & MBA (Finance) and has 25 years of experience in Financial Services (Banking & Insurance) encompassing Credit Ratings, Governance, Risk & Compliance, Internal Controls & Statutory Audit. 
         `,
-    },
-    {
-        id: 8,
-        name: "Alexandru CIUNCAN",
-        title: "President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR",
-        image: "/images/speakers/alexandru.png",
-        bio: "With over 2 decades in insurance and private pensions across CEE, Alexandru Ciuncan is currently President and General Manager of UNSAR and a Board Member at ISF. He formerly contributed to EIOPA’s IRSG and OPSG, and led initiatives at APPA and XPRIMM. He holds certifications in project and agile management, and he is  Henley Business School graduate in Board Practice and Directorship. ",
-    },
-    {
-        id: 9,
-        name: "Uğur GÜLEN",
-        title: "Chairman, The Association of Insurance, Reinsurance and Pension Companies of Türkiye General Manager, Aksigorta ",
-        image: "/images/speakers/ugur_gulen.png",
-        bio: `
-        Uğur Gülen took his undergraduate and master degrees at the Department of Industrial Engineering at Middle East Technical University. He began his career in 1991 and worked at various positions at Interbank, Denizbank, Ak Internet and MNG Bank. During 2004-2009. He served at AK Emeklilik A.Ş. ve AvivaSA Emeklilik ve Hayat A.Ş. as the Assistant General Manager. He has been assigned as the General Manager and a Board member at Aksigorta since May 2009. In addition to his current duties, he was elected President of the Association of Insurance, Reinsurance and Pension Companies of Türkiye in September 2023. 
-        `,
-    },
-    {
-        id: 10,
-        name: "Yavuz Ölken",
-        title: "Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye",
-        image: "/images/speakers/yavuz_olken.png",
-        bio: " ",
-    },
-    {
-        id: 11,
-        name: "Magdalena Ramada Sarasola",
-        title: " PhD Global InsurTech Innovation Leader - Senior Director at WTW",
-        image: "/images/speakers/ramada.png",
-        bio: "Magdalena is a Senior Director and Global InsurTech Innovation Leader at WTW. With 20+ years in R&D and international strategy consulting, she focuses on digital transformation, blockchain, and analytics in insurance. A pioneer in applying emerging tech to risk transfer, she’s also a speaker, educator, and advocate for tech governance and women in tech. ",
-    },
-    {
-        id: 12,
-        name: "Matti Leppala",
-        title: "Secretary General/CEO of PensionsEurope",
-        image: "/images/speakers/matti.png",
-        bio: `
-        Matti Leppälä has served as Secretary General/CEO of PensionsEurope since 2011. He has held key roles in EIOPA and the European Commission and chaired the World Pension Alliance. Previously, he worked at The Finnish Pension Alliance TELA and began his career at Finland’s Ministry of Justice. He holds an LLM and an Executive MBA in Insurance and Financial Services. `,
-    },
-    {
-        id: 13,
-        name: "Hassan El-Shabrawishi",
-        title: "AXA International Markets, CEO",
-        image: "/images/speakers/hassan.png",
-        bio: "",
     },
     {
         id: 14,
@@ -167,13 +113,40 @@ From 2012 to 2015, she led the Marketing Department at Ziraat Private Pension an
         `
     },
     {
-        id: 15,
-        name: "Thea Utoft Høj Jensen",
-        title: "Director General, Insurance Europe",
-        image: "/images/speakers/theaa.png",
+        id: 8,
+        name: "Alexandru CIUNCAN",
+        title: "President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR",
+        image: "/images/speakers/alexandru.png",
+        bio: "With over 2 decades in insurance and private pensions across CEE, Alexandru Ciuncan is currently President and General Manager of UNSAR and a Board Member at ISF. He formerly contributed to EIOPA’s IRSG and OPSG, and led initiatives at APPA and XPRIMM. He holds certifications in project and agile management, and he is  Henley Business School graduate in Board Practice and Directorship. ",
+    },
+    {
+        id: 6,
+        name: "Robert Gordon",
+        title: "Senior Vice President, American Property Casualty Insurance Association (APCIA) Policy, Research & International ",
+        image: "/images/speakers/robert.png",
         bio: `
-         Thea Utoft Høj Jensen is director general of Insurance Europe, the European insurance and reinsurance federation, and secretary general of the Global Federation of Insurance Associations (GFIA). With extensive experience in EU affairs, she previously served as senior managing director at FTI Consulting and financial counsellor for the Denmark to the EU. Thea holds a Master of Arts in Law from the University of Copenhagen. She is a Danish national, and calls Brussels her home since 2016. 
-        `,
+        Robert Gordon is the Senior Vice President of Policy, Research & International at APCIA, leading insurance policy development at state, federal, and international levels. Previously, he served as senior counsel for the U.S. House Financial Services Committee, contributing to key insurance laws and issues like data security, privacy, and liability reform. `
+    },
+    {
+        id: 11,
+        name: "Magdalena Ramada Sarasola",
+        title: " PhD Global InsurTech Innovation Leader - Senior Director at WTW",
+        image: "/images/speakers/ramada.png",
+        bio: "Magdalena is a Senior Director and Global InsurTech Innovation Leader at WTW. With 20+ years in R&D and international strategy consulting, she focuses on digital transformation, blockchain, and analytics in insurance. A pioneer in applying emerging tech to risk transfer, she’s also a speaker, educator, and advocate for tech governance and women in tech. ",
+    },
+    {
+        id: 10,
+        name: "Yavuz Ölken",
+        title: "Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye",
+        image: "/images/speakers/yavuz_olken.png",
+        bio: " ",
+    }, 
+    {
+        id: 13,
+        name: "Hassan El-Shabrawishi",
+        title: "AXA International Markets, CEO",
+        image: "/images/speakers/hassan.png",
+        bio: "",
     },
     {
         id: 16,
@@ -184,6 +157,33 @@ From 2012 to 2015, she led the Marketing Department at Ziraat Private Pension an
         2003 yılında Marmara Üniversitesi Bankacılık ve Sigortacılık Yüksek Okulu’ndan mezun olan Sayın Çağrı Akpınar, 2007 yılında Marmara Üniversitesi’nde Bankacılık ve Sigortacılık bölümünde yüksek lisansını bitirmiştir. Çalışma hayatına 2007 yılında Aviva Sigorta Kurumsal Satış Müdürlüğü’nde Satış Danışmanı olarak başlayan Akpınar, sonrasında 2009-2017 yılları arasında Güneş Sigorta Oto Dışı Sigortaları Teknik Müdürlüğü’nde Müdür Yardımcısı, 2017-2019 yılları arasında Halk Sigorta Oto Dışı Sigortaları Teknik Müdürlüğü’nde Direktör olarak görev almıştır. 2019 yılında Marsh Sigorta ve Reasürans Brokerliği’nde Kıdemli Müdür olarak çalışan Sayın Akpınar, Aralık 2019 tarihinde Türkiye Sigorta’da Oto Dışı Sigortalar Direktörü olarak görev yapmaya başlamıştır. Sayın Akpınar, 6 Eylül 2023 tarihi itibarıyla Türkiye Sigorta Teknik Genel Müdür Yardımcılığı görevine atanmıştır. Sayın Akpınar aynı zamanda; Turk P&I Sigorta Yönetim Kurulu Üyesi olarak görevine devam etmektedir. 
         `,
     },
+    {
+        id: 5,
+        name: "Aysun Yıldız",
+        title: "PhD (Assistant Secretary General, TSB)",
+        image: "/images/speakers/aysun-yildiz.png",
+        bio: `
+        Aysun Yıldız Özer earned her BA in International Relations from Middle East Technical University (METU) and pursued specialized training in pension funds at Boston University. She holds a master’s degree in European Economic Integration from the UK and a PhD from Essex Business School.
+She began her career as an Assistant Specialist at the Insurance Directorate of the Turkish Treasury and later served as a Senior Expert in departments responsible for bilateral finance and the management of EU funds.
+From 2012 to 2015, she led the Marketing Department at Ziraat Private Pension and Life Insurance Company. Since 2015, she has been serving as the Assistant Secretary General of the Insurance Association of Türkiye.
+        `,
+    }, 
+    {
+        id: 12,
+        name: "Matti Leppala",
+        title: "Secretary General/CEO of PensionsEurope",
+        image: "/images/speakers/matti.png",
+        bio: `
+        Matti Leppälä has served as Secretary General/CEO of PensionsEurope since 2011. He has held key roles in EIOPA and the European Commission and chaired the World Pension Alliance. Previously, he worked at The Finnish Pension Alliance TELA and began his career at Finland’s Ministry of Justice. He holds an LLM and an Executive MBA in Insurance and Financial Services. `,
+    }, 
+    {
+        id: 4,
+        name: "Matt Singleton",
+        title: "Proposition Manager CUO L&H Reinsurance Swiss Re",
+        image: "/images/speakers/matt.png",
+        bio: ` Matt is the Propositions manager in Swiss Re Life & Health's Chief Underwriting Office and is an ageing specialist. He holds an MSc in Gerontology from the Centre for Research on Ageing at The University of Southampton and has in-depth experience of the research, strategy, product development and effective targeting of later-life solutions. 
+Matt is also a qualified marketer with more than 25 years' experience in the financial services industry. `,
+    }, 
 ];
 
 export interface SponsorCategory {
@@ -201,8 +201,9 @@ export const sponsorData: SponsorCategory[] = [
     {
         category: "Gold Sponsor",
         sponsors: [
-            { name: "TSPB", logo: "/images/brands/tspb.png", width: 160, height: 67 },
+            { name: "Axa", logo: "/images/brands/axa.png", width: 130, height: 67 },
             { name: "Guy Carpenter", logo: "/images/brands/guy.png", width: 160, height: 67 },
+            { name: "TSPB", logo: "/images/brands/tspb.png", width: 160, height: 67 }, 
             { name: "Sigorta Bilgi ve Gözetim Merkezi", logo: "/images/brands/sigorta_bilgi.png", width: 160, height: 67 },
         ],
     },
@@ -212,21 +213,16 @@ export const sponsorData: SponsorCategory[] = [
             { name: "Benefit Global", logo: "/images/brands/benefit.png", width: 130, height: 67 },
             { name: "Gallagher Re", logo: "/images/brands/gallagher.png", width: 130, height: 67 },
         ],
-    },
-    {
-        category: "Table Sponsor",
-        sponsors: [
-            { name: "AM Best", logo: "/images/brands/ambest.png", width: 130, height: 67 },
-        ],
-    },
+    }, 
     {
         category: "Support Sponsor",
         sponsors: [
+            { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
             { name: "Garanti BBVA", logo: "/images/brands/garanti_bbva.png", width: 100, height: 100 },
-            { name: "Segem", logo: "/images/brands/segem.png", width: 100, height: 100 },
-            { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
-            { name: "PwC", logo: "/images/brands/pwc.png", width: 100, height: 100 },
             { name: "Insurtech Hub", logo: "/images/brands/insurtech-logo.png", width: 100, height: 100 },
+            { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
+            { name: "PwC", logo: "/images/brands/pwc.png", width: 100, height: 100 }, 
+            { name: "Segem", logo: "/images/brands/segem.png", width: 100, height: 100 }, 
         ],
     },
     {
@@ -368,11 +364,7 @@ export const agendaData: AgendaDay[] = [
             {
                 time: "17.00 - 19.00",
                 title: "Smart-I Awards"
-            },
-            {
-                time: "19.00 - 21.00",
-                title: "Gala Cocktail"
-            }
+            }, 
 
         ],
     },
