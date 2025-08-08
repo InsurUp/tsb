@@ -6,6 +6,7 @@ import * as z from 'zod';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
+import Link from 'next/link';
 
 const MySwal = withReactContent(Swal);
 
@@ -220,7 +221,7 @@ const GuestRegistrationForm = () => {
                                     onBlur={formik.handleBlur}
                                     checked={formik.values.kvkkConsent}
                                 />
-                                <span className="ml-2 text-gray-700 text-sm">I have read and accept the KVKK Privacy Notice.</span>
+                                <span className="ml-2 text-gray-700 text-sm">I have read and accept the <Link href="/kvkk" className='text-blue-600'>KVKK Privacy</Link> Notice.</span>
                             </label>
                             {formik.touched.kvkkConsent && formik.errors.kvkkConsent ? (
                                 <div className="text-red-500 text-sm mt-1">{formik.errors.kvkkConsent}</div>
