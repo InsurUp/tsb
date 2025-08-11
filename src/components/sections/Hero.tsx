@@ -36,15 +36,15 @@ function Hero() {
                     <div className='flex max-w-[500px] w-full justify-between mx-auto my-8! sm:mb-8! mb-4! px-12 py-5 rounded-[30px] bg-white'>
                         <div className='flex flex-col items-center'>
                             <span className='md:text-[50px] text-[30px] text-[#06074E] font-semibold leading-none'>{weeks}</span>
-                            <span className='text-base text-[#482F2F]/40 font-semibold  tracking-wider'>Week</span>
+                            <span className='text-base text-[#482F2F]/40 font-semibold  tracking-wider'>Weeks</span>
                         </div>
                         <div className='flex flex-col items-center'>
                             <span className='md:text-[50px] text-[30px] text-[#06074E] font-semibold leading-none'>{days}</span>
-                            <span className='text-base text-[#482F2F]/40 font-semibold  tracking-wider'>Day</span>
+                            <span className='text-base text-[#482F2F]/40 font-semibold  tracking-wider'>Days</span>
                         </div>
                         <div className='flex flex-col items-center'>
                             <span className='md:text-[50px] text-[30px] text-[#06074E] font-semibold leading-none'>{hours}</span>
-                            <span className='text-base text-[#482F2F]/40 font-semibold  tracking-wider'>Hour</span>
+                            <span className='text-base text-[#482F2F]/40 font-semibold  tracking-wider'>Hours</span>
                         </div>
                     </div>
 
