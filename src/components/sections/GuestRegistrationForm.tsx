@@ -7,20 +7,21 @@ import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 import Link from 'next/link';
+import { GuestFormData } from '@/data/projectData';
 
 const MySwal = withReactContent(Swal);
 
-const GuestRegistrationForm = () => {
+const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
+    const content = locale === 'tr' ? GuestFormData.tr : GuestFormData.en;
+
     const handleFullNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
-        // Sadece harf ve boşlukları kabul et
         const filteredValue = value.replace(/[^a-zA-ZğĞİıÖöŞşÜüÇç\s]/g, '');
         formik.setFieldValue(name, filteredValue);
     };
 
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
-        // Sadece rakamları kabul et
         const filteredValue = value.replace(/[^0-9]/g, '');
         formik.setFieldValue(name, filteredValue);
     };
@@ -32,14 +33,14 @@ const GuestRegistrationForm = () => {
     };
 
     const validationSchema = z.object({
-        fullName: z.string().min(1, 'Full Name is required'),
-        email: z.string().email('Please enter a valid email address').min(1, 'Email is required'),
-        phone: z.string().min(1, 'Phone number is required').min(11, 'Phone number must be 11 digits long').max(11, 'Phone number must be 11 digits long'),
-        company: z.string().min(1, 'Company name is required'),
-        title: z.string().min(1, 'Title is required'),
-        participationType: z.string().min(1, 'Participation Type is required'),
-        kvkkConsent: z.boolean().refine(val => val === true, { message: 'You must accept the KVKK Privacy Notice', path: ['kvkkConsent'] }),
-        commercialMessageConsent: z.boolean().refine(val => val === true, { message: 'You must accept the Commercial Electronic Message Text', path: ['commercialMessageConsent'] }),
+        fullName: z.string().min(1, content.fullNameRequired),
+        email: z.string().email(content.emailInvalid).min(1, content.emailRequired),
+        phone: z.string().min(1, content.phoneRequired).min(11, content.phoneLength).max(11, content.phoneLength),
+        company: z.string().min(1, content.companyRequired),
+        title: z.string().min(1, content.titleRequired),
+        participationType: z.string().min(1, content.participationTypeRequired),
+        kvkkConsent: z.boolean().refine(val => val === true, { message: content.kvkkConsentRequired, path: ['kvkkConsent'] }),
+        commercialMessageConsent: z.boolean().refine(val => val === true, { message: content.commercialMessageConsentRequired, path: ['commercialMessageConsent'] }),
     });
 
     const formik = useFormik({
@@ -60,12 +61,11 @@ const GuestRegistrationForm = () => {
                 if (error instanceof z.ZodError) {
                     return error.flatten().fieldErrors;
                 }
-                return { general: 'An unexpected error occurred.' };
+                return { general: content.errorMessageGeneral };
             }
         },
         onSubmit: async (values, { setSubmitting, resetForm }) => {
             try {
-                // Add your EmailJS credentials here or in the .env file
                 const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID';
                 const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
                 const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY'; 
@@ -73,8 +73,8 @@ const GuestRegistrationForm = () => {
                     console.error("EmailJS credentials missing. Please check the .env.local file.");
                     MySwal.fire({
                         icon: 'error',
-                        title: 'Hata!',
-                        text: 'Form gönderilirken bir hata oluştu: EmailJS kimlik bilgileri eksik.',
+                        title: content.errorTitle,
+                        text: content.errorMessageEmailJS,
                     });
                     setSubmitting(false);
                     return;
@@ -86,21 +86,25 @@ const GuestRegistrationForm = () => {
 
                 MySwal.fire({
                     icon: 'success',
-                    title: 'Success!',
-                    text: 'Form Sent Successfully',
+                    title: content.successTitle,
+                    text: content.successMessage,
                 });
                 resetForm();
             } catch {  
                 MySwal.fire({
                     icon: 'error',
-                    title: 'Error!',
-                    text: 'An error occurred while submitting the form.',
+                    title: content.errorTitle,
+                    text: content.errorMessageGeneral,
                 });
             } finally {
                 setSubmitting(false);
             }
         },
     });
+
+    // KVKK metni içindeki bağlantı metnini tespit etmek için
+    const kvkkLinkText = locale === 'tr' ? 'KVKK Aydınlatma Metni' : 'KVKK Privacy Notice';
+    const kvkkTextParts = content.kvkkConsentText.split(kvkkLinkText);
 
     return (
         <section
@@ -110,13 +114,13 @@ const GuestRegistrationForm = () => {
         >
             <div className='max-w-[750px]! container'>
                 <div className="bg-white md:py-[70px] py-[30px] md:px-[50px] px-[20px] rounded-[30px] shadow-lg  mx-auto">
-                    <h2 className="sm:text-4xl text-3xl font-bold sm:mb-10 mb-5">Free Guest Registration Form</h2>
+                    <h2 className="sm:text-4xl text-3xl font-bold sm:mb-10 mb-5">{content.title}</h2>
                     <form onSubmit={formik.handleSubmit}>
                         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[25px] gap-[20px] md:mb-[25px] mb-[20px]">
                             <div>
                                 <input
                                     type="text"
-                                    placeholder="Full Name"
+                                    placeholder={content.fullNamePlaceholder}
                                     className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="fullName"
                                     name="fullName"
@@ -131,7 +135,7 @@ const GuestRegistrationForm = () => {
                             <div>
                                 <input
                                     type="email"
-                                    placeholder="Email"
+                                    placeholder={content.emailPlaceholder}
                                     className="placeholder:text-black   w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="email"
                                     name="email"
@@ -148,7 +152,7 @@ const GuestRegistrationForm = () => {
                             <div>
                                 <input
                                     type="text"
-                                    placeholder="Phone"
+                                    placeholder={content.phonePlaceholder}
                                     className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="phone"
                                     name="phone"
@@ -165,7 +169,7 @@ const GuestRegistrationForm = () => {
                             <div>
                                 <input
                                     type="text"
-                                    placeholder="Company"
+                                    placeholder={content.companyPlaceholder}
                                     className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="company"
                                     name="company"
@@ -182,7 +186,7 @@ const GuestRegistrationForm = () => {
                             <div>
                                 <input
                                     type="text"
-                                    placeholder="Title"
+                                    placeholder={content.titlePlaceholder}
                                     className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="title"
                                     name="title"
@@ -197,7 +201,7 @@ const GuestRegistrationForm = () => {
                             <div>
                                 <input
                                     type="text"
-                                    placeholder="Participation Type"
+                                    placeholder={content.participationTypePlaceholder}
                                     className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
                                     id="participationType"
                                     name="participationType"
@@ -221,7 +225,19 @@ const GuestRegistrationForm = () => {
                                     onBlur={formik.handleBlur}
                                     checked={formik.values.kvkkConsent}
                                 />
-                                <span className="ml-2 text-gray-700 text-sm">I have read and accept the <Link href="/kvkk" className='text-blue-600'>KVKK Privacy</Link> Notice.</span>
+                                <span className="ml-2 text-gray-700 text-sm">
+                                    {kvkkTextParts.length > 1 ? (
+                                        <>
+                                            {kvkkTextParts[0]}
+                                            <Link href={`/${locale}/kvkk`} className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">
+                                                {kvkkLinkText}
+                                            </Link>
+                                            {kvkkTextParts.slice(1).join(kvkkLinkText)}
+                                        </>
+                                    ) : (
+                                        content.kvkkConsentText
+                                    )}
+                                </span>
                             </label>
                             {formik.touched.kvkkConsent && formik.errors.kvkkConsent ? (
                                 <div className="text-red-500 text-sm mt-1">{formik.errors.kvkkConsent}</div>
@@ -238,7 +254,7 @@ const GuestRegistrationForm = () => {
                                     onBlur={formik.handleBlur}
                                     checked={formik.values.commercialMessageConsent}
                                 />
-                                <span className="ml-2 text-gray-700 text-sm">I have read and agree to the Commercial Electronic Message Text.</span>
+                                <span className="ml-2 text-gray-700 text-sm">{content.commercialMessageConsentText}</span>
                             </label>
                             {formik.touched.commercialMessageConsent && formik.errors.commercialMessageConsent ? (
                                 <div className="text-red-500 text-sm mt-1">{formik.errors.commercialMessageConsent}</div>
@@ -249,7 +265,7 @@ const GuestRegistrationForm = () => {
                             className="w-full bg-[#01719D] text-white sm:p-[20px] py-[15px]! p-[15px] rounded-md hover:bg-[#01719D]/90 focus:outline-none focus:ring-2 focus:ring-[#01719D] focus:ring-offset-2 text-xl font-bold"
                             disabled={formik.isSubmitting}
                         >
-                            Send
+                            {content.sendButton}
                         </button>
                     </form>
                 </div>

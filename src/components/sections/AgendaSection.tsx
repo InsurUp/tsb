@@ -9,17 +9,19 @@ import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import { agendaData, AgendaDay, AgendaItem } from '@/data/projectData';
 import { Box } from '@mui/material';
 
-const AgendaSection: React.FC = () => {
+const AgendaSection: React.FC<{ locale: string }> = ({ locale }) => {
     const [expandedDay, setExpandedDay] = React.useState<string | false>('day-panel-0');
     const [expandedItem, setExpandedItem] = React.useState<string | false>('item-panel-0-0');
 
-    const handleDayChange = (panel: string) => (
+    const handleDayChange = (
+        panel: string
+    ) => (
         event: React.SyntheticEvent,
         isExpanded: boolean
     ) => {
-        setExpandedDay(isExpanded ? panel : false);
-        setExpandedItem(false); // Close inner accordions when day changes
-    };
+            setExpandedDay(isExpanded ? panel : false);
+            setExpandedItem(false);
+        };
 
     const handleItemChange = (panel: string) => (
         event: React.SyntheticEvent,
@@ -28,12 +30,16 @@ const AgendaSection: React.FC = () => {
         setExpandedItem(isExpanded ? panel : false);
     };
 
+    const currentAgendaData = locale === 'tr' ? agendaData.tr : agendaData.en; // This will be updated later
+
     return (
         <section className="md:py-12 py-5" >
             <div className="container max-w-[1200px]!">
-                <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-10">Agenda</h2>
+                <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-10">
+                    {locale === "tr" ? "Ajanda" : "Agenda"}
+                </h2>
                 <div >
-                    {agendaData.map((day: AgendaDay, dayIndex: number) => (
+                    {currentAgendaData.map((day: AgendaDay, dayIndex: number) => (
                         <div key={`day-${day.day}`} className="mb-8">
                             {/* Day Accordion */}
                             <Accordion
@@ -63,14 +69,14 @@ const AgendaSection: React.FC = () => {
                                     id={`day-panel-${dayIndex}-header`}
                                     className='relative   md:px-[65px]! px-[20px]!'
                                 >
-                                   
+
                                     <Box sx={{
                                         backgroundColor: '#00539B',
                                         color: 'white',
                                         padding: '10px 50px',
                                         borderRadius: '23px',
                                         fontSize: '20px',
-                                        fontWeight: 'bold', 
+                                        fontWeight: 'bold',
                                         textAlign: 'center',
                                     }}>
                                         {day.title}
@@ -108,7 +114,7 @@ const AgendaSection: React.FC = () => {
                                                     }
                                                     aria-controls={`item-panel-${dayIndex}-${itemIndex}-content`}
                                                     id={`item-panel-${dayIndex}-${itemIndex}-header`}
-                                                    sx={{ 
+                                                    sx={{
                                                         paddingInline: '0 !important',
                                                         marginBlock: '0 !important',
                                                         backgroundColor: expandedItem === `item-panel-${dayIndex}-${itemIndex}` ? '' : '',
@@ -130,7 +136,7 @@ const AgendaSection: React.FC = () => {
                                                 </AccordionDetails>
                                             </Accordion>
                                         ) : (
-                                            <Typography key={`item-${dayIndex}-${itemIndex}`} className="font-bold md:py-[40px]! py-[20px]!" sx={{   borderBottom: '1px solid rgb(0, 83, 155,17%)' }}>
+                                            <Typography key={`item-${dayIndex}-${itemIndex}`} className="font-bold md:py-[40px]! py-[20px]!" sx={{ borderBottom: '1px solid rgb(0, 83, 155,17%)' }}>
                                                 <span className="mr-2 text-black text-lg md:mr-[40px]">{item.time}</span>
                                                 {item.href ? (
                                                     <a href={item.href} target="_blank" rel="noopener noreferrer" className="font-bold text-black text-xl!">{item.title}</a>

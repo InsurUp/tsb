@@ -8,6 +8,9 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 // Create a default Material-UI theme
 const theme = createTheme({
+  typography: {
+    fontFamily: 'Inter, system-ui, sans-serif'
+  },
   palette: {
     primary: {
       main: '#556cd6',
@@ -24,7 +27,7 @@ const theme = createTheme({
 // prepend: true moves Emotion styles to the top of the <head> so Material UI styles are prioritized.
 // It's useful if you're using a CSS framework like Tailwind CSS.
 function createEmotionCache() {
-  return createCache({ key: 'css', prepend: true });
+  return createCache({ key: 'css' });
 }
 
 interface EmotionCacheProps {

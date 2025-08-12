@@ -8,28 +8,26 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const SPEAKERS_PER_ROW_MOBILE = 2;
-const INITIAL_ROWS_MOBILE = 3; // İlk 3 sıra, yani 3 * 2 = 6 kart
+const INITIAL_ROWS_MOBILE = 3;
 const INITIAL_DISPLAY_COUNT_MOBILE = INITIAL_ROWS_MOBILE * SPEAKERS_PER_ROW_MOBILE;
 
-const SpeakersSection: React.FC = () => {
+const SpeakersSection: React.FC<{ locale: string }> = ({ locale }) => {
     const [displayCount, setDisplayCount] = useState(INITIAL_DISPLAY_COUNT_MOBILE);
     const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
     const [openModal, setOpenModal] = useState(false);
-    const [isMobile, setIsMobile] = useState(false); // State to track mobile view
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
         const checkMobile = () => {
-            // Tailwind's md breakpoint is 768px
             setIsMobile(window.innerWidth < 768);
         };
 
-        checkMobile(); // Initial check
+        checkMobile();
         window.addEventListener('resize', checkMobile);
 
         return () => window.removeEventListener('resize', checkMobile);
     }, []);
 
-    // Adjust displayCount when isMobile changes
     useEffect(() => {
         if (!isMobile) {
           setDisplayCount(speakers.length);
@@ -37,6 +35,7 @@ const SpeakersSection: React.FC = () => {
           setDisplayCount(INITIAL_DISPLAY_COUNT_MOBILE);
         }
       }, [isMobile]);
+
     const handleShowMore = () => {
         setDisplayCount(speakers.length);
     };
@@ -50,14 +49,15 @@ const SpeakersSection: React.FC = () => {
         setOpenModal(false);
         setSelectedSpeaker(null);
     };
+
     const StyledBackdrop = styled(Backdrop)` 
- background: radial-gradient(circle,rgba(11, 169, 213, 1) 30%, rgba(18, 172, 124, 1)30%);
-max-width: 750px;
-max-height: 750px;
-border-radius: 50%;
-filter: blur(200px);
-margin: auto;       
-`;
+    background: radial-gradient(circle,rgba(11, 169, 213, 1) 30%, rgba(18, 172, 124, 1)30%);
+    max-width: 750px;
+    max-height: 750px;
+    border-radius: 50%;
+    filter: blur(200px);
+    margin: auto;       
+    `;
 
     const speakersToDisplay = isMobile ? speakers.slice(0, displayCount) : speakers;
 
@@ -66,10 +66,10 @@ margin: auto;
             <Image src="/images/module_shape.png" alt="Speakers Background" className='md:block hidden absolute top-0 left-[50%] -translate-x-1/2' width={1450} height={1250} objectFit="cover" />
             <Image src="/images/module_shape.png" alt="Speakers Background" className='md:block hidden absolute bottom-0 left-[50%] -translate-x-1/2' width={1450} height={1250} objectFit="cover" />
             <div className="container max-w-[900px]! mx-auto px-4 relative">
-                <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-10">Speakers</h2>
+                <h2 className="text-4xl md:text-5xl font-bold text-center text-black mb-10">{locale === 'tr' ? "Konuşmacılar" : "Speakers"}</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 sm:gap-x-[80px] gap-x-[20px] sm:gap-y-[30px] gap-y-[10px] justify-items-center">
                     {speakersToDisplay.map((speaker) => (
-                        <SpeakerCard key={speaker.id} speaker={speaker} onClick={handleCardClick} />
+                        <SpeakerCard key={speaker.id} speaker={speaker} onClick={handleCardClick} locale={locale} />
                     ))}
                 </div>
                 {isMobile && displayCount < speakers.length && (
@@ -78,7 +78,7 @@ margin: auto;
                             onClick={handleShowMore}
                             className="text-dark font-bold text-lg cursor-pointer"
                         >
-                            Devamını Gör
+                            {locale === 'tr' ? "Devamını Gör" : "Show More"}
                             <FontAwesomeIcon className='ml-2' icon={faChevronDown} />
                         </button>
                     </div>
@@ -124,10 +124,10 @@ margin: auto;
                                     {selectedSpeaker.name}
                                 </Typography>
                                 <Typography id="speaker-details-description" sx={{ mt: 1 }} className="text-[#000] text-sm!">
-                                    {selectedSpeaker.title}
+                                    {selectedSpeaker.title[locale as keyof typeof selectedSpeaker.title]}
                                 </Typography>
                                 <Typography sx={{ mt: 2 }} className="text-[#000] text-xs! font-light!">
-                                    {selectedSpeaker.bio}
+                                    {selectedSpeaker.bio[locale as keyof typeof selectedSpeaker.bio]}
                                 </Typography>
                             </>
                         )}

@@ -5,9 +5,12 @@ import { Speaker } from '@/data/projectData';
 interface SpeakerCardProps {
     speaker: Speaker;
     onClick: (speaker: Speaker) => void;
+    locale: string;
 }
 
-const SpeakerCard: React.FC<SpeakerCardProps> = ({ speaker, onClick }) => {
+const SpeakerCard: React.FC<SpeakerCardProps> = ({ speaker, onClick, locale }) => {
+    const displayedTitle = speaker.title[locale as keyof typeof speaker.title];
+
     return (
         <div 
             className="flex flex-col items-center cursor-pointer transform transition-transform duration-300 hover:scale-105 w-full md:w-[250px] min-h-[350px] group"
@@ -29,7 +32,7 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({ speaker, onClick }) => {
                 </div>
             </div>
             <h3 className="text-lg font-semibold text-dark text-center mb-1">{speaker.name}</h3>
-            <p className="text-base text-dark text-center line-clamp-2">{speaker.title}</p>
+            <p className="text-base text-dark text-center line-clamp-2">{displayedTitle}</p>
         </div>
     );
 };

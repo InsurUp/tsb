@@ -1,9 +1,10 @@
-import MainPageLayout from "@/components/sections/MainPageLayout";
+import { redirect } from 'next/navigation';
 
-export default function Home() {
-  return (
-    <>
-      <MainPageLayout />
-    </>
-  );
+function page() {
+    redirect('/en');
+    return (
+        <></>
+    )
 }
+
+export default page
