@@ -969,6 +969,7 @@ interface GuestFormContent {
         participationTypePlaceholder: string;
         kvkkConsentText: string;
         commercialMessageConsentText: string;
+        quotaNote: string;
         sendButton: string;
         fullNameRequired: string;
         emailRequired: string;
@@ -996,6 +997,7 @@ interface GuestFormContent {
         participationTypePlaceholder: string;
         kvkkConsentText: string;
         commercialMessageConsentText: string;
+        quotaNote: string;
         sendButton: string;
         fullNameRequired: string;
         emailRequired: string;
@@ -1026,6 +1028,7 @@ export const GuestFormData: GuestFormContent = {
         participationTypePlaceholder: "Participation Type",
         kvkkConsentText: "I have read and accept the KVKK Privacy Notice.",
         commercialMessageConsentText: "I have read and agree to the Commercial Electronic Message Text.",
+        quotaNote: "Our capacity is limited; a confirmation email will be sent to you after approval.",
         sendButton: "Send",
         fullNameRequired: "Full Name is required",
         emailRequired: "Email is required",
@@ -1053,6 +1056,7 @@ export const GuestFormData: GuestFormContent = {
         participationTypePlaceholder: "Katılım Türü",
         kvkkConsentText: "KVKK Aydınlatma Metni'ni okudum ve kabul ediyorum.",
         commercialMessageConsentText: "Ticari Elektronik İleti Metni'ni okudum ve onaylıyorum.",
+        quotaNote: "Kontenjanlarımız sınırlı olup, onay sonrası konfirmasyon maili tarafınıza iletilecektir.",
         sendButton: "Gönder",
         fullNameRequired: "Tam ad gerekli",
         emailRequired: "E-posta gerekli",

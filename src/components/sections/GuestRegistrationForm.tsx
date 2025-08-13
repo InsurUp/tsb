@@ -214,7 +214,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                                         ? [
                                             'Kamu',
                                             'Birlik Üyesi Şirket Çalışanları',
-                                            'Birlik ve Dernekler',
+                                            'Birlikler',
                                             'Bağlı Kuruluşlar',
                                             'Akademisyenler',
                                             'Öğrenciler',
@@ -223,7 +223,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                                         : [
                                             'Public Sector',
                                             'Employees of Association Member Companies',
-                                            'Associations',
+                                            'Unions',
                                             'Affiliated Institutions',
                                             'Academics',
                                             'Students',
@@ -298,6 +298,10 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                             {formik.touched.commercialMessageConsent && formik.errors.commercialMessageConsent ? (
                                 <div className="text-red-500 text-sm mt-1">{formik.errors.commercialMessageConsent}</div>
                             ) : null}
+                            <div className="mt-3  ">
+                                 
+                                <p className="text-xs text-gray-700">**{content.quotaNote}</p>
+                            </div>
                         </div>
                         <button
                             type="submit"
