@@ -3,19 +3,20 @@ import Image from 'next/image'
 import React from 'react'
 import { BannerData } from '@/data/projectData' // BannerData'yı import et
 import Link from 'next/link'
-import { useParams } from 'next/navigation'
+import { useParams, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 
 function Header() {
     const params = useParams();
     const locale = params.locale as string;
-    // const router = useRouter();
-    // const pathname = usePathname();
+    const router = useRouter();
+    const pathname = usePathname();
 
-    // const changeLanguage = (lang: string) => {
-    //     const newPathname = `/${lang}${pathname.startsWith(`/${locale}`) ? pathname.substring(`/${locale}`.length) : pathname}`;
-    //     router.push(newPathname);
-    // };
+    const changeLanguage = (lang: string) => {
+        const newPathname = `/${lang}${pathname.startsWith(`/${locale}`) ? pathname.substring(`/${locale}`.length) : pathname}`;
+        router.push(newPathname);
+    };
     return (
         <header className='sm:py-5 py-3'> {/* py-10 burada test edilecek */}
             <div className="container max-w-[1750px]!">
@@ -26,7 +27,7 @@ function Header() {
                     <div className="flex items-center gap-4">
 
                         <Image src={locale === 'tr' ? BannerData.tr.menuLogo : BannerData.en.menuLogo} alt="Menu Logo" layout="fill" objectFit="contain" className=" relative! sm:w-[260px]! h-[65px]! w-[140px]!" />
-                        {/* <nav className="flex items-center gap-2 text-sm font-medium">
+                        <nav className="flex items-center gap-2 text-sm font-medium">
                             <button
                                 type="button"
                                 onClick={() => changeLanguage('en')}
@@ -45,7 +46,7 @@ function Header() {
                             >
                                 TR
                             </button>
-                        </nav> */}
+                        </nav>
                     </div>
                 </div>
             </div>
