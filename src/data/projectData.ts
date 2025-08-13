@@ -64,7 +64,7 @@ export const BannerData: BannerData =
         eventTargetDate: "2025-09-29T09:00:00Z",
         bgImage: "/images/bg-main.webp",
         tsbLogo: "/images/logo_tsb_tr.svg",
-        summitLogo: "/images/tsb_banner_tr.png",
+        summitLogo: "/images/tsb_banner_white.png",
         menuLogo: "/images/menu_logos.png",
         countdownWeeks: 10,
         countdownDays: 5,

@@ -32,6 +32,15 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
         }
     };
 
+    const handleParticipationTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const { value } = e.target;
+        formik.setFieldValue('participationType', value);
+        const otherLabel = locale === 'tr' ? 'Diğer' : 'Other';
+        if (value === otherLabel) {
+            window.open('https://www.iucevents.com/international-insurance-summit', '_blank', 'noopener,noreferrer');
+        }
+    };
+
     const validationSchema = z.object({
         fullName: z.string().min(1, content.fullNameRequired),
         email: z.string().email(content.emailInvalid).min(1, content.emailRequired),
@@ -199,16 +208,46 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                                 ) : null}
                             </div>
                             <div>
-                                <input
-                                    type="text"
-                                    placeholder={content.participationTypePlaceholder}
-                                    className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
-                                    id="participationType"
-                                    name="participationType"
-                                    onChange={formik.handleChange}
-                                    onBlur={formik.handleBlur}
-                                    value={formik.values.participationType}
-                                />
+                                { /* Dile göre seçenekler */ }
+                                {(() => {
+                                    const participationOptions = locale === 'tr'
+                                        ? [
+                                            'Kamu',
+                                            'Birlik Üyesi Şirket Çalışanları',
+                                            'Birlik ve Dernekler',
+                                            'Bağlı Kuruluşlar',
+                                            'Akademisyenler',
+                                            'Öğrenciler',
+                                            'Diğer',
+                                        ]
+                                        : [
+                                            'Public Sector',
+                                            'Employees of Association Member Companies',
+                                            'Associations',
+                                            'Affiliated Institutions',
+                                            'Academics',
+                                            'Students',
+                                            'Other',
+                                        ];
+                                    return (
+                                        <select
+                                            id="participationType"
+                                            name="participationType"
+                                            className="placeholder:text-black w-full sm:p-[20px] p-[15px] rounded-md bg-[#E3F5F2]/70 text-base font-light  focus:outline-none "
+                                            value={formik.values.participationType}
+                                            onChange={handleParticipationTypeChange}
+                                            onBlur={formik.handleBlur}
+                                        >
+                                            <option value="" disabled>
+                                                {content.participationTypePlaceholder}
+                                            </option>
+                                            {participationOptions.map(option => (
+                                                <option key={option} value={option}>{option}</option>
+                                            ))}
+                                        </select>
+                                    );
+                                })()}
+                                
                                 {formik.touched.participationType && formik.errors.participationType ? (
                                     <div className="text-red-500 text-sm mt-1">{formik.errors.participationType}</div>
                                 ) : null}
