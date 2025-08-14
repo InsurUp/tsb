@@ -213,7 +213,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                                     const participationOptions = locale === 'tr'
                                         ? [
                                             'Kamu',
-                                            'Birlik Üyesi Şirket Çalışanları',
+                                            'TSB Üyesi Şirketler',
                                             'Birlikler',
                                             'Bağlı Kuruluşlar',
                                             'Akademisyenler',
@@ -222,7 +222,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                                         ]
                                         : [
                                             'Public Sector',
-                                            'Employees of Association Member Companies',
+                                            'TSB Member Companies',
                                             'Unions',
                                             'Affiliated Institutions',
                                             'Academics',
