@@ -88,7 +88,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                     setSubmitting(false);
                     return;
                 }
-
+                console.log(serviceId, templateId, publicKey);
                 emailjs.init(publicKey);
 
                 await emailjs.send(serviceId, templateId, values);
