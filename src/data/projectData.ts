@@ -1019,7 +1019,7 @@ interface GuestFormContent {
 
 export const GuestFormData: GuestFormContent = {
     en: {
-        title: "Free Guest Registration Form",
+        title: "Guest Registration Form",
         fullNamePlaceholder: "Full Name",
         emailPlaceholder: "Email",
         phonePlaceholder: "Phone",
@@ -1047,7 +1047,7 @@ export const GuestFormData: GuestFormContent = {
         successMessage: "Form Sent Successfully",
     },
     tr: {
-        title: "Ücretsiz Ziyaretçi Kayıt Formu ",
+        title: "Ziyaretçi Kayıt Formu ",
         fullNamePlaceholder: "Ad Soyad",
         emailPlaceholder: "E-posta",
         phonePlaceholder: "Telefon",
