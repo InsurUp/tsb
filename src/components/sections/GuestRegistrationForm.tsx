@@ -49,7 +49,6 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
         title: z.string().min(1, content.titleRequired),
         participationType: z.string().min(1, content.participationTypeRequired),
         kvkkConsent: z.boolean().refine(val => val === true, { message: content.kvkkConsentRequired, path: ['kvkkConsent'] }),
-        commercialMessageConsent: z.boolean().refine(val => val === true, { message: content.commercialMessageConsentRequired, path: ['commercialMessageConsent'] }),
     });
 
     const formik = useFormik({
@@ -61,7 +60,6 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
             title: '',
             participationType: '',
             kvkkConsent: false,
-            commercialMessageConsent: false,
         },
         validate: (values) => {
             try {
@@ -283,23 +281,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
                                 ) : null}
                         </div>
                         <div className="mb-10">
-                            <label className="inline-flex items-center">
-                                <input
-                                    type="checkbox"
-                                    className="form-checkbox h-5 w-5 text-blue-600 rounded"
-                                    id="commercialMessageConsent"
-                                    name="commercialMessageConsent"
-                                    onChange={formik.handleChange}
-                                    onBlur={formik.handleBlur}
-                                    checked={formik.values.commercialMessageConsent}
-                                />
-                                <span className="ml-2 text-gray-700 text-sm">{content.commercialMessageConsentText}</span>
-                            </label>
-                            {formik.touched.commercialMessageConsent && formik.errors.commercialMessageConsent ? (
-                                <div className="text-red-500 text-sm mt-1">{formik.errors.commercialMessageConsent}</div>
-                            ) : null}
                             <div className="mt-3  ">
-                                 
                                 <p className="text-xs text-gray-700">**{content.quotaNote}</p>
                             </div>
                         </div>
