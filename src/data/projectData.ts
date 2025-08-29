@@ -534,9 +534,9 @@ export const agendaData: LocalizedAgendaData = {
                 },
                 {
                     time: "10.45 - 11.00",
-                    title: "Açılış Konuşmacısı",
+                    title: "Ana Tema Konuşmacısı",
                     content: `
-                    <p>Önemli Dijital Eğitimler ve Sigorta Sektörünü Etkileme Biçimleri  </p>
+                    <p>Önemli Dijital Eğilimler ve Sigorta Sektörünü Etkileme Biçimleri  </p>
                     <p><strong>Thea Utoft Høj Jensen</strong> (Genel Direktör, Insurance Europe)</p>
                     `
                 },
@@ -708,7 +708,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 },
                 {
                     time: "15.15 - 15.30",
-                    title: "Second Key Note",
+                    title: "Second Keynote Speaker",
                     content: `
                   <p> The role of advanced technologies, automation, and AI in reshaping operations, pricing and underwriting in non-life insurance: challenges and opportunities </p>
                       <p><strong>Çağrı Akpınar</strong> (Assistant General Manager Türkiye Sigorta)</p>
