@@ -392,11 +392,15 @@ export const sponsorData: LocalizedSponsorData = {
             },
             sponsors: [
                 { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
+                { name: "C Consulting S.p.A.", logo: "/images/brands/logicc.png", width: 100, height: 100 },
                 { name: "Garanti BBVA", logo: "/images/brands/garanti_bbva.png", width: 100, height: 100 },
                 { name: "Insurtech Hub", logo: "/images/brands/insurtech-logo.png", width: 100, height: 100 },
                 { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
                 { name: "PwC", logo: "/images/brands/pwc.png", width: 100, height: 100 },
                 { name: "Segem", logo: "/images/brands/segem.png", width: 100, height: 100 },
+                { name: "SFS", logo: "/images/brands/sfs.JPG", width: 100, height: 100 },
+                { name: "URS – Ultimate Risk Solutions", logo: "/images/brands/urs.png", width: 100, height: 100 },
+
             ],
         },
         {
@@ -457,11 +461,15 @@ export const sponsorData: LocalizedSponsorData = {
             },
             sponsors: [
                 { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
+                { name: "C Consulting S.p.A.", logo: "/images/brands/logicc.png", width: 100, height: 100 },
                 { name: "Garanti BBVA", logo: "/images/brands/garanti_bbva.png", width: 100, height: 100 },
                 { name: "Insurtech Hub", logo: "/images/brands/insurtech-logo.png", width: 100, height: 100 },
                 { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
                 { name: "PwC", logo: "/images/brands/pwc.png", width: 100, height: 100 },
                 { name: "Segem", logo: "/images/brands/segem.png", width: 100, height: 100 },
+                { name: "SFS", logo: "/images/brands/sfs.JPG", width: 100, height: 100 },
+                { name: "URS – Ultimate Risk Solutions", logo: "/images/brands/urs.png", width: 100, height: 100 },
+
             ],
         },
         {
@@ -587,7 +595,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 },
                 {
                     time: "15.15 - 15.30",
-                    title: "İkinci Ana Konuşma",
+                    title: "İkinci Ana Tema Konuşmacısı",
                     content: `
                       <p>Hayat dışı sigortacılıkta operasyon, fiyatlama ve risk değerlendirmesinin şekillenmesinde gelişmiş teknolojiler, otomasyon ve yapay zekânın rolü: zorluklar ve fırsatlar</p>
                       <p><strong>Çağrı Akpınar</strong> (Genel Müdür Yardımcısı, Türkiye Sigorta) </p>
