@@ -92,7 +92,7 @@ export const speakers: Speaker[] = [
         name: "Mehmet ŞİMŞEK",
         title: {
             en: "Minister of Treasury and Finance (TBC)",
-            tr: "Hazine ve Maliye Bakanı (TBC)",
+            tr: "Hazine ve Maliye Bakanı (Teyit Bekleniyor)",
         },
         image: "/images/speakers/mehmet_simsek.png",
         bio: {
@@ -186,6 +186,38 @@ Obalı has been working as the Secretary General of the Insurance Association of
         `,
             tr: ` 
 Sachin Sahni, 2015 yılından beri S&P Global Ratings bünyesinde, DIFC - Dubai ofisinde görev yapmaktadır. MENA bölgesi, Türkiye ve Güney Afrika’yı kapsayan sigorta derecelendirmelerinden sorumludur. Kredi analisti olarak geniş bir sigorta portföyünü yönetmekte ve bu kurumların Kredi Derecelendirmelerinin atanması ve takibinden sorumludur. Ayrıca piyasa araştırmalarında aktif rol almakta ve sektörle ilgili çeşitli raporlar ile güncel makaleler yayınlamaktadır. Sahni, Sertifikalı Muhasebeci (Chartered Accountant) ve Finans alanında MBA derecesine sahiptir. Finansal Hizmetler (Bankacılık ve Sigortacılık) alanında kredi derecelendirmeleri, yönetişim, risk ve uyum, iç denetim ve yasal denetim konularını kapsayan 25 yıllık deneyime sahiptir.             `,
+        },
+    },
+    {
+        id: 7,
+        name: "Talar Gül",
+        title: {
+            en: "PwC Türkiye Financial Services Leader",
+            tr: "PwC Türkiye Finansal Hizmetler Lideri",
+        },
+        image: "/images/speakers/talan-gull.png",
+        bio: {
+            en: "",
+            tr: `
+            
+            Notre Dame De Sion Fransız Lisesi ve Kanada Concordia Üniversitesi İşletme Bölümü
+mezunu olan Talar Gül, 1991 yılında PwC Türkiye'ye katıldı.
+2001 yılında şirket ortaklığına atanan Talar Gül, 2021 yılından bu yana PwC Türkiye
+Finansal Hizmetler Sektörü Lideri olarak görev yapmaktadır.
+BDDK Mevzuatı, Uluslararası Finansal Raporlama Standartları, Türkiye Finansal
+Raporlama Standartları, SEDDK ve SPK mevzuatı konularında uzmanlaşmış olan Gül,
+bankacılık ve sigortacılık sektörlerindeki geniş denetim ve danışmanlık tecrübesine
+sahiptir. Bunların yanı sıra; holdingler, uluslararası gruplar, tüketici ürünleri ve
+teknoloji şirketlerinin denetimlerinde görev almıştır.
+PwC Paris Ofisinde Finansal Hizmetler alanında da çalışmış olan Gül; teknik eğitimler,
+bağımsız denetim derneği çalışmaları ve düzenleyici kurumlar ile yapılan mevzuat
+çalışmalarında (Sermaye yeterliliği, konsolide gözetim ve muhasebe değişiklikleri
+alanında) aktif rol almıştır.
+Uluslararası Finansal Raporlama Standartları uyarlama projesinde Sigortacılar Birliği ve
+Reasürans Şirketleri ve Hazine’ye danışmanlık yapmış olan Gül, aynı zamanda TÜSİAD
+sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
+            
+            `
         },
     },
     {
@@ -383,6 +415,9 @@ export const sponsorData: LocalizedSponsorData = {
             sponsors: [
                 { name: "Benefit Global", logo: "/images/brands/benefit.png", width: 130, height: 67 },
                 { name: "Gallagher Re", logo: "/images/brands/galla_new.svg", width: 130, height: 67 },
+                { name: "Güvence", logo: "/images/brands/guvence.png", width: 125, height: 10 },
+                { name: "Tahkim", logo: "/images/brands/tahkim-logo.png", width: 125, height: 40 },
+                { name: "TMT", logo: "/images/brands/tmt-logo.png", width: 125, height: 40 },
             ],
         },
         {
@@ -396,7 +431,7 @@ export const sponsorData: LocalizedSponsorData = {
                 { name: "Garanti BBVA", logo: "/images/brands/garanti_bbva.png", width: 100, height: 100 },
                 { name: "Insurtech Hub", logo: "/images/brands/insurtech-logo.png", width: 100, height: 100 },
                 { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
-                { name: "PwC", logo: "/images/brands/pwc.png", width: 100, height: 100 },
+                { name: "PwC", logo: "/images/brands/pwc_logo.png", width: 100, height: 100 },
                 { name: "Segem", logo: "/images/brands/segem.png", width: 100, height: 100 },
                 { name: "SFS", logo: "/images/brands/sfs.JPG", width: 100, height: 100 },
                 { name: "URS – Ultimate Risk Solutions", logo: "/images/brands/urs.png", width: 100, height: 100 },
@@ -451,7 +486,10 @@ export const sponsorData: LocalizedSponsorData = {
             },
             sponsors: [
                 { name: "Benefit Global", logo: "/images/brands/benefit.png", width: 130, height: 67 },
-                { name: "Gallagher Re", logo: "/images/brands/gallagher.png", width: 130, height: 67 },
+                { name: "Gallagher Re", logo: "/images/brands/galla_new.svg", width: 130, height: 67 },
+                { name: "Güvence", logo: "/images/brands/guvence.png", width: 125, height: 10 },
+                { name: "Tahkim", logo: "/images/brands/tahkim-logo.png", width: 125, height: 40 },
+                { name: "TMT", logo: "/images/brands/tmt-logo.png", width: 125, height: 40 },
             ],
         },
         {
@@ -559,6 +597,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
       <p>Konuşmacılar:</p>
       <ul>
         <li>Sachin Sahni (Yardımcı Direktör, S&P Global Ratings)</li>
+         <li>Talar Gül (PwC Türkiye Finansal Hizmetler Lideri)</li>
         <li>Levent Tuzun (Avrupa İmar ve Kalkınma Bankası II. Başkanı & Üçlü Komisyon Üyesi) </li>
         <li>Alexandru Ciuncan (Başkan, Romanya Sigorta ve Reasürans Şirketleri Birliği – UNSAR) </li>
         <li>Robert Gordon (Kıdemli Başkan Yardımcısı, Amerikan Mal ve Kaza Sigortaları Birliği, GFIA Siber Riskler Çalışma Grubu Başkanı) </li>
@@ -619,7 +658,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     time: "16.15 - 16.30",
                     title: "Kapanış Konuşması"
                 },
-         
+
                 {
                     time: "17.00 - 19.00",
                     title: "Smart-I Ödülleri",
@@ -683,6 +722,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
   <p>Speakers:</p>
   <ul>
         <li>Sachin Sahni (Associate Director, S&P Global Ratings)</li>
+         <li>Talar Gül (PwC Türkiye Financial Services Leader)</li>
         <li>Levent Tuzun (Principal II at EBRD & Fellow at the Trilateral Commission)</li>
         <li>Alexandru Ciuncan (President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR)</li>
         <li>Robert Gordon (Senior Vice President, American Property Casualty Insurance Association (APCIA) Policy, Research & International )</li>
