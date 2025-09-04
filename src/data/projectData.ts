@@ -671,7 +671,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     title: "Kapanış Konuşması", 
                 },
                 {
-                    time: "18.00 - 12.00",
+                    time: "18.00 - 20.00",
                     title: "Smart-I Ödülleri",
                     content: `
                    <a  target="_blank" href="https://smartiawards.com/">Smart-i Ödülleri</a>
