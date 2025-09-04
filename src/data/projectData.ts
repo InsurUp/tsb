@@ -600,8 +600,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
          <li>Talar Gül (PwC Türkiye Finansal Hizmetler Lideri)</li>
         <li>Levent Tuzun (Avrupa İmar ve Kalkınma Bankası II. Başkanı & Üçlü Komisyon Üyesi) </li>
         <li>Alexandru Ciuncan (Başkan, Romanya Sigorta ve Reasürans Şirketleri Birliği – UNSAR) </li>
-        <li>Robert Gordon (Kıdemli Başkan Yardımcısı, Amerikan Mal ve Kaza Sigortaları Birliği, GFIA Siber Riskler Çalışma Grubu Başkanı) </li>
-      </ul>
+       </ul>
                     `
                 },
                 {
@@ -618,14 +617,11 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 },
                 {
                     time: "14.15 - 14.45",
-                    title: "OTURUM 2",
+                    title: "İkinci Ana Tema Konuşmacısı",
                     content: `
-                      <p><strong>Avrupa ve Türkiye'de Sigortacılığın Dijital Geleceği Üzerine Bir Diyalog:</strong></p>
-                      <p>İnovasyon, Regülasyon ve Sigorta Ekosistemleri Arası İş Birliği </p>
-                      <ul>
-                        <li><strong>Yavuz Ölken</strong> (TSB Hayat Dışı Yönetim Komitesi Üyesi & CEO, AXA Türkiye) </li>
-                        <li><strong>Hassan El-Shabrawishi</strong> (AXA Uluslararası Pazarlar, CEO)</li>
-                      </ul>
+                     
+                        <p>Hayat dışı sigortacılıkta operasyon, fiyatlama ve risk değerlendirmesinin şekillenmesinde gelişmiş teknolojiler, otomasyon ve yapay zekânın rolü: zorluklar ve fırsatlar</p>
+                      <p><strong>Çağrı Akpınar</strong> (Genel Müdür Yardımcısı, Türkiye Sigorta) </p>
                     `
                 },
                 {
@@ -634,10 +630,14 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 },
                 {
                     time: "15.15 - 15.30",
-                    title: "İkinci Ana Tema Konuşmacısı",
+                    title: "OTURUM 2 ",
                     content: `
-                      <p>Hayat dışı sigortacılıkta operasyon, fiyatlama ve risk değerlendirmesinin şekillenmesinde gelişmiş teknolojiler, otomasyon ve yapay zekânın rolü: zorluklar ve fırsatlar</p>
-                      <p><strong>Çağrı Akpınar</strong> (Genel Müdür Yardımcısı, Türkiye Sigorta) </p>
+                     <p><strong>Avrupa ve Türkiye'de Sigortacılığın Dijital Geleceği Üzerine Bir Diyalog:</strong></p>
+                      <p>İnovasyon, Regülasyon ve Sigorta Ekosistemleri Arası İş Birliği </p>
+                      <ul>
+                        <li><strong>Yavuz Ölken</strong> (TSB Hayat Dışı Yönetim Komitesi Üyesi & CEO, AXA Türkiye) </li>
+                        <li><strong>Hassan El-Shabrawishi</strong> (AXA Uluslararası Pazarlar, CEO)</li>
+                      </ul>
                     `
                 },
                 {
@@ -655,12 +655,23 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "16.15 - 16.30",
-                    title: "Kapanış Konuşması"
+                    time: "16.15 - 17.00",
+                    title: "Insurtech Bakış Açısıyla Dijitalleşme: Fırsatlar ve Zorluklar",
+                    content: ` 
+                    <p><strong>Konuşmacılar:</strong></p>
+                    <ul>
+                      <li>Onursal Polat - SFS Stratejik Fonksiyonel Sistemler Genel Müdürü</li>
+                      <li>Mutlu Uğursal – Agito CEO</li>
+                      <li>RS Otomotiv Grubu Yönetim Kurulu Üyesi Bilal Türkmen</li>
+                    </ul>
+                  `
                 },
-
                 {
-                    time: "17.00 - 19.00",
+                    time: "17.00 - 17.15",
+                    title: "Kapanış Konuşması", 
+                },
+                {
+                    time: "18.00 - 12.00",
                     title: "Smart-I Ödülleri",
                     content: `
                    <a  target="_blank" href="https://smartiawards.com/">Smart-i Ödülleri</a>
@@ -725,8 +736,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
          <li>Talar Gül (PwC Türkiye Financial Services Leader)</li>
         <li>Levent Tuzun (Principal II at EBRD & Fellow at the Trilateral Commission)</li>
         <li>Alexandru Ciuncan (President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR)</li>
-        <li>Robert Gordon (Senior Vice President, American Property Casualty Insurance Association (APCIA) Policy, Research & International )</li>
-  </ul>
+   </ul>
                 `
                 },
                 {
@@ -743,14 +753,11 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 },
                 {
                     time: "14.15 - 14.45",
-                    title: "SESSION 2",
+                    title: "Second Keynote Speaker",
                     content: `
-                  <p><strong>A Dialogue on the Digital Future of Insurers in Europe and Türkiye:</strong></p>
-                  <p>Exploring Innovation, Regulation, and Collaboration Across Insurance Ecosystems</p>
-                  <ul>
-                    <li><strong>Yavuz Ölken</strong> (Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye)</li>
-                        <li><strong>Hassan El-Shabrawishi</strong> (AXA International Markets, CEO)</li>
-                  </ul>
+                
+                    <p> The role of advanced technologies, automation, and AI in reshaping operations, pricing and underwriting in non-life insurance: challenges and opportunities </p>
+                      <p><strong>Çağrı Akpınar</strong> (Assistant General Manager Türkiye Sigorta)</p>
                 `
                 },
                 {
@@ -759,10 +766,15 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 },
                 {
                     time: "15.15 - 15.30",
-                    title: "Second Keynote Speaker",
+                    title: "SESSION 2",
                     content: `
-                  <p> The role of advanced technologies, automation, and AI in reshaping operations, pricing and underwriting in non-life insurance: challenges and opportunities </p>
-                      <p><strong>Çağrı Akpınar</strong> (Assistant General Manager Türkiye Sigorta)</p>
+                  <p><strong>A Dialogue on the Digital Future of Insurers in Europe and Türkiye:</strong></p>
+                  <p>Exploring Innovation, Regulation, and Collaboration Across Insurance Ecosystems</p>
+                  <ul>
+                    <li><strong>Yavuz Ölken</strong> (Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye)</li>
+                        <li><strong>Hassan El-Shabrawishi</strong> (AXA International Markets, CEO)</li>
+                  </ul>
+
                 `
                 },
                 {
@@ -778,13 +790,25 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                         <li>Matt Singleton (Proposition Manager CUO L&H Reinsurance Swiss Re)</li>
                   </ul>
                 `
+                }, 
+                {
+                    time: "16.15 - 17.00",
+                    title: "Digitalization from Insurtech Perspective: Opportunities and Challenges",
+                    content: ` 
+                    <p><strong>Speakers:</strong></p>
+                    <ul>
+                      <li>Onursal Polat - General Manager of Strategic Functional Systems, SFS</li>
+                      <li>Mutlu Uğursal – CEO, Agito</li>
+                      <li>Bilal Türkmen - Member of the Management Board of RS Otomotiv Grubu</li>
+                    </ul>
+                  `
                 },
                 {
-                    time: "16.15 - 16.30",
-                    title: "Closing Remarks"
+                    time: "17.00 - 17.15",
+                    title: "Closing Remarks", 
                 },
                 {
-                    time: "17.00 - 19.00",
+                    time: "18.00 - 12.00",
                     title: "Smart-I Awards",
                     content: `
                    <a  target="_blank" href="https://smartiawards.com/">Smart-i Awards</a>
