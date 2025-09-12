@@ -227,7 +227,7 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
             en: "Principal II at EBRD & Fellow at the Trilateral Commission",
             tr: "II. Başkan, Avrupa İmar ve Kalkınma Bankası (EBRD) & Üçlü Komisyon Üyesi",
         },
-        image: "/images/speakers/levent-uzun.png",
+        image: "/images/speakers/tuz.png",
         bio: {
             en: `
         Levent Tuzun is a Principal at the European Bank for Reconstruction and Development (EBRD). He focuses on investments and policy dialogue with clients and policymakers in financial services. Previously, he worked at J.P. Morgan in New York. Levent completed the Master of Public Policy degree at the University of Oxford as a Weidenfeld-Chevening Scholar. He graduated from Yale University with undergraduate degrees in Economics and International Studies. Levent is a David Rockefeller Fellow at the Trilateral Commission and a Millennium Fellow at the Atlantic Council. 
