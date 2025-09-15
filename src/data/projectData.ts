@@ -136,6 +136,41 @@ Lisans derecesini İstanbul Üniversitesi Siyasal Bilgiler Fakültesi İşletme 
         },
     },
     {
+        id: 9,
+        name: "Birant Yıldız",
+        title: {
+            en: "Editor-in-Chief, Sigorta Dünyası Magazine",
+            tr: "Sigorta Dünyası Dergisi Genel Yayın Yönetmeni.",
+        },
+        image: "/images/speakers/birant-yildiz.png",
+        bio: {
+            en: `
+Birant Yıldız graduated from Anadolu University, Faculty of Communication Sciences, Department of Journalism in 2000. He has been working as a journalist for 25 years, 20 of which have been dedicated to insurance media. Between 2016 and 2018, his columns on insurance and private pensions were published in Milliyet newspaper. After working for 13 years at Sigortacı Gazetesi, he has been serving for the past seven years as Partner and Editor-in-Chief at Sigorta Dünyası magazine.
+
+<strong>Books:</strong>
+<ul className="list-disc! list-inside!">
+        <li>The Doyen of Insurance, David Kohen / Five Generations of an Insurance Family</li>
+        <li>A Life Lived This Way / İlham Saner</li>
+        <li>Are You Among Those We Couldn’t Insure? / Servet Gürkan</li>
+</ul>
+He also has two books currently in preparation. 
+            `,
+            tr: `
+ Anadolu Üniversitesi İletişim Bilimleri Fakültesi Basın Yayın Bölümünden 2000 yılında mezun oldu. 20 yılı sigorta basınında olmak üzere 25 yıldır gazetecilik yapıyor. Milliyet gazetesinde 2016-2018 yılları arasında sigortacılık ve bireysel emeklilikle ilgili köşe yazıları yayınlandı. Sigortacı Gazetesi'nde 13 yıl çalıştıktan sonra yedi yıldır Sigorta Dünyası'nda partner ve yayın yönetmeni olarak yer alıyor.
+<strong>Kitapları:</strong>
+<ul className="list-disc! list-inside!">
+        <li>“Sigortacılığın Duayeni David Kohen / Sigortacı Bir Ailenin Beş Nesillik Serüveni”</li>
+        <li>“Bir Hayat Böyle Geçti / İlham Saner”</li>
+        <li>Sigortalayamadıklarımızdan mısınız? / Servet Gürkan</li>
+</ul>
+İki kitabı da hazırlık aşamasında.
+
+
+ 
+            `,
+        },
+    },
+    {
         id: 15,
         name: "Thea Utoft Høj Jensen",
         title: {
@@ -250,20 +285,7 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
             tr: "Orta ve Doğu Avrupa bölgesinde sigorta ve özel emeklilik alanında 20 yılı aşkın deneyime sahip olan Alexandru Ciuncan, şu anda UNSAR’ın Başkanlığı ve Genel Müdürlüğünü yürütmektedir, ayrıca ISF Yönetim Kurulu üyesidir. Daha önce EIOPA’nın IRSG ve OPSG komitelerinde görev almış, APPA ve XPRIMM’de çeşitli girişimlere liderlik etmiştir. Proje ve çevik yönetim sertifikalarına sahip olan Ciuncan, Henley İşletme Okulu’ndan Yönetim Kurulu Uygulamaları ve Yöneticiliği alanından mezundur. ",
         },
     },
-    {
-        id: 6,
-        name: "Robert Gordon",
-        title: {
-            en: "Senior Vice President, American Property Casualty Insurance Association (APCIA) Policy, Research & International ",
-            tr: "Kıdemli Başkan Yardımcısı, Amerikan Mal ve Kaza Sigortaları Birliği (APCIA) – Politika, Araştırma ve Uluslararası İlişkiler ",
-        },
-        image: "/images/speakers/robert.png",
-        bio: {
-            en: `
-            Robert Gordon is the Senior Vice President of Policy, Research & International at APCIA, leading insurance policy development at state, federal, and international levels. Previously, he served as senior counsel for the U.S. House Financial Services Committee, contributing to key insurance laws and issues like data security, privacy, and liability reform. `,
-            tr: `
-Robert Gordon, APCIA’da politika geliştirme, araştırma ve uluslararası ilişkilerden sorumlu Kıdemli Başkan Yardımcısıdır. Sigorta politikalarının eyalet, federal ve uluslararası düzeylerde geliştirilmesine liderlik etmektedir. Daha önce ABD Temsilciler Meclisi Finansal Hizmetler Komitesi’nde Kıdemli Danışman olarak görev yapmış; veri güvenliği, gizlilik ve sorumluluk reformu gibi önemli sigorta yasalarının hazırlanmasına katkıda bulunmuştur. `        },
-    },
+    
     {
         id: 11,
         name: "Magdalena Ramada Sarasola",
@@ -617,7 +639,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "14.15 - 14.45",
+                    time: "14.15 - 14.30",
                     title: "İkinci Ana Tema Konuşmacısı",
                     content: `
                      
@@ -626,11 +648,11 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "14.45 - 15.15",
+                    time: "14.30 - 15.00",
                     title: "Kahve Molası"
                 },
                 {
-                    time: "15.15 - 15.30",
+                    time: "15.00 - 15.30",
                     title: "OTURUM 2 ",
                     content: `
                      <p><strong>Avrupa ve Türkiye'de Sigortacılığın Dijital Geleceği Üzerine Bir Diyalog:</strong></p>
@@ -642,7 +664,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "15.30 - 16.15",
+                    time: "15.30 - 16.00",
                     title: "OTURUM 3",
                     content: `
                       <p>Dijital Dönüşüm, Hayat ve Sağlık Sigortacılığında Yeni Bir Dönem mi Başlatıyor?</p>
@@ -656,8 +678,8 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "16.15 - 17.00",
-                    title: "Insurtech Bakış Açısıyla Dijitalleşme: Fırsatlar ve Zorluklar",
+                    time: "16.00 - 16.45",
+                    title: "OTURUM 4",
                     content: ` 
                     <p><strong>Konuşmacılar:</strong></p>
                     <ul>
@@ -668,8 +690,8 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                   `
                 },
                 {
-                    time: "17.00 - 17.15",
-                    title: "Kapanış Konuşması", 
+                    time: "16.45 - 17.00",
+                    title: "Kapanış Konuşması",
                 },
                 {
                     time: "18.00 - 20.00",
@@ -685,10 +707,87 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
             title: "Gün 2",
             items: [
                 {
-                    time: "",
-                    title: "Program detayları için tıklayınız",
-                    href: "https://www.iucevents.com/international-insurance-summit"
+                    time: "08.30 - 09.30",
+                    title: "Kayıt & Kahvaltı",
                 },
+                {
+                    time: "09.30 - 10.45",
+                    title: "Açılış ve Hoş Geldiniz Konuşmaları",
+                    content: `
+                              <p>Konuşmacılar:</p>
+      <ul>
+        <li>SEDDK Speaker – (TBA)</li>
+         <li>Ahmet Yaşar – (Deputy Chairman, TSB) </li>
+        <li>Fahri Altıngöz – (Chairman, STD) </li> 
+       </ul>
+                    `
+                },
+                {
+                    time: "11.00 - 11.15",
+                    title: "Ana Tema Konuşmacısı",
+                    content: ` 
+                    <p><strong>Charles WHITMORE </strong>  (President of Global Clients, Guy Carpenter)</p>
+                    `
+                },
+                {
+                    time: "10.45 - 11.15",
+                    title: "Kahve Molası",
+                },
+                {
+                    time: "11.15 - 13.00",
+                    title: "OTURUM 1",
+                    content: `
+                      <p>Sigorta Sektöründe Dijital Dönüşüm: 
+
+Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşılaştığı Zorluklar </p>
+      <p><strong>Moderatör:</strong> Vasilis KATSIPIS - (General Manager MENA, South & Central Asia A.M. Best)</p>
+      <p>Konuşmacılar:</p>
+      <ul>
+        <li>Neslihan NECİBOGLU (CEO, Neova Sigorta)</li>
+         <li>Stavros DIMOPOULOS (Vice President, European Federation of Loss Adjustin
+Experts (FUEDI)</li>
+        <li>Arnaud R. KOPP (Senior Underwriter P&C – Head P&C Türkiye, Swiss Re)</li>
+        <li>Kristian Mangold (Regional Director EMEA, Munich Re Parametric NatCat)</li>
+        <li>Marc M. BÜKER (Board Member & Market Manager for Southern Mediterranean,
+North Africa and Francophone Africa, SCOR SE) </li>
+       </ul>
+                    `
+                },
+                {
+                    time: "13.00 - 14.00",
+                    title: "Öğle Yemeği",
+                },
+                {
+                    time: "14.00 - 14.30",
+                    title: "Ana Tema Konuşmacısı",
+                    content: ` 
+                    <p><strong>Maria Luisa ALVAREZ BARBY </strong> (Head of Sustainability at the Solvency II Subdirectorate,
+Directorate General for Insurance and Pension Funds, Spain)</p>
+                    `
+                },
+                {
+                    time: "14.30 - 16.00",
+                    title: "OTURUM 2",
+                    content: `
+                      <p>InsurTech ve Dijital Dönüşüm: Sigortacılıkta Yapay Zeka, Makine Öğrenmesi ve Tahmine Dayalı Analitiğin Rolü</p>
+      <p><strong>Moderatör:</strong> Daniela GHETU (Editorial Director, The XPRIMM Publications)</p>
+      <p>Konuşmacılar:</p>
+      <ul>
+        <li>Prof. Dr. Sinan AKKAR (Director of Catastrophe Modeling and Data Analytics
+Department, T-Rupt)</li>
+         <li>Dr. Laurent MARESCOT (Senior Director, Moody’s Insurance Solutions) </li>
+        <li>Dario SCHILLER (Business Development Manager - Ultimate Risk Solutions
+& CConsulting SPA)</li>
+        <li>Mehsen Nehmeh (Divisional Director Gallagher Re) 
+</li> 
+       </ul>
+                    `
+                },
+           
+                {
+                    time: "16.00 - 18.00",
+                    title: "Kapanış Konuşması",
+                }, 
             ],
         },
     ],
@@ -753,7 +852,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 `
                 },
                 {
-                    time: "14.15 - 14.45",
+                    time: "14.15 - 14.30",
                     title: "Second Keynote Speaker",
                     content: `
                 
@@ -762,11 +861,11 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 `
                 },
                 {
-                    time: "14.45 - 15.15",
+                    time: "14.30 - 15.00",
                     title: "Coffee Break"
                 },
                 {
-                    time: "15.15 - 15.30",
+                    time: "15.00 - 15.30",
                     title: "SESSION 2",
                     content: `
                   <p><strong>A Dialogue on the Digital Future of Insurers in Europe and Türkiye:</strong></p>
@@ -779,7 +878,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                 `
                 },
                 {
-                    time: "15.30 - 16.15",
+                    time: "15.30 - 16.60",
                     title: "SESSION 3",
                     content: `
                   <p> Is Digital Transformation Reshaping the Landscape for Life & Health Insurers? </p>
@@ -791,10 +890,10 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                         <li>Matt Singleton (Proposition Manager CUO L&H Reinsurance Swiss Re)</li>
                   </ul>
                 `
-                }, 
+                },
                 {
-                    time: "16.15 - 17.00",
-                    title: "Digitalization from Insurtech Perspective: Opportunities and Challenges",
+                    time: "16.00 - 16.45",
+                    title: "SESSION 4",
                     content: ` 
                     <p><strong>Speakers:</strong></p>
                     <ul>
@@ -805,8 +904,8 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                   `
                 },
                 {
-                    time: "17.00 - 17.15",
-                    title: "Closing Remarks", 
+                    time: "16.45 - 17.00",
+                    title: "Closing Remarks",
                 },
                 {
                     time: "18.00 - 20.00",
@@ -823,10 +922,89 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
             title: "Day 2",
             items: [
                 {
-                    time: "",
-                    title: "Click for program details",
-                    href: "https://www.iucevents.com/international-insurance-summit"
+                    time: "08.30 - 09.30",
+                    title: "Registration & Breakfast",
                 },
+                {
+                    time: "09.30 - 10.45",
+                    title: "Opening Speeches",
+                    content: `
+                              <p>Speakers:</p>
+      <ul>
+        <li>SEDDK Speaker – (TBA)</li>
+         <li>Ahmet Yaşar – (Deputy Chairman, TSB) </li>
+        <li>Fahri Altıngöz – (Chairman, STD) </li> 
+       </ul>
+                    `
+                },
+                {
+                    time: "10.30 - 10.45",
+                    title: "Keynote Speaker:",
+                    content: ` 
+                    <p><strong>Charles WHITMORE</strong> (President of Global Clients, Guy Carpenter)</p>
+                    `
+                },
+                {
+                    time: "10.45 - 11.15",
+                    title: "Coffee Break",
+                },
+                {
+                    time: "11.15 - 13.00",
+                    title: "SESSION 1",
+                    content: `
+                      <p>Digital Transformation in (Re)Insurance:  AI-Powered Reinsurance Pricing and Portfolio Optimization </p>
+                      <p> Digital Tools for Climate Risk Modeling and Catastrophe Bond Structuring</p>
+      <p><strong>Moderetor:</strong> Vasilis KATSIPIS - (General Manager MENA, South & Central Asia A.M. Best)</p>
+      <p>Speakers:</p>
+      <ul>
+        <li>Neslihan NECİBOGLU (CEO, Neova Sigorta)</li>
+         <li>Stavros DIMOPOULOS (Vice President, European Federation of Loss Adjustin
+Experts (FUEDI)</li>
+        <li>Arnaud R. KOPP (Senior Underwriter P&C – Head P&C Türkiye, Swiss Re)</li>
+        <li>Kristian Mangold (Regional Director EMEA, Munich Re Parametric NatCat)</li>
+        <li>Marc M. BÜKER (Board Member & Market Manager for Southern Mediterranean,
+North Africa and Francophone Africa, SCOR SE) </li>
+       </ul>
+                    `
+                },
+                {
+                    time: "13.00 - 14.00",
+                    title: "Lunch Break",
+                },
+                {
+                    time: "14.00 - 14.30",
+                    title: "Keynote Speaker:",
+                    content: ` 
+                    <p><strong>Maria Luisa ALVAREZ BARBY </strong> (Head of Sustainability at the Solvency II Subdirectorate,
+Directorate General for Insurance and Pension Funds, Spain)</p>
+                    `
+                },
+                {
+                    time: "11.15 - 13.00",
+                    title: "SESSION 2",
+                    content: `
+                      <p>InsurTech & Digital Innovation in (Re)Insurance:
+                      Role of AI, Machine Learning, and Predictive Analytics in Underwriting 
+</p>
+<p>Personalization through AI: Tailoring Policies to Customer Behavior</p>
+      <p><strong>Moderetor:</strong> Daniela GHETU (Editorial Director, The XPRIMM Publications)</p>
+      <p>Speakers:</p>
+      <ul>
+        <li>Prof. Dr. Sinan AKKAR (Director of Catastrophe Modeling and Data Analytics
+Department, T-Rupt)</li>
+         <li>Dr. Laurent MARESCOT (Senior Director, Moody’s Insurance Solutions) </li>
+        <li>Dario SCHILLER (Business Development Manager - Ultimate Risk Solutions
+& CConsulting SPA)</li>
+        <li>Mehsen Nehmeh (Divisional Director Gallagher Re) 
+</li> 
+       </ul>
+                    `
+                },
+           
+                {
+                    time: "16.00 - 18.00",
+                    title: "BILATERAL MEETINGS",
+                }, 
             ],
         },
     ],

@@ -127,7 +127,7 @@ const SpeakersSection: React.FC<{ locale: string }> = ({ locale }) => {
                                     {selectedSpeaker.title[locale as keyof typeof selectedSpeaker.title]}
                                 </Typography>
                                 <Typography sx={{ mt: 2 }} className="text-[#000] text-xs! font-light!">
-                                    {selectedSpeaker.bio[locale as keyof typeof selectedSpeaker.bio]}
+                                    <div dangerouslySetInnerHTML={{ __html: selectedSpeaker.bio[locale as keyof typeof selectedSpeaker.bio] }} />
                                 </Typography>
                             </>
                         )}
