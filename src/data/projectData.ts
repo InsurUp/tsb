@@ -625,6 +625,7 @@ export const sponsorData: LocalizedSponsorData = {
             },
             sponsors: [
                 { name: "Xprimm", logo: "/images/brands/primm.png", width: 145, height: 35 },
+                { name: "Sigortacı", logo: "/images/brands/sigortaci.png", width: 145, height: 35 },
             ],
         },
         {
@@ -706,6 +707,7 @@ export const sponsorData: LocalizedSponsorData = {
             },
             sponsors: [
                 { name: "Xprimm", logo: "/images/brands/primm.png", width: 145, height: 35 },
+                { name: "Sigortacı", logo: "/images/brands/sigortaci.png", width: 145, height: 35 },
             ],
         },
         {
