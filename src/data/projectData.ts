@@ -171,6 +171,78 @@ He also has two books currently in preparation.
         },
     },
     {
+        id: 17,
+        name: "SERKAN AVCI ",
+        title: {
+            en: "CEO Chairman of Executive Committee",
+            tr: "CEO, Yönetim Kurulu İcra Komitesi Başkanı",
+        },
+        image: "/images/speakers/serkan.png",
+        bio: {
+            en: `
+Mr. Serkan Avcı, a graduate of Ege University, Department of Computer Engineering, has held senior leadership roles in information technologies, infrastructure management, and digital transformation within the finance and insurance sectors. Following his executive experience at Aksigorta, Aviva, Groupama, and Gulf Sigorta, he was appointed as General Manager/CEO of the Insurance Information and Monitoring Center in 2022, a position he continues to hold. 
+            `,
+            tr: `
+Ege Üniversitesi Bilgisayar Mühendisliği mezunu olan Sayın Serkan Avcı, finans ve sigorta sektörlerinde bilgi teknolojileri, altyapı yönetimi ve dijital dönüşüm alanlarında üst düzey görevlerde bulunmuştur. Aksigorta, Aviva, Groupama ve Gulf Sigorta’daki yöneticilik tecrübelerinin ardından 2022 yılında Sigorta Bilgi ve Gözetim Merkezi’ne Merkez Müdürü olarak atanmış olup, görevini halen sürdürmektedir. 
+            `,
+        },
+    },
+    {
+        id: 19,
+        name: "Mutlu Uğursal",
+        title: {
+            en: "CEO, Agito",
+            tr: "CEO, Agito",
+        },
+        image: "/images/speakers/mutlubey.png",
+        bio: {
+            en: `
+Mutlu Uğursal, born in 1971, graduated in Computer Engineering from ODTÜ METU. He began his career in 1993, working at Bayındır Hayat Sigorta, Tepe Technology and IBM, where he contributed to multinational projects. In 2006, he co-founded Bt-Grup, which merged with Agito in 2013. After leadership roles, he became Agito CEO in 2019. Uğursal has been pivotal in Turkey’s insurtech ecosystem, co-founding İTÜ Insurtech Hub and mentoring startups.            `,
+            tr: `
+1971 doğumlu Mutlu Uğursal, ODTÜ Bilgisayar Mühendisliği mezunudur. 1993’te başladığı kariyerinde Bayındır Hayat Sigorta, Tepe Teknoloji ve IBM’de görev aldı. 2006’da kurucu ortağı olduğu Bt-Grup, 2013’te Agito ile birleşti. 2019’dan bu yana Agito CEO’su olan Uğursal, Türkiye insurtech ekosistemine yön veren isimlerden biridir; İTÜ Insurtech Hub’un kuruluşuna katkı sağlamış, girişimlere mentor ve yatırımcı olarak destek vermektedir.            `,
+        },
+    },
+    {
+        id: 18,
+        name: "Bilal Türkmen",
+        title: {
+            en: "CEO, RS Holding Destech Technology Group ",
+            tr: "RS Holding Destech Teknoloji Grubu CEO ",
+        },
+        image: "/images/speakers/bilal-turkmen.png",
+        bio: {
+            en: `
+ Bilal Türkmen completed his undergraduate studies in Business Administration at Akdeniz University and earned his Executive MBA from Sabancı University. He began his career in 2010 at Atheneum Partners in Berlin and stepped into the insurance sector in 2012 with Aksigorta. Between 2012 and 2018, he served as an Expert at the Insurance General Directorate of the Undersecretariat of Treasury, where he worked on insurance regulations and took part in the coordination of DASK and TARSİM. 
+
+From 2018 to 2019, he held the position of Deputy Secretary General of DASK at Eureko Sigorta. In 2019, he joined Güneş Sigorta as Group Manager responsible for Strategy and Project Management, where he led the Integration Management Office in the merger of six state-owned insurance and pension companies. 
+
+Between 2020 and 2023, Türkmen served as Executive Vice President responsible for Strategy, Marketing, and Digital at Türkiye Sigorta and Türkiye Hayat Emeklilik. In March 2024, he joined RS Automotive Group as Executive Vice President of Technology and Member of the Board of Directors. Today, he continues his career as CEO of RS Holding’s Technology Group and as Co-Founder & General Manager of SigortaAcentesi.com. 
+            `,
+            tr: `
+Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde tamamlamış, yüksek lisansını Sabancı Üniversitesi Executive MBA programında yapmıştır. İş hayatına 2010’da Berlin’de Atheneum Partners’ta başlamış; 2012 yılında Aksigorta ile sigortacılık kariyerine adım atmıştır. 2012–2018 yılları arasında Hazine Müsteşarlığı Sigortacılık Genel Müdürlüğü’nde Uzman olarak sigorta düzenlemeleri üzerinde çalışmış, DASK ve TARSİM koordinasyonunda yer almıştır. 2018–2019’da Eureko Sigorta’da DASK Genel Sekreter Yardımcılığı görevinde bulunmuş; 2019 yılında Strateji ve Proje Yönetiminden sorumlu Grup Müdürü olarak Güneş Sigorta’ya katılmıştır. Kamu bankalarına ait altı sigorta ve emeklilik şirketinin birleşmesinde Entegrasyon Yönetim Ofisi’ne liderlik etmiştir. 2020–2023 yılları arasında Türkiye Sigorta ve Türkiye Hayat Emeklilik’te Strateji, Pazarlama ve Dijital’den sorumlu Genel Müdür Yardımcısı olarak görev yapan Türkmen, Mart 2024’te RS Otomotiv Grubu’na Teknolojiden Sorumlu Genel Müdür Yardımcısı ve Yönetim Kurulu Üyesi olarak katılmış olup, bugün RS Holding’in Teknoloji Grubu CEO’luğu ve SigortaAcentesi.com’un kurucu ortak/genel müdürü görevlerini sürdürmektedir.             `,
+        },
+    },
+    {
+        id: 19,
+        name: "Onursal Polat",
+        title: {
+            en: "General Manager, SFS Strategic Functional Systems ",
+            tr: "RS Holding Destech Teknoloji Grubu CEO ",
+        },
+        image: "/images/speakers/onursal.png",
+        bio: {
+            en: ` 
+            With over 30 years of experience in the finance industry, Onursal Polat has specialized in information technologies, project management, and senior executive roles across the finance, banking, and insurance sectors. 
+Polat joined SFS in 2002 and, since November 2023, has been serving as the General Manager of SFS Strategic Functional Systems. He stands out with his leadership approach centered on strategic management, operational excellence, financial sustainability, and customer satisfaction. 
+            
+            `,
+            tr: `
+30 yılı aşkın finans alanında deneyime sahip olan Onursal Polat, finans, bankacılık ve sigortacılık sektörlerinde bilgi teknolojileri, proje yönetimi ve üst düzey yöneticilik alanlarında uzmanlaşmıştır.  
+
+2002 yılında SFS’ye katılan Polat, Kasım 2023’ten bu yana SFS Stratejik Fonksiyonel Sistemler Genel Müdürü olarak görev yapmaktadır. Polat, stratejik yönetim, operasyonel mükemmeliyet, finansal sürdürülebilirlik ve müşteri memnuniyeti odaklı liderlik anlayışıyla öne çıkmaktadır.         `,
+        },
+    },
+    {
         id: 15,
         name: "Thea Utoft Høj Jensen",
         title: {
@@ -180,10 +252,10 @@ He also has two books currently in preparation.
         image: "/images/speakers/theaa.png",
         bio: {
             en: `
-         Thea Utoft Høj Jensen is director general of Insurance Europe, the European insurance and reinsurance federation, and secretary general of the Global Federation of Insurance Associations (GFIA). With extensive experience in EU affairs, she previously served as senior managing director at FTI Consulting and financial counsellor for the Denmark to the EU. Thea holds a Master of Arts in Law from the University of Copenhagen. She is a Danish national, and calls Brussels her home since 2016. 
+         Thea Utoft Høj Jensen is director general of Insurance Europe, the European insurance and reinsurance federation, and secretary general of the Global Federation of Insurance Associations(GFIA).With extensive experience in EU affairs, she previously served as senior managing director at FTI Consulting and financial counsellor for the Denmark to the EU.Thea holds a Master of Arts in Law from the University of Copenhagen.She is a Danish national, and calls Brussels her home since 2016. 
         `,
             tr: `
-Thea Utoft Høj Jensen, Avrupa sigorta ve reasürans sektörünü temsil eden Insurance Europe’un Genel Direktörü ve Küresel Sigorta Birlikleri Federasyonu’nun (GFIA) Genel Sekreteridir. Avrupa Birliği nezdindeki görevleri konusunda geniş deneyime sahip olan Jensen, daha önce FTI Consulting’de Kıdemli Yönetici Direktör ve Danimarka’nın AB nezdindeki Maliye Müşaviri olarak görev yapmıştır. Kopenhag Üniversitesi'nden Hukuk Yüksek Lisans derecesine sahiptir. Danimarka vatandaşı olan Jensen, 2016 yılından bu yana Brüksel’de ikamet etmektedir.             `,
+Thea Utoft Høj Jensen, Avrupa sigorta ve reasürans sektörünü temsil eden Insurance Europe’un Genel Direktörü ve Küresel Sigorta Birlikleri Federasyonu’nun(GFIA) Genel Sekreteridir.Avrupa Birliği nezdindeki görevleri konusunda geniş deneyime sahip olan Jensen, daha önce FTI Consulting’de Kıdemli Yönetici Direktör ve Danimarka’nın AB nezdindeki Maliye Müşaviri olarak görev yapmıştır.Kopenhag Üniversitesi'nden Hukuk Yüksek Lisans derecesine sahiptir. Danimarka vatandaşı olan Jensen, 2016 yılından bu yana Brüksel’de ikamet etmektedir.             `,
         },
     },
     {
@@ -227,12 +299,23 @@ Sachin Sahni, 2015 yılından beri S&P Global Ratings bünyesinde, DIFC - Dubai 
         id: 7,
         name: "Talar Gül",
         title: {
-            en: "PwC Türkiye Financial Services Leader",
+            en: "Financial Services Leader, PwC Turkey ",
             tr: "PwC Türkiye Finansal Hizmetler Lideri",
         },
         image: "/images/speakers/talan-gull.png",
         bio: {
-            en: "",
+            en: `
+            A graduate of Notre Dame De Sion French High School and the Business Administration Department of Concordia University in Canada, Talar Gül joined PwC Turkey in 1991. 
+
+She was admitted to partnership in 2001 and has been serving as the Financial Services Leader of PwC Turkey since 2021. 
+
+Specialized in BRSA regulations, International Financial Reporting Standards (IFRS), Turkish Financial Reporting Standards (TFRS), SEDDK and CMB regulations, Gül has extensive audit and advisory experience in the banking and insurance sectors. In addition, she has taken part in the audits of holding companies, international groups, consumer products, and technology companies. 
+
+Gül also worked at PwC’s Paris office in the field of Financial Services. She has played an active role in technical training, independent audit association initiatives, and regulatory projects with supervisory authorities on areas such as capital adequacy, consolidated supervision, and accounting changes. 
+
+She has provided advisory support to the Insurance Association of Turkey, reinsurance companies, and the Treasury in the IFRS implementation project. Gül has also served as a member of TÜSİAD’s insurance subcommittee and the Solvency II committee. 
+            
+            `,
             tr: `
             
             Notre Dame De Sion Fransız Lisesi ve Kanada Concordia Üniversitesi İşletme Bölümü
@@ -272,6 +355,24 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
             `,
         },
     },
+    
+ 
+{
+    id: 170,
+    name: "Emine Feray SEZGİN",
+    title: {
+        en: "Deputy Chairman of SEDDK",
+        tr: "SEDDK Başkan Yardımcısı",
+    },
+    image: "/images/speakers/emine.png",
+    bio: {
+        en: `
+         `,
+        tr: `
+         `,
+    },
+},
+   
     {
         id: 8,
         name: "Alexandru CIUNCAN",
@@ -285,7 +386,7 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
             tr: "Orta ve Doğu Avrupa bölgesinde sigorta ve özel emeklilik alanında 20 yılı aşkın deneyime sahip olan Alexandru Ciuncan, şu anda UNSAR’ın Başkanlığı ve Genel Müdürlüğünü yürütmektedir, ayrıca ISF Yönetim Kurulu üyesidir. Daha önce EIOPA’nın IRSG ve OPSG komitelerinde görev almış, APPA ve XPRIMM’de çeşitli girişimlere liderlik etmiştir. Proje ve çevik yönetim sertifikalarına sahip olan Ciuncan, Henley İşletme Okulu’ndan Yönetim Kurulu Uygulamaları ve Yöneticiliği alanından mezundur. ",
         },
     },
-    
+
     {
         id: 11,
         name: "Magdalena Ramada Sarasola",
@@ -392,6 +493,53 @@ Matt is also a qualified marketer with more than 25 years' experience in the fin
 Matt, ayrıca pazarlama alanında yetkin bir uzmandır ve finansal hizmetler sektöründe 25 yılı aşkın bir tecrübeye sahiptir.  `,
         },
     },
+
+
+//     {
+//         id: 20,
+//         name: "Ahmet Yaşar",
+//         title: {
+//             en: "President of Maher Holding Insurance Group",
+//             tr: "Maher Holding Sigorta Grubu Başkanı",
+//         },
+//         image: "/images/speakers/matt.png",
+//         bio: {
+//             en: `
+//             Ahmet Yaşar was born in Adapazarı in 1968. He graduated from Gazi University, Department of International Economics in 1990.
+
+// He started his career in 1983 as a reporter, representative and local newspaper publisher while he was a student. In parallel with publishing during his university years, he entered the insurance industry in 1989 with Çağ Sigorta Agency. He worked at Merkez Sigorta in 1992, at Universal Sigorta in 1994, in 2000 at EGS Sigorta A.Ş. as Ankara and Adana Regional Manager. He worked HDI Sigorta as Deputy General Manager between 2003-2013, and worked at Sigortayeri Sigorta ve Reasürans Brokerliği A.Ş. between 2013-2015 as the founding General Manager.
+
+// Since 2015, he took part in the establishment of Quick Sigorta within the Maher Holding family. Since 2018, he has been in charge as General Manager and Board Member at Maher Holding, for Quick Sigorta and Corpus Sigorta companies. He has still been in charge as the President of Maher Holding Insurance Group and a Member of the Board of Directors in Group Companies.
+
+// As well as being Vise Chairman of  Executive Board at the Insurance Association of Turkey & Chairman of Non-Life Management Comittee and Vise Chairman of the Management Board of Insurance Arbitration Commitee, he has taken on responsibilities in all areas of the insurance market by continuing his civil society and professional solidarity activities in organizations such as TÜSİAD Insurance Group, Insurance Practitioners Association, GESID Ankara. 
+
+// Constitution of ephemera, materials and library / museum in respect of Insurance and insurance activities and collecting of permanent publication are among his hobies.
+//             `,
+//              tr:""
+//         },
+//     },
+ 
+
+//     {
+//         id: 21,
+//         name: "Arnaud R. Kopp",
+//         title: {
+//             en: "Senior Underwriter P&C – Head P&C Türkiye, Swiss Re",
+//             tr: "Maher Holding Sigorta Grubu Başkanı",
+//         },
+//         image: "/images/speakers/matt.png",
+//         bio: {
+//             en: `
+//           Arnaud Kopp is a senior underwriter at Swiss Re and market head for Property & Casualty business in Türkiye. He started his reinsurance career as a treaty casualty underwriter for the UK and Nordic markets and has since held several positions across Swiss Re’s Zurich office, including roles in underwriting,  client management and regional solutions for the Mediterranean markets.
+
+// Beyond his underwriting responsibilities, he is active in education and innovation. He teaches a course on digital transformation in insurance at Université Paris-Dauphine and has mentored early-stage startups through several accelerator programmes.
+
+// He studied insurance at Université Paris-Dauphine, management at Imperial College London, and law at the University of Strasbourg, the University of Exeter, and Cornell University.
+ 
+//             `,
+//              tr:""
+//         },
+//     },
 ];
 
 export interface SponsorCategory {
@@ -479,6 +627,15 @@ export const sponsorData: LocalizedSponsorData = {
                 { name: "Xprimm", logo: "/images/brands/primm.png", width: 145, height: 35 },
             ],
         },
+        {
+            category: {
+                en: "Global Communication Partner",
+                tr: "Global İletişim Ortağı",
+            },
+            sponsors: [
+                { name: "AA", logo: "/images/brands/anadolu-logo.svg", width: 125, height: 35 },
+            ],
+        },
     ],
     en: [
         {
@@ -549,6 +706,15 @@ export const sponsorData: LocalizedSponsorData = {
             },
             sponsors: [
                 { name: "Xprimm", logo: "/images/brands/primm.png", width: 145, height: 35 },
+            ],
+        },
+        {
+            category: {
+                en: "Global Communication Partner",
+                tr: "Global İletişim Ortağı",
+            },
+            sponsors: [
+                { name: "AA", logo: "/images/brands/anadolu-logo.svg", width: 125, height: 35 },
             ],
         },
     ],
@@ -681,6 +847,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     time: "16.00 - 16.45",
                     title: "OTURUM 4",
                     content: ` 
+                    <p><strong>Moderatör:</strong> Serkan Avcı – Merkez Müdürü, SBM </p>
                     <p><strong>Konuşmacılar:</strong></p>
                     <ul>
                       <li>Onursal Polat - SFS Stratejik Fonksiyonel Sistemler Genel Müdürü</li>
@@ -716,7 +883,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     content: `
                               <p>Konuşmacılar:</p>
       <ul>
-        <li>SEDDK Speaker – (TBA)</li>
+        <li>Emine Feray SEZGİN – (Deputy Chairman, SEDDK)</li>
          <li>Ahmet Yaşar – (Deputy Chairman, TSB) </li>
         <li>Fahri Altıngöz – (Chairman, STD) </li> 
        </ul>
@@ -783,11 +950,11 @@ Department, T-Rupt)</li>
        </ul>
                     `
                 },
-           
+
                 {
                     time: "16.00 - 18.00",
                     title: "Kapanış Konuşması",
-                }, 
+                },
             ],
         },
     ],
@@ -895,6 +1062,7 @@ Department, T-Rupt)</li>
                     time: "16.00 - 16.45",
                     title: "SESSION 4",
                     content: ` 
+                    <p><strong>Moderatör:</strong> Serkan Avcı – CEO Chairman of Executive Committee </p>
                     <p><strong>Speakers:</strong></p>
                     <ul>
                       <li>Onursal Polat - General Manager of Strategic Functional Systems, SFS</li>
@@ -931,7 +1099,7 @@ Department, T-Rupt)</li>
                     content: `
                               <p>Speakers:</p>
       <ul>
-        <li>SEDDK Speaker – (TBA)</li>
+   <li>Emine Feray SEZGİN – (Deputy Chairman, SEDDK)</li>
          <li>Ahmet Yaşar – (Deputy Chairman, TSB) </li>
         <li>Fahri Altıngöz – (Chairman, STD) </li> 
        </ul>
@@ -1000,11 +1168,11 @@ Department, T-Rupt)</li>
        </ul>
                     `
                 },
-           
+
                 {
                     time: "16.00 - 18.00",
                     title: "BILATERAL MEETINGS",
-                }, 
+                },
             ],
         },
     ],
