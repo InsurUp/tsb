@@ -227,7 +227,7 @@ Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde t
         name: "Onursal Polat",
         title: {
             en: "General Manager, SFS Strategic Functional Systems ",
-            tr: "RS Holding Destech Teknoloji Grubu CEO ",
+            tr: "SFS Stratejik Fonksiyonel Sistemler Genel Müdürü",
         },
         image: "/images/speakers/onursal.png",
         bio: {
