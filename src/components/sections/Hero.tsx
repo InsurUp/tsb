@@ -12,6 +12,8 @@ function Hero({ locale }: { locale: string }) {
 
     return (
         <section className='relative w-full py-10 sm:min-h-[calc(100vh-100px)] overflow-hidden flex items-center justify-center text-center text-white'>
+            <div className='absolute top-0 left-0'> <img src="/images/tsb_mail_logo.png" alt="" /></div>
+            
             <Image
                 src={locale === 'tr' ? BannerData.tr.bgImage : BannerData.en.bgImage}
                 alt="Background"
