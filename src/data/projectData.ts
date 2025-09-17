@@ -502,7 +502,7 @@ Matt, ayrıca pazarlama alanında yetkin bir uzmandır ve finansal hizmetler sek
             en: "President of Maher Holding Insurance Group",
             tr: "Maher Holding Sigorta Grubu Başkanı",
         },
-        image: "/images/speakers/matt.png",
+        image: "/images/speakers/ahmet-yasar.png",
         bio: {
             en: `
             Ahmet Yaşar was born in Adapazarı in 1968. He graduated from Gazi University, Department of International Economics in 1990.
