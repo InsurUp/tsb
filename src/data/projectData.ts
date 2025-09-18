@@ -1460,27 +1460,27 @@ Department, T-Rupt)</li>
             title: "Day 1",
             items: [
                 {
-                    time: "08.30 - 09.30",
+                    time: "08.00 - 09.00",
                     title: "Registration & Breakfast",
                 },
                 {
-                    time: "09.30 - 09.45",
+                    time: "09.00 - 09.15",
                     title: "Opening Remarks & Welcome Speech, Uğur GÜLEN (Chairman, TSB)  ",
                 },
                 {
-                    time: "09.45 - 10.00",
+                    time: "09.15 - 09.30",
                     title: "Davut MENTEŞ (Chairman, IPRSA)",
                 },
                 {
-                    time: "10.00 - 10.15",
+                    time: "09.30 - 09.45",
                     title: "Mehmet ŞİMŞEK (Minister of Treasury and Finance) (TBC)",
                 },
                 {
-                    time: "10.15 - 10.45",
+                    time: "09.45 - 10.15",
                     title: "Coffee Break",
                 },
                 {
-                    time: "10.45 - 11.00",
+                    time: "10.15 - 10.30",
                     title: "Keynote Speaker",
                     content: `
                 <p>Key Digital Trends and the Way They Impact the Insurance Sector</p>
@@ -1488,7 +1488,7 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "11.00 - 12.15",
+                    time: "10.30 - 11.45",
                     title: "SESSION 1",
                     content: `
                   <p>Digital Transformation in the Insurance Sector: Impacts of Emerging Technologies, Generative AI, and the Challenges Facing Insurers</p>
@@ -1503,11 +1503,11 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "12.15 - 13.45",
+                    time: "11.45 - 13.15",
                     title: "Lunch",
                 },
                 {
-                    time: "13.45-14.15",
+                    time: "13.15 - 13.45",
                     title: "Motivational Speaker",
                     content: `
                 <p>Digital Transformation and AI in Insurance: A Tour de Force of Innovation and Impact </p>
@@ -1515,7 +1515,7 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "14.15 - 14.30",
+                    time: "13.45 - 14.00",
                     title: "Second Keynote Speaker",
                     content: `
                 
@@ -1524,11 +1524,11 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "14.30 - 15.00",
+                    time: "14.00 - 14.30",
                     title: "Coffee Break"
                 },
                 {
-                    time: "15.00 - 15.30",
+                    time: "14.30 - 15.00",
                     title: "SESSION 2",
                     content: `
                   <p><strong>A Dialogue on the Digital Future of Insurers in Europe and Türkiye:</strong></p>
@@ -1541,7 +1541,7 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "15.30 - 16.00",
+                    time: "15.00 - 15.30",
                     title: "SESSION 3",
                     content: `
                   <p> Is Digital Transformation Reshaping the Landscape for Life & Health Insurers? </p>
@@ -1555,7 +1555,7 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "16.00 - 16.45",
+                    time: "15.30 - 16.15",
                     title: "SESSION 4",
                     content: ` 
                     <p>Digitalization from Insurtech Perspective Opportunities and Challenges</p>
@@ -1569,7 +1569,7 @@ Department, T-Rupt)</li>
                   `
                 },
                 {
-                    time: "16.45 - 17.00",
+                    time: "16.15 - 16.30",
                     title: "Closing Remarks",
                 },
                 {
