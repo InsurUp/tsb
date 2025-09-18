@@ -1233,6 +1233,10 @@ export const agendaData: LocalizedAgendaData = {
                     title: "Kayıt & Kahvaltı",
                 },
                 {
+                    time: "09.00 - 09.30",
+                    title: "Zirve Açılış",
+                },
+                {
                     time: "09.30 - 09.45",
                     title: "Açılış ve Hoş Geldiniz Konuşmaları, Uğur GÜLEN (Başkan, Türkiye Sigorta Birliği - TSB) ",
                 },
@@ -1462,6 +1466,10 @@ Department, T-Rupt)</li>
                 {
                     time: "08.00 - 09.00",
                     title: "Registration & Breakfast",
+                },
+                {
+                    time: "09.00 - 09.30",
+                    title: "Summit Opening",
                 },
                 {
                     time: "09.30 - 09.45",
