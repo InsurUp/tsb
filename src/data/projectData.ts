@@ -1078,7 +1078,7 @@ export const sponsorData: LocalizedSponsorData = {
             sponsors: [
                 { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
                 { name: "C Consulting S.p.A.", logo: "/images/brands/logicc.png", width: 100, height: 100 },
-                { name: "Garanti BBVA", logo: "/images/brands/bbva.png", width: 100, height: 100 },
+                { name: "Garanti BBVA", logo: "/images/brands/bbva.jpeg", width: 100, height: 100 },
                 { name: "Insurtech Hub", logo: "/images/brands/insurtech-logo.png", width: 100, height: 100 },
                 { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
                 { name: "PwC", logo: "/images/brands/pwc_logo.png", width: 100, height: 100 },
@@ -1160,7 +1160,7 @@ export const sponsorData: LocalizedSponsorData = {
             sponsors: [
                 { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
                 { name: "C Consulting S.p.A.", logo: "/images/brands/logicc.png", width: 100, height: 100 },
-                { name: "Garanti BBVA", logo: "/images/brands/bbva.png", width: 100, height: 100 },
+                { name: "Garanti BBVA", logo: "/images/brands/bbva.jpeg", width: 100, height: 100 },
                 { name: "Insurtech Hub", logo: "/images/brands/insurtech-logo.png", width: 100, height: 100 },
                 { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
                 { name: "PwC", logo: "/images/brands/pwc.png", width: 100, height: 100 },
