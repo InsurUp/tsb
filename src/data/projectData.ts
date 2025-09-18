@@ -1136,7 +1136,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     <ul>
                       <li>Onursal Polat - SFS Stratejik Fonksiyonel Sistemler Genel Müdürü</li>
                       <li>Mutlu Uğursal – Agito CEO</li>
-                      <li>RS Otomotiv Grubu Yönetim Kurulu Üyesi Bilal Türkmen</li>
+                      <li>Bilal Türkmen - Destech Teknoloji Grubu CEO, RS Holding</li>
                     </ul>
                   `
                 },
