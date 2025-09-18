@@ -1085,7 +1085,7 @@ export const sponsorData: LocalizedSponsorData = {
                 { name: "Segem", logo: "/images/brands/segem.png", width: 100, height: 100 },
                 { name: "SFS", logo: "/images/brands/sfs.JPG", width: 100, height: 100 },
                 { name: "URS – Ultimate Risk Solutions", logo: "/images/brands/urs.png", width: 100, height: 100 },
-
+ 
             ],
         },
         {
@@ -1160,7 +1160,7 @@ export const sponsorData: LocalizedSponsorData = {
             sponsors: [
                 { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
                 { name: "C Consulting S.p.A.", logo: "/images/brands/logicc.png", width: 100, height: 100 },
-                { name: "Garanti BBVA", logo: "/images/brands/garanti_bbva.png", width: 100, height: 100 },
+                { name: "Garanti BBVA", logo: "/images/brands/bbva.png", width: 100, height: 100 },
                 { name: "Insurtech Hub", logo: "/images/brands/insurtech-logo.png", width: 100, height: 100 },
                 { name: "Remed Assistance", logo: "/images/brands/remed_logo.png", width: 100, height: 100 },
                 { name: "PwC", logo: "/images/brands/pwc.png", width: 100, height: 100 },
