@@ -324,18 +324,20 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
     {
         id: 16,
         day:1,
-        name: "Çağrı Akpınar",
+        name: "Melike Nur Çınar",
         title: {
-            en: "Assistant General Manager Türkiye Sigorta",
-            tr: "Genel Müdür Yardımcısı, Türkiye Sigorta",
+            en: "Assistant General Manager",
+            tr: "Türkiye Sigorta Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı",
         },
-        image: "/images/speakers/cagri-akpinar.png",
+        image: "/images/speakers/melike.png",
         bio: {
             en: `
+            Graduated from Department of Economics of Gazi University in 2006, Ms. Melike Nur Çınar has completed her postgraduate study in Business Management MBA program of Yıldız Technical University between 2021 and 2022. Ms. Çınar, who started her career as an expert at Eureko Sigorta in 2007, worked as Manager at Ak Sigorta between 2015 and 2017 and as Auto Accidents Unit Manager at Halk Sigorta between 2017 and 2019. Following her transfer to Güneş Sigorta in 2019, she worked as Director in Auto Insurances and Actuary Department and she continued in the same position at Türkiye Sigorta and Türkiye Hayat Emeklilik after the merger. Ms. Çınar was assigned as Assistant General Manager for Auto and Agriculture Insurances and Actuary at Türkiye Sigorta and as Assistant General Manager for Actuary at Türkiye Hayat Emeklilik as of 2 November 2023.
              `,
             tr: `
-        2003 yılında Marmara Üniversitesi Bankacılık ve Sigortacılık Yüksek Okulu’ndan mezun olan Sayın Çağrı Akpınar, 2007 yılında Marmara Üniversitesi’nde Bankacılık ve Sigortacılık bölümünde yüksek lisansını bitirmiştir. Çalışma hayatına 2007 yılında Aviva Sigorta Kurumsal Satış Müdürlüğü’nde Satış Danışmanı olarak başlayan Akpınar, sonrasında 2009-2017 yılları arasında Güneş Sigorta Oto Dışı Sigortaları Teknik Müdürlüğü’nde Müdür Yardımcısı, 2017-2019 yılları arasında Halk Sigorta Oto Dışı Sigortaları Teknik Müdürlüğü’nde Direktör olarak görev almıştır. 2019 yılında Marsh Sigorta ve Reasürans Brokerliği’nde Kıdemli Müdür olarak çalışan Sayın Akpınar, Aralık 2019 tarihinde Türkiye Sigorta’da Oto Dışı Sigortalar Direktörü olarak görev yapmaya başlamıştır. Sayın Akpınar, 6 Eylül 2023 tarihi itibarıyla Türkiye Sigorta Teknik Genel Müdür Yardımcılığı görevine atanmıştır. Sayın Akpınar aynı zamanda; Turk P&I Sigorta Yönetim Kurulu Üyesi olarak görevine devam etmektedir. 
-        `,
+ Gazi Üniversitesi İktisat Bölümü’nden 2006 yılında mezun olan Sayın Melike Nur Çınar, Yüksek Lisansını 2021-2022 yılları arasında Yıldız Teknik Üniversitesi İşletme Yönetimi MBA programında tamamlamıştır. Kariyerine 2007 yılında Eureko Sigorta’da uzman olarak başlayan Sayın Çınar, 2015-2017 yılları arasında Ak Sigorta’da yönetici, 2017-2019 yılları arasında Halk Sigorta’da Oto Kaza Birim Müdürü olarak görev almıştır. 2019 yılında Güneş Sigorta’ya geçen Sayın Melike Nur Çınar, Oto Sigortaları ve Aktüerya Direktörlüğü’nde direktör olarak görev almış, birleşmenin ardından Türkiye Sigorta ve Türkiye Hayat Emeklilik’de aynı pozisyonda görevini sürdürmüştür. Sayın Çınar, 2 Kasım 2023 itibarıyla Türkiye Sigorta Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcılığı ve Türkiye Hayat Emeklilik Aktüerya Genel Müdür Yardımcılığı görevine atanmıştır.
+
+            `,
         },
     },
     {
@@ -510,6 +512,13 @@ Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde t
             en: `
          `,
             tr: `
+            1982 yılında Ankara’da doğan Emine Feray SEZGİN, lisans eğitimini 2005 yılında Orta Doğu Teknik Üniversitesi Matematik Bölümünde ve ikinci lisans eğitimini ise 2008 yılında Anadolu Üniversitesi İşletme Bölümünde tamamlamıştır. Ayrıca 2006 yılında başladığı ODTÜ İktisat Bölümünde “İktisat Teorisi” üzerine yan dal programını bitirmiştir. 2005-2006 yılları arasında Ankara Üniversitesi İktisat Bölümü Yüksek Lisans Programının ders aşamasını başarıyla tamamlamıştır.  
+
+Aralık 2009’da (mülga) T.C. Hazine Müsteşarlığı (güncel adı ile T.C. Hazine ve Maliye Bakanlığı) Sigorta Denetleme Aktüer Yardımcısı olarak göreve başlamış, 2012 yılında Kurulun yeterlilik sınavını kazanarak Sigorta Denetleme Aktüeri olarak atanmıştır. 2016-2018 yılları arasında Canterbury, İngiltere’de bulunan University of Kent’te Uygulamalı Aktüeryal Bilimler Yüksek Lisans programını şeref öğrencisi olarak tamamlamıştır.  
+
+Ayrıca İngiltere Aktüerler Derneği (IFoA) üyesi olup, 15 aktüerya sınavının 11 tanesini tamamlamıştır. Sigortacılık ve Özel Emeklilik Düzenleme ve Denetleme Kurumunun (SEDDK) kurulması ile birlikte 2020 yılından itibaren Hayat ve Sağlık Sigortaları Düzenleme Dairesi’nde Daire Başkanı olarak görev yapmış olup, 22.11.2023 tarihinden itibaren SEDDK Başkan Yardımcısı olarak görevini yürütmektedir.  
+
+Aktüerler Sicili’ne 148 sicil numarası ile kayıtlı olan Sayın Emine Feray SEZGİN, evli ve bir çocuk sahibi olup, iyi derecede İngilizce bilmektedir. 
          `,
         },
     },
@@ -518,8 +527,8 @@ Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde t
         name: "Ahmet Yaşar",
         day:2,
         title: {
-            en: "President of Maher Holding Insurance Group",
-            tr: "Maher Holding Sigorta Grubu Başkanı",
+            en: "Vice President, Association of Insurance, Reinsurance and Pension Companies of Türkiye",   
+            tr: "Başkan Yardımcısı, Türkiye Sigorta, Reasürans ve Emeklilik Şirketleri Birliği",
         },
         image: "/images/speakers/ahmet-yasar.png",
         bio: {
@@ -534,7 +543,18 @@ As well as being Vise Chairman of  Executive Board at the Insurance Association 
 
 Constitution of ephemera, materials and library / museum in respect of Insurance and insurance activities and collecting of permanent publication are among his hobies.
             `,
-            tr: ""
+            tr:  `
+            Ahmet Yaşar, 1968 yılında Adapazarı'nda doğdu. 1990 yılında Gazi Üniversitesi Uluslararası Ekonomi Bölümü'nden mezun oldu. 
+
+Kariyerine 1983 yılında öğrenciyken muhabir, temsilci ve yerel gazete yayıncısı olarak başladı. Üniversite yıllarında yayıncılıkla paralel olarak, 1989 yılında Çağ Sigorta Acentesi ile sigorta sektörüne girdi. 1992 yılında Merkez Sigorta'da, 1994 yılında Universal Sigorta'da, 2000 yılında EGS Sigorta A.Ş.'de Ankara ve Adana Bölge Müdürü olarak çalıştı. 2003-2013 yılları arasında HDI Sigorta'da Genel Müdür Yardımcısı olarak çalıştı ve 2013-2015 yılları arasında Sigortayeri Sigorta ve Reasürans Brokerliği A.Ş.'de kurucu Genel Müdür olarak görev yaptı. 
+
+2015 yılından itibaren Maher Holding bünyesinde Quick Sigorta'nın kuruluşunda görev almıştır. 2018 yılından itibaren Maher Holding'de Quick Sigorta ve Corpus Sigorta şirketlerinde Genel Müdür ve Yönetim Kurulu Üyesi olarak görev yapmaktadır. Halen Maher Holding Sigorta Grubu Başkanı ve Grup Şirketleri Yönetim Kurulu Üyesi olarak görevine devam etmektedir. 
+
+Türkiye Sigortacılar Birliği Yönetim Kurulu Başkan Vekilliği, Hayat Dışı Yönetim Komitesi Başkanlığı ve Sigorta Tahkim Komitesi Yönetim Kurulu Başkan Vekilliği görevlerinin yanı sıra, TÜSİAD Sigorta Grubu, Sigorta Uygulayıcıları Derneği, GESID Ankara gibi kuruluşlarda sivil toplum ve mesleki dayanışma faaliyetlerini sürdürerek sigorta piyasasının tüm alanlarında sorumluluklar üstlenmiştir.  
+            
+            
+            
+            `
         },
     },
     {
@@ -543,7 +563,7 @@ Constitution of ephemera, materials and library / museum in respect of Insurance
         name: "Fahri Altıngöz",
         title: {
             en: "Chairman of the Board of Directors and General Manager",
-            tr: "",
+            tr: "Başkan, Sigorta Tatbikatçıları Derneği",
         },
         image: "/images/speakers/fahri.png",
         bio: {
@@ -561,7 +581,19 @@ He has served as a Board Member of the Insurance, Reinsurance, and Pension Compa
 Mr. Fahri Altıngöz currently serves as the President of the Association of Insurance Practitioners.
 
             `,
-            tr: ""
+            tr: `
+            Fahri Altıngöz, sigorta sektöründe 40 yıla yaklaşan profesyonel deneyime sahiptir. Reasürans, teknik, hasar, hukuk, underwriting ve satış alanlarında yöneticilik görevlerinde bulunmuştur. 
+
+TEB Sigorta A.Ş. (Zurich Sigorta) ’nin kurucu Genel Müdürlüğü'nü yapmış, Aksigorta A.Ş.’de reasürans, satış, teknik, underwriting ve hasar fonksiyonlarında Genel Müdür Yardımcısı olarak görev yapmıştır. 
+
+30 yıla yakın bir süre boyunca, kesintisiz olarak İstanbul Üniversitesi, Marmara Üniversitesi’nde  öğretim görevlisi olarak çalışmış, TSEV’de eğitimcilik yapmış ve birçok genç profesyonelin sektöre kazandırılmasına katkı sağlamıştır. 
+
+Sigorta şirketlerine danışmanlık yapmış, TÜSİAD, YASED Sigortacılık Çalışma Grupları’na liderlik etmiştir.   
+
+Türkiye Sigorta, Reasürans ve Emeklilik Şirketleri Birliği’nde Yönetim Kurulu Üyeliği ve hayat dışı yönetim komitesi üyeliği görevlerinde bulunmuştur. 
+
+Halen, Sigorta Tatbikatçıları Derneği Başkanlığı görevini sürdürmektedir. 
+            `
         },
     },
     {
@@ -569,8 +601,8 @@ Mr. Fahri Altıngöz currently serves as the President of the Association of Ins
         day:2,
         name: "Charles Whitmore",
         title: {
-            en: "",
-            tr: "",
+            en: "Global Head of Customer Relations, Guy Carpenter",
+            tr: "Global Müşteri İlişkileri Başkanı, Guy Carpenter ",
         },
         image: "/images/speakers/charles.png",
         bio: {
@@ -579,7 +611,12 @@ Mr. Fahri Altıngöz currently serves as the President of the Association of Ins
  Charles joined C.T. Bowring Re (now part of Guy Carpenter) in 1991 in the Latin American and Caribbean Department.  In 2000 he moved to the International Department of Guy Carpenter's New York office, where he worked on a variety of International accounts (including UK, European, Retro and Caribbean business).  In 2003 he returned to the UK to focus on UK and European clients and was appointed President of Global Clients in November 2019.”
 
             `,
-            tr: ""
+            tr: `
+            Charles Whitmore, Global Müşteri İlişkileri Başkanı olarak, şirket genelinde koordinasyonu ve en büyük global müşterilerimize sunulan hizmetlerin genel tutarlılığını sağlamaktan sorumludur. Tüm Bina ürün gruplarında, özellikle de Trete üzerine geniş deneyime sahiptir. Ayrıca Guy Carpenter'ın Kamu Sektörü Uygulamaları bölümünün uluslararası sorumlusu ve birçok İngiliz ve Avrupalı müşterinin hesap yöneticisidir.  
+
+ Charles, 1991 yılında C.T. Bowring Re'ye (şimdi Guy Carpenter'ın bir parçası) Latin Amerika ve Karayipler Departmanı'nda katıldı. 2000 yılında Guy Carpenter'ın New York ofisinin Uluslararası Departmanı'na geçti ve burada çeşitli uluslararası hesaplar (İngiltere, Avrupa, Retro ve Karayipler işleri dahil) üzerinde çalıştı.  2003 yılında Birleşik Krallık ve Avrupa müşterilerine odaklanmak üzere Birleşik Krallık'a geri döndü ve Kasım 2019'da Global Müşteri İlişkileri Başkanı olarak atandı. 
+            
+            `
         },
     },
     {
@@ -588,7 +625,7 @@ Mr. Fahri Altıngöz currently serves as the President of the Association of Ins
         day:2,
         title: {
             en: "SEO & General Manager, Market Development AM Best ",
-            tr: "",
+            tr: "SEO ve Genel Müdür, A.M. Best Europe",
         },
         image: "/images/speakers/vasilis.png",
         bio: {
@@ -603,7 +640,15 @@ Vasilis holds an MBA from University of Wales and a BSc in economics from Piraeu
 
             `,
 
-            tr: ""
+            tr: `
+            Vasilis Katsipis, Dubai'de ikamet etmekte olup AM Best'in MENA, Güney ve Orta Asya pazar geliştirme SEO ve genel müdürüdür. 
+
+2011 yılından bu yana AM Best'te görev yapan Katsipis, Londra'da yönetici kıdemli finansal analist olarak şirkete katılmış ve EMEA analitik genel müdürü pozisyonuna yükselmiştir. Avrupa ve MENA bölgesindeki sigorta ve düzenlemelere odaklanan birçok makale yazmış ve sigorta için küresel standartlar oluşturmaya odaklanan uluslararası kuruluşlarda yer almıştır. 
+
+AM Best'e katılmadan önce Vasilis, GE Insurance Solutions'ın alternatif dağıtım kanallarından sorumluydu. Hayat ve hayat dışı sektörlere odaklanarak 20 yılı aşkın sigorta ve reasürans deneyimine sahiptir. Üst düzey operasyonel ve stratejik pozisyonlarda görev almıştır. Kariyerinin çoğunda, bölgesel veya küresel sorumlulukları olan uluslararası pozisyonlarda çalışmıştır. 
+
+Vasilis, Galler Üniversitesi'nden MBA ve Pire Üniversitesi'nden ekonomi alanında lisans derecesine sahiptir. 
+            `
         },
     }, 
     {
@@ -611,8 +656,8 @@ Vasilis holds an MBA from University of Wales and a BSc in economics from Piraeu
         name: "Neslihan Neciboğlu",
         day:2,
         title: {
-            en: "",
-            tr: "",
+            en: "General Manager, Neova Insurance",
+            tr: "Genel Müdür, Neova Sigorta ",
         },
         image: "/images/speakers/neslihan.png",
         bio: {
@@ -623,7 +668,12 @@ Ms. Neciboğlu holds a degree in Business Administration from the Middle East Te
  
             `,
 
-            tr: ""
+            tr: `
+            Neslihan Neciboğlu, Temmuz 2022'den bu yana Neova Katılım Sigorta'nın Genel Müdürü olarak ve ayrıca Türkiye Sigorta Birliği'nde Yönetim Kurulu Üyesi olarak görev almaktadır. 
+
+Profesyonel kariyerine 2005 yılında Kuveyt Türk Katılım Bankası'nda başlayan Neciboğlu, Finansal Analiz ve İstihbarat Müdürü, Kurumsal ve Ticari Şube Satış ve Pazarlama Müdürü ve Şube Müdürü gibi birçok üst düzey pozisyonda görev almıştır. 2013 yılından itibaren bankanın risk yönetimi bölümünde çeşitli önemli görevlerde bulunmuş, Perakende ve KOBİ Risk İzleme Müdürü, İşletme Kredileri Risk İzleme Müdürü ve son olarak Risk İzleme Grup Müdürü olarak görev yapmıştır. Neciboğlu, Orta Doğu Teknik Üniversitesi İşletme Fakültesi mezunudur ve bankacılık, risk yönetimi, finans ve sigorta alanlarında yaklaşık yirmi yıllık deneyimiyle mevcut görevini sürdürmektedir. 
+            
+            `
         },
     },  
     {
@@ -631,8 +681,8 @@ Ms. Neciboğlu holds a degree in Business Administration from the Middle East Te
         day:2,
         name: "Stavros Dimopoulos",
         title: {
-            en: "",
-            tr: "",
+            en: "Vice President, Federation of European Damage Adjusters (FUEDI)",
+            tr: "Başkan Yardımcısı, Avrupa Hasar Eksperleri Federasyonu (FUEDI)",
         },
         image: "/images/speakers/stavros.png",
         bio: {
@@ -645,7 +695,15 @@ When not loss adjusting, Stavros is giving self-defense seminars being a two dan
  
             `,
 
-            tr: ""
+            tr: `
+            FUEDI'nin eski başkanıdır ve şu anda derneğin başkan yardımcısı olarak görev yapmaktadır. FUEDI ELAE sertifikalı hasar tespit uzmanı ve Yunanistan Teknik Odası üyesidir. 
+
+1997 yılında Atina Ulusal Teknik Üniversitesi'nden topograf olarak mezun olmuş ve aynı üniversitede günümüzde çok popüler olan GPS (MSC) alanında ilk yüksek lisansını tamamlamıştır. Kısa bir süre sonra, 2000 yılında, Yunan Sigorta Enstitüsü'nün yıllık kursunu tamamlayarak, sertifikalı sigorta eğitimi almış ilk Yunan hasar eksperlerinden biri olmuştur. Daha sonra, İşletme Yüksek Lisansını (MBA) tamamlamış ve birkaç yıl sonra Siber ve Bilgi Güvenliği (InfoSec) alanında üçüncü yüksek lisansını tamamlamıştır. 
+
+Stavros şu anda VRS experteam hasar eksperleri ve bilirkişilerinin Genel Müdürü'dür. 
+
+Hasar eksperliği alanında 20 yılı aşkın deneyime sahip olan Stavros, 10.000'den fazla her türlü hasar talebini aktif olarak ele almış ve/veya denetlemiştir. 
+            `
         },
     },
     {
@@ -654,7 +712,7 @@ When not loss adjusting, Stavros is giving self-defense seminars being a two dan
         name: "Arnaud R. Kopp",
         title: {
             en: "Senior Underwriter P&C – Head P&C Türkiye, Swiss Re",
-            tr: "Maher Holding Sigorta Grubu Başkanı",
+            tr: "P&C Türkiye Sorumlusu, Kıdemli Sigorta Uzmanı– Swiss RE",
         },
         image: "/images/speakers/arnaud.png",
         bio: {
@@ -666,7 +724,13 @@ Beyond his underwriting responsibilities, he is active in education and innovati
 He studied insurance at Université Paris-Dauphine, management at Imperial College London, and law at the University of Strasbourg, the University of Exeter, and Cornell University.
  
             `,
-            tr: ""
+            tr: `
+            Swiss Re Arnaud Kopp, Swiss Re'de kıdemli sigorta uzmanı ve Türkiye'deki P&C market başkanıdır. Reasürans kariyerine İngiltere ve İskandinav pazarları için kaza sigortası uzmanı olarak başlamış ve o zamandan beri Swiss Re'nin Zürih ofisinde sigorta, müşteri yönetimi ve Akdeniz pazarları için bölgesel çözümler gibi çeşitli pozisyonlarda çalışmıştır. 
+
+Sigorta sorumluluklarının yanı sıra, eğitim ve inovasyon alanlarında da aktiftir. Université Paris-Dauphine'de sigortacılıkta dijital dönüşüm üzerine ders vermektedir ve çeşitli hızlandırıcı programlar aracılığıyla erken aşamadaki girişimlere mentorluk yapmaktadır. 
+
+Université Paris-Dauphine'de sigortacılık, Imperial College London'da yönetim ve Strasbourg Üniversitesi, Exeter Üniversitesi ve Cornell Üniversitesi'nde hukuk eğitimi almıştır.
+            `
         },
     },
     {
@@ -674,8 +738,8 @@ He studied insurance at Université Paris-Dauphine, management at Imperial Colle
         name: "Kristian Mangold",
         day:2,
         title: {
-            en: "",
-            tr: "",
+            en: "Regional Director EMEA, Munich Re Parametric NatCat",
+            tr: "EMEA Bölge Direktörü, Munich Re Parametric NatCat ",
         },
         image: "/images/speakers/mangold.png",
         bio: {
@@ -684,7 +748,14 @@ He studied insurance at Université Paris-Dauphine, management at Imperial Colle
                 Kristian began his career in consulting before joining AXA in Paris, where he focused on climate risk solutions for corporates and developed agricultural insurance programmes across Africa and Asia. At Swiss Re, he worked on both prospective and retrospective structured reinsurance across Property & Casualty and Life & Health.
                 At Munich Re, Kristian drives innovation in parametric natural catastrophe and climate solutions, working closely with corporate clients to enhance resilience and risk transfer strategies across the region.”
             `,
-            tr: ""
+            tr: `
+            
+            Kristian Mangold, parametrik sigorta ve yapılandırılmış reasürans alanında deneyimli bir uzmandır ve şu anda Munich Re'de EMEA için Parametric NatCat çalışmalarını yönetmektedir. Kopenhag İşletme Okulu ve Pekin'deki Tsinghua Üniversitesi'nden Uluslararası İşletme ve Siyaset ile Uluslararası Yönetim alanlarında çift yüksek lisans derecesine sahiptir. 
+
+Kristian, kariyerine danışmanlık alanında başlamış, ardından Paris'teki AXA'ya katılmış ve burada şirketler için iklim riski çözümleri üzerinde çalışmış, Afrika ve Asya'da tarım sigortası programları geliştirmiştir. Swiss Re'de, Mülkiyet ve Kaza ile Hayat ve Sağlık alanlarında hem ileriye dönük hem de geriye dönük yapılandırılmış reasürans üzerinde çalışmıştır. 
+
+Munich Re'de Kristian, parametrik doğal afet ve iklim çözümlerinde inovasyonu teşvik etmekte, kurumsal müşterilerle yakın işbirliği içinde çalışarak bölgedeki dayanıklılık ve risk transferi stratejilerini geliştirmektedir. 
+            `
         },
     },
     {
@@ -693,14 +764,16 @@ He studied insurance at Université Paris-Dauphine, management at Imperial Colle
         day:2,
         title: {
             en: "Board Member & Market Manager for Southern Mediterranean, North Africa and Francophone Africa , SCOR SE",
-            tr: "",
+            tr: "Yönetim Kurulu Üyesi ve Güney Akdeniz, Kuzey Afrika ve Fransızca Konuşulan Afrika Bölgesi Pazar Müdürü, SCOR SE ",
         },
         image: "/images/speakers/marc.png",
         bio: {
             en: `
 SCOR Group Board Member (since 2022) and Market Manager for Southern Mediterranean, North Africa and Francophone Africa (since 2011). Joined SCOR in 2002 and has experience in P&C underwriting over the Middle East and South African markets. In 1992, he was a pioneer by co-founding the first national private radio in Turkey and manager/shareholder of the first foreign radio group investment in Turkiye. Aside the business field, Marc is the chairman of the main Paris-based NGO acting on the Turkish-French bilateral relation and also chairman of the association regrouping all the alumni of Francophone schools of Turkiye.    
             `,
-            tr: ""
+            tr: `
+            2002 yılında SCOR'a katıldı ve Orta Doğu ve Güney Afrika pazarlarında P&C sigortacılığı alanında deneyime sahiptir. 1992 yılında, Türkiye'deki ilk ulusal özel radyoyu kurarak öncü oldu ve Türkiye'deki ilk yabancı radyo grubu yatırımının yöneticisi/hissedarı oldu. İş alanının yanı sıra, Marc, Türkiye-Fransa ikili ilişkilerinde faaliyet gösteren Paris merkezli ana STK'nın başkanı ve Türkiye'deki Frankofon okullarının tüm mezunlarını bir araya getiren derneğin başkanıdır. 
+            `
         },
     },
     {
@@ -708,14 +781,17 @@ SCOR Group Board Member (since 2022) and Market Manager for Southern Mediterrane
         day:2,
         name: "María Luisa Álvarez",
         title: {
-            en: "",
-            tr: "",
+            en: "Head of Capital Adequacy Sustainability, General Directorate of Insurance and Pension Funds, Spain",
+            tr: "Sermaye Yeterliliği Sürdürülebilirlik Başkanı, Sigorta ve Emeklilik Fonları Genel Müdürlüğü, İspanya ",
         },
         image: "/images/speakers/maria.png",
         bio: {
             en: `
 María Luisa Álvarez Barby has been Insurance Inspector for over 10 years. She has previously worked for 15 years in the private sector as a macroeconomic and strategy analyst at brokerage firms. She has been also working as head of unit in the Accounting and Audit Supervisor for more than 2 years. At the DGSFP, she heads the sustainability department, under the Solvency II Subdirectorate, and she is also an expert in the supervision of life insurance companies and financial conglomerates. She participates in several international groups on sustainability: EIOPA, IAIS, ASSAL... and has given sustainability conferences in numerous European and Latin American countries. She has been Project Leader in twinning projects with Georgia and Ukraine related to the harmonization of national regulations with Solvency II.            `,
-            tr: ""
+            tr: `
+            María Luisa Álvarez Barby, 10 yılı aşkın bir süredir Sigorta Müfettişi olarak görev yapmaktadır. Daha önce 15 yıl boyunca özel sektörde aracı kurumlarda makroekonomi ve strateji analisti olarak çalışmıştır. Ayrıca 2 yılı aşkın bir süredir Muhasebe ve Denetim Denetçisi biriminde birim başkanı olarak görev yapmaktadır. DGSFP'de Sermaye Yeterliliği Alt Müdürlüğü bünyesinde sürdürülebilirlik departmanının başındadır ve hayat sigortası şirketleri ile finansal holdinglerin denetiminde uzmandır. EIOPA, IAIS, ASSAL gibi sürdürülebilirlik konusunda çeşitli uluslararası gruplara katılmakta ve birçok Avrupa ve Latin Amerika ülkesinde sürdürülebilirlik konferansları vermektedir. Gürcistan ve Ukrayna ile Sermaye Yeterliliği ile ulusal düzenlemelerin uyumlaştırılmasına ilişkin eşleştirme projelerinde Proje Lideri olarak görev yapmıştır. 
+            
+            `
         },
     },
     {
@@ -723,8 +799,8 @@ María Luisa Álvarez Barby has been Insurance Inspector for over 10 years. She 
         day:2,
         name: "Daniela Ghetu",
         title: {
-            en: "",
-            tr: "",
+            en: "Publishing Director, The XPRIMM Publications",
+            tr: "Yayın Direktörü, The XPRIMM Publications ",
         },
         image: "/images/speakers/daneila.png",
         bio: {
@@ -735,7 +811,15 @@ An experienced public speaker and moderator, Daniela frequently delivers present
 Her specialties include corporate partnership development, publishing and editorial management, market analysis, and international consultancy.
 
             `,
-            tr: ""
+            tr: `
+            Daniela Ghetu, 1999 yılından bu yana XPRIMM Insurance Publications'ın Yayın Direktörü olarak görev yapmaktadır. Yirmi yılı aşkın deneyimi ile Romanya ve daha geniş CEE & CIS bölgesinde sigorta ve özel emeklilik piyasalarının önde gelen isimlerinden biri olarak tanınmaktadır. 
+
+XPRIMM'in amiral gemisi yayınlarının editörlük politikasını koordine etmektedir. Bu yayınlar arasında XPRIMM Insurance Report – CEE, SEE & CIS, ülkeye özgü raporlar ve motorlu araç ve mülk sigortası ile ilgili tematik analizler bulunmaktadır. Uzmanlığı, sektör medya ürünlerinin geliştirilmesi, büyük uluslararası konferanslar için içerik tasarımı, konuşmacı seçimi ve pazarlar arasında stratejik ortaklıklar kurulması alanlarına da uzanmaktadır. 
+
+Deneyimli bir konuşmacı ve moderatör olan Daniela, sigorta ve emeklilikle ilgili konularda sık sık sunumlar yapmakta ve ASFALISTIKI AGORA (Yunanistan), REINSURANCE (İngiltere), Business Standard (Romanya) ve PLANSPONSOR Europe gibi Romanya ve uluslararası finans medyasına makaleler ve piyasa analizleri yazmaktadır. 
+
+Uzmanlık alanları arasında kurumsal ortaklık geliştirme, yayıncılık ve editoryal yönetim, piyasa analizi ve uluslararası danışmanlık bulunmaktadır. 
+            `
         },
     },
     {
@@ -743,8 +827,8 @@ Her specialties include corporate partnership development, publishing and editor
         day:2,
         name: "Sinan Akkar",
         title: {
-            en: "",
-            tr: "",
+            en: "Director of the Disaster Modeling and Data Analytics Department, T-Rupt",
+            tr: "Afet Modelleme ve Veri Analitiği Departmanı Direktörü, T-Rupt",
         },
         image: "/images/speakers/sinan-akkae.png",
         bio: {
@@ -752,7 +836,10 @@ Her specialties include corporate partnership development, publishing and editor
 Sinan Akkar is the principal catastrophe modeler at T Rupt Technology Inc. He served as a full-time professor at the Middle East Technical University and Boğaziçi University between 2003-2021. Professor Akkar’s major fields of expertise are probabilistic earthquake hazard and risk analyses, and he was involved several national and international projects related to these topics. As such, Prof. Akkar acted as the coordinator of National Seismic Hazard Map of Türkiye, and he was involved as hazard expert and ground motion modeler in SSHAC Level 2 and 3 nuclear power plant seismic hazard projects in the US, Europe Türkiye and Kingdom of Saudi Arabia. Prof. Akkar also served as the principal investigator of Revision of the Earthquake Premiums for Turkish Catastrophe Insurance Pool (TCIP) and Insurance Association of Türkiye. He published more than 200 technical papers in the international peer reviewed journals and conference proceedings at international and national levels. Sinan Akkar is the co-author of an international earthquake engineering book published by Springer that is currently translated into Chinese. He is a member of the board of directors in International Earthquake Engineering Association, Turkish Earthquake Foundation and the editorial board member of Journal of Earthquake Engineering.
             `,
 
-            tr: ""
+            tr: `
+            
+            2003-2021 yılları arasında Orta Doğu Teknik Üniversitesi ve Boğaziçi Üniversitesi'nde tam zamanlı profesör olarak görev yapmıştır. Prof. Akkar'ın başlıca uzmanlık alanları olasılıklı deprem tehlikesi ve risk analizleridir ve bu konularla ilgili birçok ulusal ve uluslararası projede yer almıştır. Prof. Akkar, Türkiye Ulusal Sismik Tehlike Haritası'nın koordinatörlüğünü yapmış ve ABD, Avrupa, Türkiye ve Suudi Arabistan'da SSHAC Seviye 2 ve 3 nükleer santral sismik tehlike projelerinde tehlike uzmanı ve zemin hareketi modelleyicisi olarak görev almıştır. Prof. Akkar ayrıca, Türkiye Afet Sigorta Havuzu (TCIP) ve Türkiye Sigorta Birliği için Deprem Primlerinin Revizyonu projesinin baş araştırmacısı olarak görev yapmıştır. Uluslararası ve ulusal düzeyde hakemli dergilerde ve konferans bildirilerinde 200'den fazla teknik makale yayınlamıştır. Sinan Akkar, Springer tarafından yayınlanan ve şu anda Çinceye çevrilen uluslararası bir deprem mühendisliği kitabının ortak yazarıdır. Uluslararası Deprem Mühendisliği Derneği ve Türk Deprem Vakfı'nın yönetim kurulu üyesi ve Journal of Earthquake Engineering dergisinin yayın kurulu üyesidir. 
+            `
         },
     },
     {
@@ -761,7 +848,7 @@ Sinan Akkar is the principal catastrophe modeler at T Rupt Technology Inc. He se
         name: "Dr Laurent Marescot",
         title: {
             en: "Senior Director, Insurance Solutions – Catastrophe Risk Management",
-            tr: "",
+            tr: "Kıdemli Direktör, Moody’s Insurance Solutions ",
         },
         image: "/images/speakers/laurent.png",
         bio: {
@@ -776,7 +863,9 @@ Concise version
 Dr Laurent Marescot, Senior Director at Moody’s Insurance Solutions, advises global and national re/insurers and regulatory bodies on natural catastrophe, agricultural, cyber, and terrorism risks. Recognised internationally for his expertise in catastrophe modelling, climate risk, and insurance risk quantification, he is a regular speaker at leading industry conferences and an academic lecturer.
 
             `,
-            tr: ""
+            tr: `
+            Moody’s Insurance Solutions’ın Kıdemli Direktörü Dr. Laurent Marescot, küresel ve ulusal reasürans şirketlerine ve düzenleyici kurumlara doğal afetler, tarım, siber ve terör riskleri konusunda danışmanlık hizmetleri vermektedir. Afet modelleme, iklim riski ve sigorta riski ölçümleme alanındaki uzmanlığıyla uluslararası alanda tanınan Marescot, önde gelen sektör konferanslarında düzenli olarak konuşmacı olarak yer almakta ve akademik dersler vermektedir. 
+            `
         },
     }, 
     {
@@ -784,8 +873,8 @@ Dr Laurent Marescot, Senior Director at Moody’s Insurance Solutions, advises g
         day:2,
         name: "Dario Schiller",
         title: {
-            en: "",
-            tr: "",
+            en: "Business Development Manager - Ultimate Risk Solutions & CConsulting SPA",
+            tr: "İş Geliştirme Müdürü - Ultimate Risk Solutions & CConsulting SPA ",
         },
         image: "/images/speakers/dario.png",
         bio: {
@@ -801,7 +890,26 @@ During the last 8 years he is in charge as Business Development Manager in Ultim
 Additionally, during the same period, acting as Business Development Manager in CConsulting  SPA for the same markets.
 
             `,
-            tr: ""
+            tr: `
+            Matematiği bölümünden tam notla mezun olduktan sonra, Allianz Group'un Aktüerya Departmanında kariyerine başladı. 
+
+Başlangıçtan itibaren ana görevleri, çeşitli AB ülkelerinde yeni tarifelerin analizi, rezervlerin hesaplanması, üretimin ekonomik etkisi, ilgili şirketlerin kar/zarar ve varlık/yükümlülüklerinin projeksiyonu idi. 
+
+Merkez ofiste geçirdiği ilk yılın ardından, Yunanistan'daki yerel şubeye transfer oldu ve tüm yönetim dönüşümüne işbirliği yaparak, sigorta, hasar yönetimi, reasürans yerleştirme ve yönetimi ile finansal planlama ve merkez ofise raporlama için Yönetim Bilgi Sisteminden sorumlu oldu. 
+
+Kısa bir süre sonra merkez ofise geri döndü ve Meksika'daki grup şirketinde CEO olarak atandı. Şirketin ekonomik durumu sağlam olmadığı için ana görevi, şirketin finansal durumu üzerinde önemli etkisi olan tüm organizasyonel sorunları derhal çözmekti. İki yıl sonra şirket karlı bir duruma geri döndü ve yeni bir Gelişim Planı için hazır hale geldi. 
+
+Yine Home Office'e geri döndü ve grup reasüransı olarak grup captive ve açık reasürans piyasası için yetkilendirildi; ayrıca çeşitli stratejik portföylerin reasürans sonuçlarını tahmin etme sorumluluğunu üstlendi. 
+
+Allianz Group'taki deneyiminin ardından, AB pazarının bir kısmı için BMS London ile işbirliği yaparak Reasürans Brokerı olarak olumlu bir deneyim yaşadığını belirtmek önemlidir. 
+
+Projeyle ilgili son deneyimi, UnipolSai (İtalya) tarafından özelleştirilen yerel bir şirkette Sigorta Direktörü olarak Sırbistan'da edindiği deneyimdir. Burada, tüm ürün yelpazesinin karlılık analizi, yeni ürünlerin piyasaya sürülmesi ve şirketin finansal tahminleri gibi önemli görevleri üstlenmiştir. 
+
+Son 8 yıldır Ultimate Risk Solutions Llc'de Orta ve Doğu Avrupa Bölgesi ve Türkiye İş Geliştirme Müdürü ve Ultimate Risk Solutions Italia'da COO olarak AMEA Bölgesi'nden sorumludur.  
+
+Ayrıca, aynı dönemde CConsulting  SPA'da aynı pazarlar için İş Geliştirme Müdürü olarak görev yapmaktadır. 
+            
+            `
         },
     }, 
     {
@@ -809,8 +917,8 @@ Additionally, during the same period, acting as Business Development Manager in 
         day:2,
         name: "Mehsen Nehmeh",
         title: {
-            en: "",
-            tr: "",
+            en: "Division Director, Gallagher Re",
+            tr: "Bölüm Direktörü, Gallagher Re ",
         },
         image: "/images/speakers/mehsen.png",
         bio: {
@@ -818,8 +926,98 @@ Additionally, during the same period, acting as Business Development Manager in 
             Mehsen Nehmeh is a Divisional Director at Gallagher Re in London, leading actuarial analytics for the Turkish Team. Since joining Gallagher in 2021, he has successfully managed client relationships across Turkey, the Middle East, and North Africa, specialising in portfolio modelling, structural assessments, alternative solutions, and competitive pricing. Fluent in English, French, and Arabic, Mehsen brings 8+ years of industry experience from AXA and AIC, with academic credentials in Actuarial Mathematics and a Master’s in data science.
             `,
 
-            tr: ""
+            tr: `
+            Mehsen Nehmeh, Londra'daki Gallagher Re'de Bölüm Direktörü olarak görev yapmakta ve Türkiye Ekibi için aktüeryal analitik çalışmalarını yönetmektedir. 2021 yılında Gallagher'a katıldığından bu yana, portföy modelleme, yapısal değerlendirmeler, alternatif çözümler ve rekabetçi fiyatlandırma alanlarında uzmanlaşarak Türkiye, Orta Doğu ve Kuzey Afrika'daki müşteri ilişkilerini başarıyla yönetmiştir. İngilizce, Fransızca ve Arapça'yı akıcı bir şekilde konuşan Mehsen, AXA ve AIC'de 8 yılı aşkın sektör deneyimine sahiptir ve aktüeryal matematik alanında akademik yeterliliğe ve veri bilimi alanında yüksek lisans derecesine sahiptir. 
+            `
         },
+    },
+    {
+        id: 44,
+        day:2,
+        name: "Gencay Genç",
+        title: {
+            en: "Managing Partner, Genç Sigorta and GensureTech",
+            tr: "Yönetici Partner ,Genç Sigorta & Gensure Tech",
+        },
+        image: "/images/speakers/gencay.png",
+        bio: {
+            en: `
+            Mehsen Nehmeh is a Divisional Director at Gallagher Re in London, leading actuarial analytics for the Turkish Team. Since joining Gallagher in 2021, he has successfully managed client relationships across Turkey, the Middle East, and North Africa, specialising in portfolio modelling, structural assessments, alternative solutions, and competitive pricing. Fluent in English, French, and Arabic, Mehsen brings 8+ years of industry experience from AXA and AIC, with academic credentials in Actuarial Mathematics and a Master’s in data science.
+            `,
+
+            tr: `
+             `
+        },
+    },
+    {
+        id: 55,
+        day:2,
+        name: "Zerrin Sonışık",
+        title: {
+            en: "Deputy General Manager, Sigortam.net",
+            tr: "Genel Müdür Yardımcısı, Sigortam.net",
+        },
+        image: "/images/speakers/zerrin.png",
+        bio: {
+            en: `
+             `,
+
+            tr: `
+Sigorta sektöründe 30 yılı aşkın deneyime sahip üst düzey yönetici. Finans, strateji, uyum, dijital dönüşüm ve brokerlik alanlarında güçlü bir geçmişe sahip. Türkiye’nin ilk ve lider dijital sigorta platformu Sigortam.net’in kurucu ekibinde yer almış, CFO ve Genel Müdür Yardımcısı (Deputy GM – CSO & CCO) olarak stratejik iş birliklerini, regülasyon ilişkilerini ve finansal yönetimi yürütmüştür. Sigorta ve Reasürans Brokerleri Derneği’nde (SBD) Yönetim Kurulu Üyeliği ve Dijital Komite Başkanlığı görevlerinde bulunmuştur.             `
+        },
+    },
+    {
+        id: 43,
+        day:2,
+        name: "Ersin Al ",
+        title: {
+            en: "CEO, Colendi Sigorta",
+            tr: "CEO, Colendi Sigorta",
+        },
+        image: "/images/speakers/ersin.png",
+        bio: {
+            en: `
+             `,
+
+            tr: `
+Sigorta ve finans sektöründe 15 yılı aşkın deneyime sahip yönetici. Dijital dönüşüm, stratejik planlama, proje ve portföy yönetimi alanlarında uzman. Türkiye Sigorta’da dijital dönüşümün liderliğini üstlenmiş, şu anda Colendi Sigorta CEO’su olarak görev yapmaktadır. Startup ekosisteminde girişimci deneyimine sahip olup teknoloji, veri analitiği ve müşteri deneyimi konularında güçlü bir vizyona sahiptir. 
+            `
+         },
+    },
+    {
+        id: 42,
+        day:2,
+        name: "Buket Arslanalp Erşan",
+        title: {
+            en: "Deputy General Manager, Fiba Insurance",
+            tr: "Genel Müdür Yardımcısı,  Fiba Sigorta",
+        },
+        image: "/images/speakers/buket.png",
+        bio: {
+            en: `
+             `,
+
+            tr: `
+Sigorta sektöründe 20 yıla yakın deneyime sahip, satış, pazarlama, alternatif dağıtım kanalları ve müşteri deneyimi alanlarında uzman yönetici. Bancassurance, kurumsal satış, çağrı merkezi yönetimi ve proje geliştirme alanlarında güçlü bir geçmişe sahip. Halen Fiba Sigorta A.Ş.’de Pazarlamadan Sorumlu Genel Müdür Yardımcısı (CMO) olarak görev yapmaktadır.             `
+         },
+    },
+    {
+        id: 41,
+        day:2,
+        name: "Mehmet Akif Özdemir ",
+        title: {
+            en: "Co Founder & CEO  EasyCep ",
+            tr: "Kurucu Ortak & CEO  EasyCep ",
+        },
+        image: "/images/speakers/mehmet-akif.png",
+        bio: {
+            en: `
+             `,
+
+            tr: `
+Girişimci ve teknoloji lideri. EasyCep’in kurucu ortağı ve CEO’su olarak yenilenmiş elektronik pazarında Türkiye’nin öncü markalarından birini kurdu. Yazılım mühendisliği ve makine mühendisliği geçmişi ile iş geliştirme, operasyon yönetimi ve ölçeklenebilir teknoloji tabanlı iş modelleri üzerine uzmanlaşmıştır. Forbes Business Council üyesi olarak global girişimcilik topluluklarında aktiftir. 
+            `
+          },
     },
 ];
 
@@ -1031,27 +1229,27 @@ export const agendaData: LocalizedAgendaData = {
             title: "Gün 1",
             items: [
                 {
-                    time: "08.30 - 09.30",
+                    time: "08.00 - 09.00",
                     title: "Kayıt & Kahvaltı",
                 },
                 {
-                    time: "09.30 - 09.45",
+                    time: "09.00 - 09.15",
                     title: "Açılış ve Hoş Geldiniz Konuşmaları, Uğur GÜLEN (Başkan, Türkiye Sigorta Birliği - TSB) ",
                 },
                 {
-                    time: "09.45 - 10.00",
+                    time: "09.15 - 09.30",
                     title: "Davut MENTEŞ (Başkan, SEDDK)",
                 },
                 {
-                    time: "10.00 - 10.15",
+                    time: "09.30 - 09.45",
                     title: "Mehmet ŞİMŞEK (Hazine ve Maliye Bakanı) (Teyit Bekleniyor)",
                 },
                 {
-                    time: "10.15 - 10.45",
+                    time: "09.45 - 10.15",
                     title: "Kahve Molası",
                 },
                 {
-                    time: "10.45 - 11.00",
+                    time: "10.15 - 10.30",
                     title: "Ana Tema Konuşmacısı",
                     content: `
                     <p>Önemli Dijital Eğilimler ve Sigorta Sektörünü Etkileme Biçimleri  </p>
@@ -1059,7 +1257,7 @@ export const agendaData: LocalizedAgendaData = {
                     `
                 },
                 {
-                    time: "11.00 - 12.15",
+                    time: "10.30 - 11.45",
                     title: "OTURUM 1",
                     content: `
                       <p>Sigorta Sektöründe Dijital Dönüşüm: 
@@ -1076,11 +1274,11 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "12.15 - 13.45",
+                    time: "11.45 - 13.15",
                     title: "Öğle Yemeği",
                 },
                 {
-                    time: "13.45-14.15",
+                    time: "13.15-13.45",
                     title: "Motivasyon Konuşması",
                     content: `
                     <p>Sigortacılıkta Dijital Dönüşüm ve Yapay Zekâ: Yenilik ve Etkinin Güçlü Yolculuğu</p>
@@ -1088,20 +1286,20 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "14.15 - 14.30",
+                    time: "13.45 - 14.00",
                     title: "İkinci Ana Tema Konuşmacısı",
                     content: `
                      
                         <p>Hayat dışı sigortacılıkta operasyon, fiyatlama ve risk değerlendirmesinin şekillenmesinde gelişmiş teknolojiler, otomasyon ve yapay zekânın rolü: zorluklar ve fırsatlar</p>
-                      <p><strong>Çağrı Akpınar</strong> (Genel Müdür Yardımcısı, Türkiye Sigorta) </p>
+                      <p><strong>Melike Nur Çınar</strong> Türkiye Sigorta Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı</p>
                     `
                 },
                 {
-                    time: "14.30 - 15.00",
+                    time: "14.00 - 14.30",
                     title: "Kahve Molası"
                 },
                 {
-                    time: "15.00 - 15.30",
+                    time: "14.30 - 15.00",
                     title: "OTURUM 2 ",
                     content: `
                      <p><strong>Avrupa ve Türkiye'de Sigortacılığın Dijital Geleceği Üzerine Bir Diyalog:</strong></p>
@@ -1113,7 +1311,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "15.30 - 16.00",
+                    time: "15.00 - 15.30",
                     title: "OTURUM 3",
                     content: `
                       <p>Dijital Dönüşüm, Hayat ve Sağlık Sigortacılığında Yeni Bir Dönem mi Başlatıyor?</p>
@@ -1127,7 +1325,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "16.00 - 16.45",
+                    time: "15.30 - 16.15",
                     title: "OTURUM 4",
                     content: ` 
                     <p>Insurtech Bakış Açısıyla Dijitalleşme: Fırsatlar ve Zorluklar</p>
@@ -1141,7 +1339,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                   `
                 },
                 {
-                    time: "16.45 - 17.00",
+                    time: "16.15 - 16.30",
                     title: "Kapanış Konuşması",
                 },
                 {
@@ -1234,9 +1432,23 @@ Department, T-Rupt)</li>
        </ul>
                     `
                 },
-
                 {
-                    time: "16.00 - 18.00",
+                    time: "16.00 - 17.30",
+                    title: "OTURUM 3",
+                    content: `
+                      <p>Gömülü Sigortacılık Çağı: Ortaya Çıkan Teknolojilerin Sessiz Devrimi</p>
+      <p><strong>Moderatör:</strong> Gencay Genç (Managing Partner , Genç Sigorta & Gensure Tech)</p>
+      <p>Konuşmacılar:</p>
+      <ul>
+        <li>Zerrin Sonışık (Deputy General Manager, Sigortam.net)</li>
+         <li>Ersin Al (CEO, Colendi Sigorta) </li>
+        <li>Buket Arslanalp Erşan (Asistant General Manager , Fiba Sigorta)</li>
+        <li>Mehmet Akif Özdemir (Co-Founder&CEO  , EasyCep) </li> 
+       </ul>
+                    `
+                },
+                {
+                    time: "17.30 - 18.00",
                     title: "Kapanış Konuşması",
                 },
             ],
@@ -1308,7 +1520,7 @@ Department, T-Rupt)</li>
                     content: `
                 
                     <p> The role of advanced technologies, automation, and AI in reshaping operations, pricing and underwriting in non-life insurance: challenges and opportunities </p>
-                      <p><strong>Çağrı Akpınar</strong> (Assistant General Manager Türkiye Sigorta)</p>
+                      <p><strong>Melike Nur Çınar</strong> Assistant General Manager</p>
                 `
                 },
                 {
@@ -1433,7 +1645,7 @@ Directorate General for Insurance and Pension Funds, Spain)</p>
                     `
                 },
                 {
-                    time: "11.15 - 13.00",
+                    time: "14.30 - 16.00",
                     title: "SESSION 2",
                     content: `
                       <p>InsurTech & Digital Innovation in (Re)Insurance:
@@ -1453,9 +1665,23 @@ Department, T-Rupt)</li>
        </ul>
                     `
                 },
-
                 {
-                    time: "16.00 - 18.00",
+                    time: "16.00 - 17.30",
+                    title: "SESSION 3",
+                    content: `
+                      <p>Embedded Insurance Era: A Silent Revolution of Emerging Technologies</p> 
+      <p><strong>Moderetor:</strong> Gencay Genç (Managing Partner , Genç Sigorta & Gensure Tech)</p>
+      <p>Speakers:</p>
+      <ul>
+        <li>Zerrin Sonışık (Deputy General Manager, Sigortam.net)</li>
+         <li>Ersin Al (CEO, Colendi Sigorta) </li>
+        <li>Buket Arslanalp Erşan (Asistant General Manager , Fiba Sigorta)</li>
+        <li>Mehmet Akif Özdemir (Co-Founder&CEO  , EasyCep) </li> 
+       </ul>
+                    `
+                },
+                {
+                    time: "17.30 - 18.00",
                     title: "BILATERAL MEETINGS",
                 },
             ],
