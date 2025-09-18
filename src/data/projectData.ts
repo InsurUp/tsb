@@ -1238,7 +1238,7 @@ export const agendaData: LocalizedAgendaData = {
                 },
                 {
                     time: "09.30 - 09.45",
-                    title: "Açılış ve Hoş Geldiniz Konuşmaları, Uğur GÜLEN (Başkan, Türkiye Sigorta Birliği - TSB) ",
+                    title: "Hoş Geldiniz Konuşması, Uğur GÜLEN (Başkan, Türkiye Sigorta Birliği - TSB) ",
                 },
                 {
                     time: "09.45 - 10.00",
@@ -1473,7 +1473,7 @@ Department, T-Rupt)</li>
                 },
                 {
                     time: "09.30 - 09.45",
-                    title: "Opening Remarks & Welcome Speech, Uğur GÜLEN (Chairman, TSB)  ",
+                    title: "Welcome Speech, Uğur GÜLEN (Chairman, TSB)  ",
                 },
                 {
                     time: "09.45 - 10.00",
