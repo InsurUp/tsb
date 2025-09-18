@@ -76,6 +76,7 @@ export interface Speaker {
     id: number;
     name: string;
     image: string;
+    day:1|2,
     title: {
         en: string;
         tr: string;
@@ -86,9 +87,10 @@ export interface Speaker {
     };
 }
 
-export const speakers: Speaker[] = [
+export const speakers:Speaker[] = [
     {
         id: 1,
+        day:1,
         name: "Mehmet ŞİMŞEK",
         title: {
             en: "Minister of Treasury and Finance (TBC)",
@@ -104,6 +106,7 @@ export const speakers: Speaker[] = [
     },
     {
         id: 2,
+        day:1,
         name: "Davut Menteş",
         title: {
             en: "Chairman, IPRSA",
@@ -121,6 +124,7 @@ Lisans derecesini İstanbul Üniversitesi Siyasal Bilgiler Fakültesi İşletme 
     {
         id: 9,
         name: "Uğur GÜLEN",
+        day:1,
         title: {
             en: "Chairman, The Association of Insurance, Reinsurance and Pension Companies of Türkiye General Manager, Aksigorta ",
             tr: "Başkan, Türkiye Sigorta, Reasürans ve Emeklilik Şirketleri Birliği Genel Müdür, Aksigorta ",
@@ -138,8 +142,9 @@ Lisans derecesini İstanbul Üniversitesi Siyasal Bilgiler Fakültesi İşletme 
     {
         id: 9,
         name: "Birant Yıldız",
+        day:1,
         title: {
-            en: "Editor-in-Chief, Sigorta Dünyası Magazine",
+            en: "Master of Ceremony",
             tr: "Sigorta Dünyası Dergisi Genel Yayın Yönetmeni.",
         },
         image: "/images/speakers/birant-yildiz.png",
@@ -171,79 +176,8 @@ He also has two books currently in preparation.
         },
     },
     {
-        id: 17,
-        name: "SERKAN AVCI ",
-        title: {
-            en: "CEO Chairman of Executive Committee",
-            tr: "CEO, Yönetim Kurulu İcra Komitesi Başkanı",
-        },
-        image: "/images/speakers/serkan.png",
-        bio: {
-            en: `
-Mr. Serkan Avcı, a graduate of Ege University, Department of Computer Engineering, has held senior leadership roles in information technologies, infrastructure management, and digital transformation within the finance and insurance sectors. Following his executive experience at Aksigorta, Aviva, Groupama, and Gulf Sigorta, he was appointed as General Manager/CEO of the Insurance Information and Monitoring Center in 2022, a position he continues to hold. 
-            `,
-            tr: `
-Ege Üniversitesi Bilgisayar Mühendisliği mezunu olan Sayın Serkan Avcı, finans ve sigorta sektörlerinde bilgi teknolojileri, altyapı yönetimi ve dijital dönüşüm alanlarında üst düzey görevlerde bulunmuştur. Aksigorta, Aviva, Groupama ve Gulf Sigorta’daki yöneticilik tecrübelerinin ardından 2022 yılında Sigorta Bilgi ve Gözetim Merkezi’ne Merkez Müdürü olarak atanmış olup, görevini halen sürdürmektedir. 
-            `,
-        },
-    },
-    {
-        id: 19,
-        name: "Mutlu Uğursal",
-        title: {
-            en: "CEO, Agito",
-            tr: "CEO, Agito",
-        },
-        image: "/images/speakers/mutlubey.png",
-        bio: {
-            en: `
-Mutlu Uğursal, born in 1971, graduated in Computer Engineering from ODTÜ METU. He began his career in 1993, working at Bayındır Hayat Sigorta, Tepe Technology and IBM, where he contributed to multinational projects. In 2006, he co-founded Bt-Grup, which merged with Agito in 2013. After leadership roles, he became Agito CEO in 2019. Uğursal has been pivotal in Turkey’s insurtech ecosystem, co-founding İTÜ Insurtech Hub and mentoring startups.            `,
-            tr: `
-1971 doğumlu Mutlu Uğursal, ODTÜ Bilgisayar Mühendisliği mezunudur. 1993’te başladığı kariyerinde Bayındır Hayat Sigorta, Tepe Teknoloji ve IBM’de görev aldı. 2006’da kurucu ortağı olduğu Bt-Grup, 2013’te Agito ile birleşti. 2019’dan bu yana Agito CEO’su olan Uğursal, Türkiye insurtech ekosistemine yön veren isimlerden biridir; İTÜ Insurtech Hub’un kuruluşuna katkı sağlamış, girişimlere mentor ve yatırımcı olarak destek vermektedir.            `,
-        },
-    },
-    {
-        id: 18,
-        name: "Bilal Türkmen",
-        title: {
-            en: "CEO, RS Holding Destech Technology Group ",
-            tr: "RS Holding Destech Teknoloji Grubu CEO ",
-        },
-        image: "/images/speakers/bilal-turkmen.png",
-        bio: {
-            en: `
- Bilal Türkmen completed his undergraduate studies in Business Administration at Akdeniz University and earned his Executive MBA from Sabancı University. He began his career in 2010 at Atheneum Partners in Berlin and stepped into the insurance sector in 2012 with Aksigorta. Between 2012 and 2018, he served as an Expert at the Insurance General Directorate of the Undersecretariat of Treasury, where he worked on insurance regulations and took part in the coordination of DASK and TARSİM. 
-
-From 2018 to 2019, he held the position of Deputy Secretary General of DASK at Eureko Sigorta. In 2019, he joined Güneş Sigorta as Group Manager responsible for Strategy and Project Management, where he led the Integration Management Office in the merger of six state-owned insurance and pension companies. 
-
-Between 2020 and 2023, Türkmen served as Executive Vice President responsible for Strategy, Marketing, and Digital at Türkiye Sigorta and Türkiye Hayat Emeklilik. In March 2024, he joined RS Automotive Group as Executive Vice President of Technology and Member of the Board of Directors. Today, he continues his career as CEO of RS Holding’s Technology Group and as Co-Founder & General Manager of SigortaAcentesi.com. 
-            `,
-            tr: `
-Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde tamamlamış, yüksek lisansını Sabancı Üniversitesi Executive MBA programında yapmıştır. İş hayatına 2010’da Berlin’de Atheneum Partners’ta başlamış; 2012 yılında Aksigorta ile sigortacılık kariyerine adım atmıştır. 2012–2018 yılları arasında Hazine Müsteşarlığı Sigortacılık Genel Müdürlüğü’nde Uzman olarak sigorta düzenlemeleri üzerinde çalışmış, DASK ve TARSİM koordinasyonunda yer almıştır. 2018–2019’da Eureko Sigorta’da DASK Genel Sekreter Yardımcılığı görevinde bulunmuş; 2019 yılında Strateji ve Proje Yönetiminden sorumlu Grup Müdürü olarak Güneş Sigorta’ya katılmıştır. Kamu bankalarına ait altı sigorta ve emeklilik şirketinin birleşmesinde Entegrasyon Yönetim Ofisi’ne liderlik etmiştir. 2020–2023 yılları arasında Türkiye Sigorta ve Türkiye Hayat Emeklilik’te Strateji, Pazarlama ve Dijital’den sorumlu Genel Müdür Yardımcısı olarak görev yapan Türkmen, Mart 2024’te RS Otomotiv Grubu’na Teknolojiden Sorumlu Genel Müdür Yardımcısı ve Yönetim Kurulu Üyesi olarak katılmış olup, bugün RS Holding’in Teknoloji Grubu CEO’luğu ve SigortaAcentesi.com’un kurucu ortak/genel müdürü görevlerini sürdürmektedir.             `,
-        },
-    },
-    {
-        id: 19,
-        name: "Onursal Polat",
-        title: {
-            en: "General Manager, SFS Strategic Functional Systems ",
-            tr: "SFS Stratejik Fonksiyonel Sistemler Genel Müdürü",
-        },
-        image: "/images/speakers/onursal.png",
-        bio: {
-            en: ` 
-            With over 30 years of experience in the finance industry, Onursal Polat has specialized in information technologies, project management, and senior executive roles across the finance, banking, and insurance sectors. 
-Polat joined SFS in 2002 and, since November 2023, has been serving as the General Manager of SFS Strategic Functional Systems. He stands out with his leadership approach centered on strategic management, operational excellence, financial sustainability, and customer satisfaction. 
-            
-            `,
-            tr: `
-30 yılı aşkın finans alanında deneyime sahip olan Onursal Polat, finans, bankacılık ve sigortacılık sektörlerinde bilgi teknolojileri, proje yönetimi ve üst düzey yöneticilik alanlarında uzmanlaşmıştır.  
-
-2002 yılında SFS’ye katılan Polat, Kasım 2023’ten bu yana SFS Stratejik Fonksiyonel Sistemler Genel Müdürü olarak görev yapmaktadır. Polat, stratejik yönetim, operasyonel mükemmeliyet, finansal sürdürülebilirlik ve müşteri memnuniyeti odaklı liderlik anlayışıyla öne çıkmaktadır.         `,
-        },
-    },
-    {
         id: 15,
+        day:1,
         name: "Thea Utoft Høj Jensen",
         title: {
             en: "Director General, Insurance Europe",
@@ -260,6 +194,7 @@ Thea Utoft Høj Jensen, Avrupa sigorta ve reasürans sektörünü temsil eden In
     },
     {
         id: 3,
+        day:1,
         name: "Özgür Obalı",
         title: {
             en: "Secretary General, TSB",
@@ -282,6 +217,7 @@ Obalı has been working as the Secretary General of the Insurance Association of
     {
         id: 7,
         name: "Sachin Sahni",
+        day:1,
         title: {
             en: "Associate Director, S&P Global Ratings",
             tr: "Sachin Sahni Yardımcı Direktör, S&P Global Ratings ",
@@ -298,6 +234,7 @@ Sachin Sahni, 2015 yılından beri S&P Global Ratings bünyesinde, DIFC - Dubai 
     {
         id: 7,
         name: "Talar Gül",
+        day:1,
         title: {
             en: "Financial Services Leader, PwC Turkey ",
             tr: "PwC Türkiye Finansal Hizmetler Lideri",
@@ -341,6 +278,7 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
     {
         id: 14,
         name: "Levent Tuzun",
+        day:1,
         title: {
             en: "Principal II at EBRD & Fellow at the Trilateral Commission",
             tr: "II. Başkan, Avrupa İmar ve Kalkınma Bankası (EBRD) & Üçlü Komisyon Üyesi",
@@ -355,27 +293,10 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
             `,
         },
     },
-
-
-    {
-        id: 170,
-        name: "Emine Feray SEZGİN",
-        title: {
-            en: "Deputy Chairman of SEDDK",
-            tr: "SEDDK Başkan Yardımcısı",
-        },
-        image: "/images/speakers/emine.png",
-        bio: {
-            en: `
-         `,
-            tr: `
-         `,
-        },
-    },
-
     {
         id: 8,
         name: "Alexandru CIUNCAN",
+        day:1,
         title: {
             en: "President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR",
             tr: "Başkan ve Genel Müdür, Romanya Sigorta ve Reasürans Şirketleri Birliği (UNSAR) ",
@@ -386,10 +307,10 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
             tr: "Orta ve Doğu Avrupa bölgesinde sigorta ve özel emeklilik alanında 20 yılı aşkın deneyime sahip olan Alexandru Ciuncan, şu anda UNSAR’ın Başkanlığı ve Genel Müdürlüğünü yürütmektedir, ayrıca ISF Yönetim Kurulu üyesidir. Daha önce EIOPA’nın IRSG ve OPSG komitelerinde görev almış, APPA ve XPRIMM’de çeşitli girişimlere liderlik etmiştir. Proje ve çevik yönetim sertifikalarına sahip olan Ciuncan, Henley İşletme Okulu’ndan Yönetim Kurulu Uygulamaları ve Yöneticiliği alanından mezundur. ",
         },
     },
-
     {
         id: 11,
         name: "Magdalena Ramada Sarasola",
+        day:1,
         title: {
             en: "PhD Global InsurTech Innovation Leader - Senior Director at WTW",
             tr: "Global InsurTech İnovasyon Lideri – Kıdemli Direktör, WTW",
@@ -401,33 +322,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         },
     },
     {
-        id: 10,
-        name: "Yavuz Ölken",
-        title: {
-            en: "Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye",
-            tr: "TSB Hayat Dışı İcra Kurulu Üyesi & AXA Türkiye CEO'su",
-        },
-        image: "/images/speakers/yavuz_olken.png",
-        bio: {
-            en: " ",
-            tr: " ",
-        },
-    },
-    {
-        id: 13,
-        name: "Hassan El-Shabrawishi",
-        title: {
-            en: "AXA International Markets, CEO",
-            tr: "AXA Uluslararası Pazarlar CEO'su",
-        },
-        image: "/images/speakers/hassan.png",
-        bio: {
-            en: "",
-            tr: "",
-        },
-    },
-    {
         id: 16,
+        day:1,
         name: "Çağrı Akpınar",
         title: {
             en: "Assistant General Manager Türkiye Sigorta",
@@ -443,8 +339,37 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         },
     },
     {
+        id: 10,
+        name: "Yavuz Ölken",
+        day:1,
+        title: {
+            en: "Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye",
+            tr: "TSB Hayat Dışı İcra Kurulu Üyesi & AXA Türkiye CEO'su",
+        },
+        image: "/images/speakers/yavuz_olken.png",
+        bio: {
+            en: " ",
+            tr: " ",
+        },
+    },
+    {
+        id: 13,
+        name: "Hassan El-Shabrawishi",
+        day:1,
+        title: {
+            en: "AXA International Markets, CEO",
+            tr: "AXA Uluslararası Pazarlar CEO'su",
+        },
+        image: "/images/speakers/hassan.png",
+        bio: {
+            en: "",
+            tr: "",
+        },
+    },
+    {
         id: 5,
         name: "Aysun Yıldız",
+        day:1,
         title: {
             en: "PhD (Assistant Secretary General, TSB)",
             tr: "Genel Sekreter Yardımcısı, Türkiye Sigorta Birliği (TSB) ",
@@ -465,6 +390,7 @@ Kariyerine T.C. Hazine Müsteşarlığı Sigortacılık Genel Müdürlüğü’n
     {
         id: 12,
         name: "Matti Leppala",
+        day:1,
         title: {
             en: "Secretary General/CEO of PensionsEurope",
             tr: "Genel Sekreter / CEO, PensionsEurope",
@@ -480,6 +406,7 @@ Matti Leppälä, 2011 yılından bu yana PensionsEurope’un Genel Sekreteri ve 
     {
         id: 4,
         name: "Matt Singleton",
+        day:1,
         title: {
             en: "Proposition Manager CUO L&H Reinsurance Swiss Re",
             tr: "Hayat ve Sağlık Reasüransı Risk Değerlendirme Ofisi, Ürün ve Çözüm Yöneticisi – Swiss Re",
@@ -493,11 +420,103 @@ Matt is also a qualified marketer with more than 25 years' experience in the fin
 Matt, ayrıca pazarlama alanında yetkin bir uzmandır ve finansal hizmetler sektöründe 25 yılı aşkın bir tecrübeye sahiptir.  `,
         },
     },
+    {
+        id: 17,
+        name: "SERKAN AVCI ",
+        day:1,
+        title: {
+            en: "CEO Chairman of Executive Committee",
+            tr: "CEO, Yönetim Kurulu İcra Komitesi Başkanı",
+        },
+        image: "/images/speakers/serkan.png",
+        bio: {
+            en: `
+Mr. Serkan Avcı, a graduate of Ege University, Department of Computer Engineering, has held senior leadership roles in information technologies, infrastructure management, and digital transformation within the finance and insurance sectors. Following his executive experience at Aksigorta, Aviva, Groupama, and Gulf Sigorta, he was appointed as General Manager/CEO of the Insurance Information and Monitoring Center in 2022, a position he continues to hold. 
+            `,
+            tr: `
+Ege Üniversitesi Bilgisayar Mühendisliği mezunu olan Sayın Serkan Avcı, finans ve sigorta sektörlerinde bilgi teknolojileri, altyapı yönetimi ve dijital dönüşüm alanlarında üst düzey görevlerde bulunmuştur. Aksigorta, Aviva, Groupama ve Gulf Sigorta’daki yöneticilik tecrübelerinin ardından 2022 yılında Sigorta Bilgi ve Gözetim Merkezi’ne Merkez Müdürü olarak atanmış olup, görevini halen sürdürmektedir. 
+            `,
+        },
+    },
+    {
+        id: 19,
+        day:1,
+        name: "Onursal Polat",
+        title: {
+            en: "General Manager, SFS Strategic Functional Systems ",
+            tr: "SFS Stratejik Fonksiyonel Sistemler Genel Müdürü",
+        },
+        image: "/images/speakers/onursal.png",
+        bio: {
+            en: ` 
+            With over 30 years of experience in the finance industry, Onursal Polat has specialized in information technologies, project management, and senior executive roles across the finance, banking, and insurance sectors. 
+Polat joined SFS in 2002 and, since November 2023, has been serving as the General Manager of SFS Strategic Functional Systems. He stands out with his leadership approach centered on strategic management, operational excellence, financial sustainability, and customer satisfaction. 
+            
+            `,
+            tr: `
+30 yılı aşkın finans alanında deneyime sahip olan Onursal Polat, finans, bankacılık ve sigortacılık sektörlerinde bilgi teknolojileri, proje yönetimi ve üst düzey yöneticilik alanlarında uzmanlaşmıştır.  
 
+2002 yılında SFS’ye katılan Polat, Kasım 2023’ten bu yana SFS Stratejik Fonksiyonel Sistemler Genel Müdürü olarak görev yapmaktadır. Polat, stratejik yönetim, operasyonel mükemmeliyet, finansal sürdürülebilirlik ve müşteri memnuniyeti odaklı liderlik anlayışıyla öne çıkmaktadır.         `,
+        },
+    },
+    {
+        id: 19,
+        day:1,
+        name: "Mutlu Uğursal",
+        title: {
+            en: "CEO, Agito",
+            tr: "CEO, Agito",
+        },
+        image: "/images/speakers/mutlubey.png",
+        bio: {
+            en: `
+Mutlu Uğursal, born in 1971, graduated in Computer Engineering from ODTÜ METU. He began his career in 1993, working at Bayındır Hayat Sigorta, Tepe Technology and IBM, where he contributed to multinational projects. In 2006, he co-founded Bt-Grup, which merged with Agito in 2013. After leadership roles, he became Agito CEO in 2019. Uğursal has been pivotal in Turkey’s insurtech ecosystem, co-founding İTÜ Insurtech Hub and mentoring startups.            `,
+            tr: `
+1971 doğumlu Mutlu Uğursal, ODTÜ Bilgisayar Mühendisliği mezunudur. 1993’te başladığı kariyerinde Bayındır Hayat Sigorta, Tepe Teknoloji ve IBM’de görev aldı. 2006’da kurucu ortağı olduğu Bt-Grup, 2013’te Agito ile birleşti. 2019’dan bu yana Agito CEO’su olan Uğursal, Türkiye insurtech ekosistemine yön veren isimlerden biridir; İTÜ Insurtech Hub’un kuruluşuna katkı sağlamış, girişimlere mentor ve yatırımcı olarak destek vermektedir.            `,
+        },
+    },
+    {
+        id: 18,
+        name: "Bilal Türkmen",
+        day:1,
+        title: {
+            en: "CEO, RS Holding Destech Technology Group ",
+            tr: "RS Holding Destech Teknoloji Grubu CEO ",
+        },
+        image: "/images/speakers/bilal-turkmen.png",
+        bio: {
+            en: `
+ Bilal Türkmen completed his undergraduate studies in Business Administration at Akdeniz University and earned his Executive MBA from Sabancı University. He began his career in 2010 at Atheneum Partners in Berlin and stepped into the insurance sector in 2012 with Aksigorta. Between 2012 and 2018, he served as an Expert at the Insurance General Directorate of the Undersecretariat of Treasury, where he worked on insurance regulations and took part in the coordination of DASK and TARSİM. 
 
+From 2018 to 2019, he held the position of Deputy Secretary General of DASK at Eureko Sigorta. In 2019, he joined Güneş Sigorta as Group Manager responsible for Strategy and Project Management, where he led the Integration Management Office in the merger of six state-owned insurance and pension companies. 
+
+Between 2020 and 2023, Türkmen served as Executive Vice President responsible for Strategy, Marketing, and Digital at Türkiye Sigorta and Türkiye Hayat Emeklilik. In March 2024, he joined RS Automotive Group as Executive Vice President of Technology and Member of the Board of Directors. Today, he continues his career as CEO of RS Holding’s Technology Group and as Co-Founder & General Manager of SigortaAcentesi.com. 
+            `,
+            tr: `
+Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde tamamlamış, yüksek lisansını Sabancı Üniversitesi Executive MBA programında yapmıştır. İş hayatına 2010’da Berlin’de Atheneum Partners’ta başlamış; 2012 yılında Aksigorta ile sigortacılık kariyerine adım atmıştır. 2012–2018 yılları arasında Hazine Müsteşarlığı Sigortacılık Genel Müdürlüğü’nde Uzman olarak sigorta düzenlemeleri üzerinde çalışmış, DASK ve TARSİM koordinasyonunda yer almıştır. 2018–2019’da Eureko Sigorta’da DASK Genel Sekreter Yardımcılığı görevinde bulunmuş; 2019 yılında Strateji ve Proje Yönetiminden sorumlu Grup Müdürü olarak Güneş Sigorta’ya katılmıştır. Kamu bankalarına ait altı sigorta ve emeklilik şirketinin birleşmesinde Entegrasyon Yönetim Ofisi’ne liderlik etmiştir. 2020–2023 yılları arasında Türkiye Sigorta ve Türkiye Hayat Emeklilik’te Strateji, Pazarlama ve Dijital’den sorumlu Genel Müdür Yardımcısı olarak görev yapan Türkmen, Mart 2024’te RS Otomotiv Grubu’na Teknolojiden Sorumlu Genel Müdür Yardımcısı ve Yönetim Kurulu Üyesi olarak katılmış olup, bugün RS Holding’in Teknoloji Grubu CEO’luğu ve SigortaAcentesi.com’un kurucu ortak/genel müdürü görevlerini sürdürmektedir.             `,
+        },
+    },
+    // Day 2
+    {
+        id: 170,
+        day:2,
+        name: "Emine Feray SEZGİN",
+        title: {
+            en: "Deputy Chairman of SEDDK",
+            tr: "SEDDK Başkan Yardımcısı",
+        },
+        image: "/images/speakers/emine.png",
+        bio: {
+            en: `
+         `,
+            tr: `
+         `,
+        },
+    },
     {
         id: 20,
         name: "Ahmet Yaşar",
+        day:2,
         title: {
             en: "President of Maher Holding Insurance Group",
             tr: "Maher Holding Sigorta Grubu Başkanı",
@@ -518,112 +537,9 @@ Constitution of ephemera, materials and library / museum in respect of Insurance
             tr: ""
         },
     },
-
-    {
-        id: 21,
-        name: "Arnaud R. Kopp",
-        title: {
-            en: "Senior Underwriter P&C – Head P&C Türkiye, Swiss Re",
-            tr: "Maher Holding Sigorta Grubu Başkanı",
-        },
-        image: "/images/speakers/arnaud.png",
-        bio: {
-            en: `
-          Arnaud Kopp is a senior underwriter at Swiss Re and market head for Property & Casualty business in Türkiye. He started his reinsurance career as a treaty casualty underwriter for the UK and Nordic markets and has since held several positions across Swiss Re’s Zurich office, including roles in underwriting,  client management and regional solutions for the Mediterranean markets.
-
-Beyond his underwriting responsibilities, he is active in education and innovation. He teaches a course on digital transformation in insurance at Université Paris-Dauphine and has mentored early-stage startups through several accelerator programmes.
-
-He studied insurance at Université Paris-Dauphine, management at Imperial College London, and law at the University of Strasbourg, the University of Exeter, and Cornell University.
- 
-            `,
-            tr: ""
-        },
-    },
-    {
-        id: 22,
-        name: "Charles Whitmore",
-        title: {
-            en: "",
-            tr: "",
-        },
-        image: "/images/speakers/charles.png",
-        bio: {
-            en: `
-          “Charles Whitmore is President of Global Clients, responsible for the coordination across the firm and overall consistency of service to our largest Global clients. He has extensive experience in all property product lines, in particular pro rata treaty business. He is also the International lead for Guy Carpenter’s Public Sector Practice and is the Account Executive for a number of UK and European clients. 
- Charles joined C.T. Bowring Re (now part of Guy Carpenter) in 1991 in the Latin American and Caribbean Department.  In 2000 he moved to the International Department of Guy Carpenter's New York office, where he worked on a variety of International accounts (including UK, European, Retro and Caribbean business).  In 2003 he returned to the UK to focus on UK and European clients and was appointed President of Global Clients in November 2019.”
-
-            `,
-            tr: ""
-        },
-    },
-    {
-        id: 25,
-        name: "Daniela Ghetu",
-        title: {
-            en: "",
-            tr: "",
-        },
-        image: "/images/speakers/daneila.png",
-        bio: {
-            en: `
-         Daniela Ghetu is Editorial Director at XPRIMM Insurance Publications, a position she has held since 1999. With over two decades of experience, she is recognized as one of the leading voices on the insurance and private pensions markets in Romania and the wider CEE & CIS region.
-She coordinates the editorial policy of XPRIMM’s flagship publications, including the XPRIMM Insurance Report – CEE, SEE & CIS, country-specific reports, and thematic analyses on motor and property insurance. Her expertise also extends to developing industry media products, designing content for major international conferences, selecting speakers, and building strategic partnerships across markets.
-An experienced public speaker and moderator, Daniela frequently delivers presentations on insurance and pensions-related topics and contributes articles and market analyses to both Romanian and international financial media, including ASFALISTIKI AGORA (Greece), REINSURANCE (UK), Business Standard (Romania), and PLANSPONSOR Europe.
-Her specialties include corporate partnership development, publishing and editorial management, market analysis, and international consultancy.
-
-            `,
-            tr: ""
-        },
-    },
-    {
-        id: 23,
-        name: "Dario Schiller",
-        title: {
-            en: "",
-            tr: "",
-        },
-        image: "/images/speakers/dario.png",
-        bio: {
-            en: `
-    After the graduation with full votes at the University of Trieste (Italy) in Economic Science with specialization in Statistics and Actuarial Mathematics, started his career in Allianz Group in the Group Actuarial Dept.
-Main tasks as from the beginning were the analysis of new tariffs in the various EU countries of competence, the calculation of reserves, the economic impact of the productions, the projection of P/L and Asset & Liabilities of the companies of competence.
-After a first years’ period at the Home Office, he has been transfer abroad in Greece at the local Branch Office cooperating to the whole management turn over and being responsible for the underwriting, claim management, reinsurance placement and administration and the Management Information System for the financial planning and reporting to Home Office.
-Back to Home Office, after a short period, he has been entitled as CEO in the Group Mexican company, where the economic situation of the firm wasn’t solid so that the main task has been to promptly resolve all the organizational aspect with important impact to the company financial situation. The company after two years has been restored at a profitable status ready for a new Development Plan.
-Back again to Home Office, has been intitled to the group reinsurance as a group captive and for the open reinsurance market; additionally had the responsibility of projecting the reinsurance results of various strategic portfolios.
-After the experience in the Allianz Group is relevant to mention a positive experience as Reinsurance Broker, cooperating with BMS London for part of the EU market.
-Last experience relevant for the project is the one in Serbia as Chief Insurance Officer in a local company privatized by UnipolSai (Italy), where he had as major task the profitability analysis of all the product gamma, the launch of new products and the financial projections of the company.
-During the last 8 years he is in charge as Business Development Manager in Ultimate Risk Solutions Llc for the CEE Area and Turkey and as COO in Ultimate Risk Solutions Italia, responsible for the AMEA Area. 
-Additionally, during the same period, acting as Business Development Manager in CConsulting  SPA for the same markets.
-
-            `,
-            tr: ""
-        },
-    },
     {
         id: 26,
-        name: "Dr Laurent Marescot",
-        title: {
-            en: "Senior Director, Insurance Solutions – Catastrophe Risk Management",
-            tr: "",
-        },
-        image: "/images/speakers/laurent.png",
-        bio: {
-            en: `
- Dr Laurent Marescot is a senior catastrophe risk management expert at Moody’s Insurance Solutions, advising leading global and national re/insurers on natural catastrophe, agricultural, cyber, and terrorism risks. He also works with governmental and regulatory bodies, serving on the EIOPA Technical Expert Network on Catastrophe Risk.
-
-Since joining RMS (now part of Moody’s) in 2008, Laurent has held key roles within the company, focusing on the EMEA and APAC regions. These include Head of Product Management for Climate & Weather Risk and Global Agricultural Risk, where he drove strategy for new catastrophe model development. More recently, he has concentrated on developing innovative solutions and expanding into new markets and segments across EMEA.
-
-Before entering the industry, Laurent was a Research Associate and Lecturer in geophysics at ETH Zurich, managing international research programmes. As a regular speaker at leading industry conferences and an academic lecturer, he is recognised for his expertise in catastrophe modelling and the quantification of insurance risk.
-
-Concise version
-Dr Laurent Marescot, Senior Director at Moody’s Insurance Solutions, advises global and national re/insurers and regulatory bodies on natural catastrophe, agricultural, cyber, and terrorism risks. Recognised internationally for his expertise in catastrophe modelling, climate risk, and insurance risk quantification, he is a regular speaker at leading industry conferences and an academic lecturer.
-
-            `,
-            tr: ""
-        },
-    },
-    {
-        id: 26,
+        day:2,
         name: "Fahri Altıngöz",
         title: {
             en: "Chairman of the Board of Directors and General Manager",
@@ -649,8 +565,114 @@ Mr. Fahri Altıngöz currently serves as the President of the Association of Ins
         },
     },
     {
+        id: 22,
+        day:2,
+        name: "Charles Whitmore",
+        title: {
+            en: "",
+            tr: "",
+        },
+        image: "/images/speakers/charles.png",
+        bio: {
+            en: `
+          “Charles Whitmore is President of Global Clients, responsible for the coordination across the firm and overall consistency of service to our largest Global clients. He has extensive experience in all property product lines, in particular pro rata treaty business. He is also the International lead for Guy Carpenter’s Public Sector Practice and is the Account Executive for a number of UK and European clients. 
+ Charles joined C.T. Bowring Re (now part of Guy Carpenter) in 1991 in the Latin American and Caribbean Department.  In 2000 he moved to the International Department of Guy Carpenter's New York office, where he worked on a variety of International accounts (including UK, European, Retro and Caribbean business).  In 2003 he returned to the UK to focus on UK and European clients and was appointed President of Global Clients in November 2019.”
+
+            `,
+            tr: ""
+        },
+    },
+    {
+        id: 31,
+        name: "Vasilis Katsipis",
+        day:2,
+        title: {
+            en: "SEO & General Manager, Market Development AM Best ",
+            tr: "",
+        },
+        image: "/images/speakers/vasilis.png",
+        bio: {
+            en: `
+Vasilis Katsipis is based in Dubai and is SEO & General Manager, Market Development of AM Best for MENA, South & Central Asia.
+
+He has been with AM Best since 2011, having joined the company in London as a managing senior financial analyst and growing to the position of general manager, analytics for EMEA. He has written several pieces focusing on insurance and regulation in Europe and the MENA region and has participated in international bodies focused on establishing global standards for insurance.
+
+Prior to joining AM Best Vasilis was responsible for alternative distribution channels for GE Insurance Solutions. He has over 20 years of insurance and reinsurance experience, having focused on both the life and non-life sectors. He has held roles in high level operational and strategic positions. For most of his career, he has held international positions with either regional or global responsibilities.
+
+Vasilis holds an MBA from University of Wales and a BSc in economics from Piraeus University.
+
+            `,
+
+            tr: ""
+        },
+    }, 
+    {
+        id: 32,
+        name: "Neslihan Neciboğlu",
+        day:2,
+        title: {
+            en: "",
+            tr: "",
+        },
+        image: "/images/speakers/neslihan.png",
+        bio: {
+            en: `
+ Neslihan Neciboğlu is the Chief Executive Officer of Neova Participation Insurance, a role she has held since July 2022. She also serves as a Board Member of the Insurance Association of Türkiye.
+She began her professional career in 2005 at Kuveyt Türk Participation Bank, where she held a number of senior positions, including Financial Analysis and Intelligence Manager, Corporate and Commercial Branch Sales and Marketing Manager, and Branch Manager. From 2013 onward, she took on several key roles in the bank’s risk management division, serving as Retail and SME Risk Monitoring Manager, Business Loans Risk Monitoring Manager, and ultimately, Risk Monitoring Group Manager.
+Ms. Neciboğlu holds a degree in Business Administration from the Middle East Technical University and brings nearly two decades of experience in banking, risk management, finance, and insurance to her current leadership position.
+ 
+            `,
+
+            tr: ""
+        },
+    },  
+    {
+        id: 31,
+        day:2,
+        name: "Stavros Dimopoulos",
+        title: {
+            en: "",
+            tr: "",
+        },
+        image: "/images/speakers/stavros.png",
+        bio: {
+            en: `
+Stavros is the FUEDI and immediate past President and now serves the association as the vice President. He is a FUEDI ELAE certified loss adjuster and a member of the Technical Chamber of Greece.
+He graduated as a Topographer back in 1997 from the National Technical University of Athens, where he also gained his first Master in the very popular nowadays GPS (MSC). Shortly afterwards in 2000 he became the first Greek loss adjuster with a certified Insurance training having completed the Hellenic Insurance Institute annual course. Later on, he completed his Master in Business Administration (MBA) and couple of years later his 3rd master at the field of Cyber and Information Security (InfoSec).
+Stavros is currently the General Manager of vrs experteam loss adjusters & surveyors.
+He has a more than 20 years of experience in loss adjusting and has actively handled and/or supervised more than 10,000 claims of all types.
+When not loss adjusting, Stavros is giving self-defense seminars being a two dan black belt holder and participates in motor racing.
+ 
+            `,
+
+            tr: ""
+        },
+    },
+    {
+        id: 21,
+        day:2,
+        name: "Arnaud R. Kopp",
+        title: {
+            en: "Senior Underwriter P&C – Head P&C Türkiye, Swiss Re",
+            tr: "Maher Holding Sigorta Grubu Başkanı",
+        },
+        image: "/images/speakers/arnaud.png",
+        bio: {
+            en: `
+          Arnaud Kopp is a senior underwriter at Swiss Re and market head for Property & Casualty business in Türkiye. He started his reinsurance career as a treaty casualty underwriter for the UK and Nordic markets and has since held several positions across Swiss Re’s Zurich office, including roles in underwriting,  client management and regional solutions for the Mediterranean markets.
+
+Beyond his underwriting responsibilities, he is active in education and innovation. He teaches a course on digital transformation in insurance at Université Paris-Dauphine and has mentored early-stage startups through several accelerator programmes.
+
+He studied insurance at Université Paris-Dauphine, management at Imperial College London, and law at the University of Strasbourg, the University of Exeter, and Cornell University.
+ 
+            `,
+            tr: ""
+        },
+    },
+    {
         id: 33,
         name: "Kristian Mangold",
+        day:2,
         title: {
             en: "",
             tr: "",
@@ -668,6 +690,7 @@ Mr. Fahri Altıngöz currently serves as the President of the Association of Ins
     {
         id: 28,
         name: "Marc M. BÜKER",
+        day:2,
         title: {
             en: "Board Member & Market Manager for Southern Mediterranean, North Africa and Francophone Africa , SCOR SE",
             tr: "",
@@ -682,6 +705,7 @@ SCOR Group Board Member (since 2022) and Market Manager for Southern Mediterrane
     },
     {
         id: 29,
+        day:2,
         name: "María Luisa Álvarez",
         title: {
             en: "",
@@ -695,42 +719,28 @@ María Luisa Álvarez Barby has been Insurance Inspector for over 10 years. She 
         },
     },
     {
-        id: 30,
-        name: "Mehsen Nehmeh",
+        id: 25,
+        day:2,
+        name: "Daniela Ghetu",
         title: {
             en: "",
             tr: "",
         },
-        image: "/images/speakers/mehsen.png",
+        image: "/images/speakers/daneila.png",
         bio: {
             en: `
-            Mehsen Nehmeh is a Divisional Director at Gallagher Re in London, leading actuarial analytics for the Turkish Team. Since joining Gallagher in 2021, he has successfully managed client relationships across Turkey, the Middle East, and North Africa, specialising in portfolio modelling, structural assessments, alternative solutions, and competitive pricing. Fluent in English, French, and Arabic, Mehsen brings 8+ years of industry experience from AXA and AIC, with academic credentials in Actuarial Mathematics and a Master’s in data science.
+         Daniela Ghetu is Editorial Director at XPRIMM Insurance Publications, a position she has held since 1999. With over two decades of experience, she is recognized as one of the leading voices on the insurance and private pensions markets in Romania and the wider CEE & CIS region.
+She coordinates the editorial policy of XPRIMM’s flagship publications, including the XPRIMM Insurance Report – CEE, SEE & CIS, country-specific reports, and thematic analyses on motor and property insurance. Her expertise also extends to developing industry media products, designing content for major international conferences, selecting speakers, and building strategic partnerships across markets.
+An experienced public speaker and moderator, Daniela frequently delivers presentations on insurance and pensions-related topics and contributes articles and market analyses to both Romanian and international financial media, including ASFALISTIKI AGORA (Greece), REINSURANCE (UK), Business Standard (Romania), and PLANSPONSOR Europe.
+Her specialties include corporate partnership development, publishing and editorial management, market analysis, and international consultancy.
+
             `,
- 
             tr: ""
         },
     },
     {
         id: 32,
-        name: "Neslihan Neciboğlu",
-        title: {
-            en: "",
-            tr: "",
-        },
-        image: "/images/speakers/neslihan.png",
-        bio: {
-            en: `
- Neslihan Neciboğlu is the Chief Executive Officer of Neova Participation Insurance, a role she has held since July 2022. She also serves as a Board Member of the Insurance Association of Türkiye.
-She began her professional career in 2005 at Kuveyt Türk Participation Bank, where she held a number of senior positions, including Financial Analysis and Intelligence Manager, Corporate and Commercial Branch Sales and Marketing Manager, and Branch Manager. From 2013 onward, she took on several key roles in the bank’s risk management division, serving as Retail and SME Risk Monitoring Manager, Business Loans Risk Monitoring Manager, and ultimately, Risk Monitoring Group Manager.
-Ms. Neciboğlu holds a degree in Business Administration from the Middle East Technical University and brings nearly two decades of experience in banking, risk management, finance, and insurance to her current leadership position.
- 
-            `,
- 
-            tr: ""
-        },
-    },
-    {
-        id: 32,
+        day:2,
         name: "Sinan Akkar",
         title: {
             en: "",
@@ -741,51 +751,73 @@ Ms. Neciboğlu holds a degree in Business Administration from the Middle East Te
             en: `
 Sinan Akkar is the principal catastrophe modeler at T Rupt Technology Inc. He served as a full-time professor at the Middle East Technical University and Boğaziçi University between 2003-2021. Professor Akkar’s major fields of expertise are probabilistic earthquake hazard and risk analyses, and he was involved several national and international projects related to these topics. As such, Prof. Akkar acted as the coordinator of National Seismic Hazard Map of Türkiye, and he was involved as hazard expert and ground motion modeler in SSHAC Level 2 and 3 nuclear power plant seismic hazard projects in the US, Europe Türkiye and Kingdom of Saudi Arabia. Prof. Akkar also served as the principal investigator of Revision of the Earthquake Premiums for Turkish Catastrophe Insurance Pool (TCIP) and Insurance Association of Türkiye. He published more than 200 technical papers in the international peer reviewed journals and conference proceedings at international and national levels. Sinan Akkar is the co-author of an international earthquake engineering book published by Springer that is currently translated into Chinese. He is a member of the board of directors in International Earthquake Engineering Association, Turkish Earthquake Foundation and the editorial board member of Journal of Earthquake Engineering.
             `,
- 
+
             tr: ""
         },
     },
     {
-        id: 31,
-        name: "Stavros Dimopoulos",
+        id: 26,
+        day:2,
+        name: "Dr Laurent Marescot",
+        title: {
+            en: "Senior Director, Insurance Solutions – Catastrophe Risk Management",
+            tr: "",
+        },
+        image: "/images/speakers/laurent.png",
+        bio: {
+            en: `
+ Dr Laurent Marescot is a senior catastrophe risk management expert at Moody’s Insurance Solutions, advising leading global and national re/insurers on natural catastrophe, agricultural, cyber, and terrorism risks. He also works with governmental and regulatory bodies, serving on the EIOPA Technical Expert Network on Catastrophe Risk.
+
+Since joining RMS (now part of Moody’s) in 2008, Laurent has held key roles within the company, focusing on the EMEA and APAC regions. These include Head of Product Management for Climate & Weather Risk and Global Agricultural Risk, where he drove strategy for new catastrophe model development. More recently, he has concentrated on developing innovative solutions and expanding into new markets and segments across EMEA.
+
+Before entering the industry, Laurent was a Research Associate and Lecturer in geophysics at ETH Zurich, managing international research programmes. As a regular speaker at leading industry conferences and an academic lecturer, he is recognised for his expertise in catastrophe modelling and the quantification of insurance risk.
+
+Concise version
+Dr Laurent Marescot, Senior Director at Moody’s Insurance Solutions, advises global and national re/insurers and regulatory bodies on natural catastrophe, agricultural, cyber, and terrorism risks. Recognised internationally for his expertise in catastrophe modelling, climate risk, and insurance risk quantification, he is a regular speaker at leading industry conferences and an academic lecturer.
+
+            `,
+            tr: ""
+        },
+    }, 
+    {
+        id: 23,
+        day:2,
+        name: "Dario Schiller",
         title: {
             en: "",
             tr: "",
         },
-        image: "/images/speakers/stavros.png",
+        image: "/images/speakers/dario.png",
         bio: {
             en: `
-Stavros is the FUEDI and immediate past President and now serves the association as the vice President. He is a FUEDI ELAE certified loss adjuster and a member of the Technical Chamber of Greece.
-He graduated as a Topographer back in 1997 from the National Technical University of Athens, where he also gained his first Master in the very popular nowadays GPS (MSC). Shortly afterwards in 2000 he became the first Greek loss adjuster with a certified Insurance training having completed the Hellenic Insurance Institute annual course. Later on, he completed his Master in Business Administration (MBA) and couple of years later his 3rd master at the field of Cyber and Information Security (InfoSec).
-Stavros is currently the General Manager of vrs experteam loss adjusters & surveyors.
-He has a more than 20 years of experience in loss adjusting and has actively handled and/or supervised more than 10,000 claims of all types.
-When not loss adjusting, Stavros is giving self-defense seminars being a two dan black belt holder and participates in motor racing.
- 
+    After the graduation with full votes at the University of Trieste (Italy) in Economic Science with specialization in Statistics and Actuarial Mathematics, started his career in Allianz Group in the Group Actuarial Dept.
+Main tasks as from the beginning were the analysis of new tariffs in the various EU countries of competence, the calculation of reserves, the economic impact of the productions, the projection of P/L and Asset & Liabilities of the companies of competence.
+After a first years’ period at the Home Office, he has been transfer abroad in Greece at the local Branch Office cooperating to the whole management turn over and being responsible for the underwriting, claim management, reinsurance placement and administration and the Management Information System for the financial planning and reporting to Home Office.
+Back to Home Office, after a short period, he has been entitled as CEO in the Group Mexican company, where the economic situation of the firm wasn’t solid so that the main task has been to promptly resolve all the organizational aspect with important impact to the company financial situation. The company after two years has been restored at a profitable status ready for a new Development Plan.
+Back again to Home Office, has been intitled to the group reinsurance as a group captive and for the open reinsurance market; additionally had the responsibility of projecting the reinsurance results of various strategic portfolios.
+After the experience in the Allianz Group is relevant to mention a positive experience as Reinsurance Broker, cooperating with BMS London for part of the EU market.
+Last experience relevant for the project is the one in Serbia as Chief Insurance Officer in a local company privatized by UnipolSai (Italy), where he had as major task the profitability analysis of all the product gamma, the launch of new products and the financial projections of the company.
+During the last 8 years he is in charge as Business Development Manager in Ultimate Risk Solutions Llc for the CEE Area and Turkey and as COO in Ultimate Risk Solutions Italia, responsible for the AMEA Area. 
+Additionally, during the same period, acting as Business Development Manager in CConsulting  SPA for the same markets.
+
             `,
- 
             tr: ""
         },
-    },
+    }, 
     {
-        id: 31,
-        name: "Vasilis Katsipis",
+        id: 30,
+        day:2,
+        name: "Mehsen Nehmeh",
         title: {
-            en: "SEO & General Manager, Market Development AM Best ",
+            en: "",
             tr: "",
         },
-        image: "/images/speakers/vasilis.png",
+        image: "/images/speakers/mehsen.png",
         bio: {
             en: `
-Vasilis Katsipis is based in Dubai and is SEO & General Manager, Market Development of AM Best for MENA, South & Central Asia.
-
-He has been with AM Best since 2011, having joined the company in London as a managing senior financial analyst and growing to the position of general manager, analytics for EMEA. He has written several pieces focusing on insurance and regulation in Europe and the MENA region and has participated in international bodies focused on establishing global standards for insurance.
-
-Prior to joining AM Best Vasilis was responsible for alternative distribution channels for GE Insurance Solutions. He has over 20 years of insurance and reinsurance experience, having focused on both the life and non-life sectors. He has held roles in high level operational and strategic positions. For most of his career, he has held international positions with either regional or global responsibilities.
-
-Vasilis holds an MBA from University of Wales and a BSc in economics from Piraeus University.
-
+            Mehsen Nehmeh is a Divisional Director at Gallagher Re in London, leading actuarial analytics for the Turkish Team. Since joining Gallagher in 2021, he has successfully managed client relationships across Turkey, the Middle East, and North Africa, specialising in portfolio modelling, structural assessments, alternative solutions, and competitive pricing. Fluent in English, French, and Arabic, Mehsen brings 8+ years of industry experience from AXA and AIC, with academic credentials in Actuarial Mathematics and a Master’s in data science.
             `,
- 
+
             tr: ""
         },
     },
