@@ -145,7 +145,7 @@ Lisans derecesini İstanbul Üniversitesi Siyasal Bilgiler Fakültesi İşletme 
         day:1,
         title: {
             en: "Master of Ceremony",
-            tr: "Sigorta Dünyası Dergisi Genel Yayın Yönetmeni.",
+            tr: "Master of Ceremony",
         },
         image: "/images/speakers/birant-yildiz.png",
         bio: {
