@@ -883,8 +883,8 @@ Dr Laurent Marescot, Senior Director at Moody’s Insurance Solutions, advises g
         day:2,
         name: "Dario Schiller",
         title: {
-            en: "İş Geliştirme Müdürü - Ultimate Risk Solutions  ",
-            tr: "Business Manager CEE, Ultimate Risk Solutions",
+            en: "Business Manager CEE, Ultimate Risk Solutions  ",
+            tr: " İş Geliştirme Müdürü - Ultimate Risk Solutions",
         },
         image: "/images/speakers/dario.png",
         bio: {
@@ -928,7 +928,7 @@ Ayrıca, aynı dönemde CConsulting  SPA'da aynı pazarlar için İş Geliştirm
         name: "Mehsen Nehmeh",
         title: {
             en: "Division Director, Gallagher Re",
-            tr: "Bölüm Direktörü, Gallagher Re ",
+            tr: "Bölüm Direktörü, Gallagher Re London",
         },
         image: "/images/speakers/mehsen.png",
         bio: {
