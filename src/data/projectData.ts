@@ -109,7 +109,7 @@ export const speakers:Speaker[] = [
         day:1,
         name: "Davut Menteş",
         title: {
-            en: "Chairman, IPRSA",
+            en: "President, IPRSA",
             tr: "Başkan, SEDDK ",
         },
         image: "/images/speakers/davut_mentes.png",
@@ -126,8 +126,8 @@ Lisans derecesini İstanbul Üniversitesi Siyasal Bilgiler Fakültesi İşletme 
         name: "Uğur GÜLEN",
         day:1,
         title: {
-            en: "Chairman, The Association of Insurance, Reinsurance and Pension Companies of Türkiye General Manager, Aksigorta ",
-            tr: "Başkan, Türkiye Sigorta, Reasürans ve Emeklilik Şirketleri Birliği Genel Müdür, Aksigorta ",
+            en: "President, Insurance Association of Türkiye",
+            tr: "Başkan, Türkiye Sigorta Birliği",
         },
         image: "/images/speakers/ugur_gulen.png",
         bio: {
@@ -145,7 +145,7 @@ Lisans derecesini İstanbul Üniversitesi Siyasal Bilgiler Fakültesi İşletme 
         day:1,
         title: {
             en: "Master of Ceremony",
-            tr: "Master of Ceremony",
+            tr: "Sunucu",
         },
         image: "/images/speakers/birant-yildiz.png",
         bio: {
@@ -180,8 +180,8 @@ He also has two books currently in preparation.
         day:1,
         name: "Thea Utoft Høj Jensen",
         title: {
-            en: "Director General, Insurance Europe",
-            tr: "Genel Direktör, Insurance Europe",
+            en: "General Director, Insurance Europe",
+            tr: "Genel Müdür, Insurance Europe",
         },
         image: "/images/speakers/theaa.png",
         bio: {
@@ -197,7 +197,7 @@ Thea Utoft Høj Jensen, Avrupa sigorta ve reasürans sektörünü temsil eden In
         day:1,
         name: "Özgür Obalı",
         title: {
-            en: "Secretary General, TSB",
+            en: " Secretary General, Insurance Association of Türkiye ",
             tr: "Genel Sekreter, Türkiye Sigorta Birliği (TSB)",
         },
         image: "/images/speakers/ozgur_obali.png",
@@ -220,7 +220,7 @@ Obalı has been working as the Secretary General of the Insurance Association of
         day:1,
         title: {
             en: "Associate Director, S&P Global Ratings",
-            tr: "Sachin Sahni Yardımcı Direktör, S&P Global Ratings ",
+            tr: "Yardımcı Direktör, S&P Global Ratings",
         },
         image: "/images/speakers/sachin.png",
         bio: {
@@ -237,7 +237,7 @@ Sachin Sahni, 2015 yılından beri S&P Global Ratings bünyesinde, DIFC - Dubai 
         day:1,
         title: {
             en: "Financial Services Leader, PwC Turkey ",
-            tr: "PwC Türkiye Finansal Hizmetler Lideri",
+            tr: "Türkiye Finansal Hizmetler Lideri PwC",
         },
         image: "/images/speakers/talan-gull.png",
         bio: {
@@ -280,8 +280,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         name: "Levent Tuzun",
         day:1,
         title: {
-            en: "Principal II at EBRD & Fellow at the Trilateral Commission",
-            tr: "II. Başkan, Avrupa İmar ve Kalkınma Bankası (EBRD) & Üçlü Komisyon Üyesi",
+            en: "Vice President, European Bank for Reconstruction and Development (EBRD) / Member, Trilateral Commission ",
+            tr: "II. Başkan, Avrupa İmar ve Kalkınma Bankası (EBRD) / Üye, Üçlü Komisyon ",
         },
         image: "/images/speakers/tuz.png",
         bio: {
@@ -298,8 +298,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         name: "Alexandru CIUNCAN",
         day:1,
         title: {
-            en: "President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR",
-            tr: "Başkan ve Genel Müdür, Romanya Sigorta ve Reasürans Şirketleri Birliği (UNSAR) ",
+            en: "President & General Manager, The National Association of Insurance and Reinsurance Companies in Romania (UNSAR)  ",
+            tr: "Başkan & Genel Müdür, Romanya Sigorta ve Reasürans Şirketleri Birliği (UNSAR) ",
         },
         image: "/images/speakers/alexandru.png",
         bio: {
@@ -312,8 +312,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         name: "Magdalena Ramada Sarasola",
         day:1,
         title: {
-            en: "PhD Global InsurTech Innovation Leader - Senior Director at WTW",
-            tr: "Global InsurTech İnovasyon Lideri – Kıdemli Direktör, WTW",
+            en: "Global InsurTech Innovation Leader / Senior Director, WTW",
+            tr: "Global InsurTech İnovasyon Lideri / Kıdemli Direktör, WTW ",
         },
         image: "/images/speakers/ramada.png",
         bio: {
@@ -326,8 +326,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         day:1,
         name: "Melike Nur Çınar",
         title: {
-            en: "Assistant General Manager",
-            tr: "Türkiye Sigorta Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı",
+            en: "Assistant General Manager, Türkiye Sigorta ",
+            tr: "Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı, Türkiye Sigorta ",
         },
         image: "/images/speakers/melike.png",
         bio: {
@@ -345,13 +345,17 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         name: "Yavuz Ölken",
         day:1,
         title: {
-            en: "Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye",
-            tr: "TSB Hayat Dışı İcra Kurulu Üyesi & AXA Türkiye CEO'su",
+            en: "Member of Non-Life Executive Board, TSB / CEO, AXA Türkiye ",
+            tr: "Hayat Dışı Yönetim Komitesi Üyesi, TSB / CEO, AXA Türkiye  ",
         },
         image: "/images/speakers/yavuz_olken.png",
         bio: {
-            en: " ",
-            tr: " ",
+            en: `
+            Yavuz Ölken, born in 1966 in Izmir, graduated from Istanbul Technical University as a Civil Engineer. He began his insurance career in 1991 at Halk Sigorta and held managerial roles at Inter Sigorta and Aviva Sigorta. In 2002, he joined AXA Sigorta as Assistant General Manager. Over the years, he led various departments including IT, Reinsurance, and Health. On April 1, 2018, he was appointed CEO of AXA Sigorta. 
+            `,
+            tr: `
+            1966 İzmir doğumlu Yavuz Ölken, İTÜ İnşaat Mühendisliği mezunudur. Sigortacılık kariyerine 1991’de Halk Sigorta’da başlamış, ardından İnter Sigorta ve Aviva Sigorta’da teknik yöneticilik yapmıştır. 2002’de AXA Sigorta’da Genel Müdür Yardımcısı olmuş; farklı birimlerden sorumlu görevler üstlenmiştir. 1 Nisan 2018'de AXA Sigorta CEO’su olarak atanmıştır. 
+            `,
         },
     },
     {
@@ -364,8 +368,13 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         },
         image: "/images/speakers/hassan.png",
         bio: {
-            en: "",
-            tr: "",
+            en: `
+            Hassan El-Shabrawishi is the CEO of AXA International Markets and a member of the AXA Group Management Committee. He previously served as CEO of AXA Africa Holding, AXA Next, and AXA Egypt. He led high-level projects at the IFC–World Bank and has extensive experience in insurance, innovation, and emerging markets. He is fluent in English, French, Spanish, and Arabic. 
+            
+            `,
+            tr: `
+            Hassan El-Shabrawishi, AXA International Markets CEO’su ve AXA Group Yönetim Komitesi üyesidir. Daha önce AXA Africa Holding, AXA Next, AXA Egypt gibi birimlerde CEO olarak görev yapmıştır. IFC Dünya Bankası'nda üst düzey projeler yürütmüş; sigorta, inovasyon ve gelişmekte olan pazarlarda geniş tecrübeye sahiptir. İngilizce, Fransızca, İspanyolca ve Arapça bilmektedir. 
+            `,
         },
     },
     {
@@ -373,8 +382,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         name: "Aysun Yıldız",
         day:1,
         title: {
-            en: "PhD (Assistant Secretary General, TSB)",
-            tr: "Genel Sekreter Yardımcısı, Türkiye Sigorta Birliği (TSB) ",
+            en: "Assistant Secretary General, Insurance Association of Türkiye",
+            tr: "Genel Sekreter Yardımcısı, Türkiye Sigorta Birliği ",
         },
         image: "/images/speakers/aysun-yildiz.png",
         bio: {
@@ -394,7 +403,7 @@ Kariyerine T.C. Hazine Müsteşarlığı Sigortacılık Genel Müdürlüğü’n
         name: "Matti Leppala",
         day:1,
         title: {
-            en: "Secretary General/CEO of PensionsEurope",
+            en: "Secretary General / CEO, PensionsEurope",
             tr: "Genel Sekreter / CEO, PensionsEurope",
         },
         image: "/images/speakers/matti.png",
@@ -410,7 +419,7 @@ Matti Leppälä, 2011 yılından bu yana PensionsEurope’un Genel Sekreteri ve 
         name: "Matt Singleton",
         day:1,
         title: {
-            en: "Proposition Manager CUO L&H Reinsurance Swiss Re",
+            en: "Proposition Manager at CUO L&H Reinsurance, Swiss Re",
             tr: "Hayat ve Sağlık Reasüransı Risk Değerlendirme Ofisi, Ürün ve Çözüm Yöneticisi – Swiss Re",
         },
         image: "/images/speakers/matt.png",
@@ -427,8 +436,8 @@ Matt, ayrıca pazarlama alanında yetkin bir uzmandır ve finansal hizmetler sek
         name: "SERKAN AVCI ",
         day:1,
         title: {
-            en: "CEO Chairman of Executive Committee",
-            tr: "CEO, Yönetim Kurulu İcra Komitesi Başkanı",
+            en: "CEO, Insurance Information and Monitoring Center",
+            tr: "Merkez Müdürü & İcra Komitesi Başkanı, SBM ",
         },
         image: "/images/speakers/serkan.png",
         bio: {
@@ -445,8 +454,8 @@ Ege Üniversitesi Bilgisayar Mühendisliği mezunu olan Sayın Serkan Avcı, fin
         day:1,
         name: "Onursal Polat",
         title: {
-            en: "General Manager, SFS Strategic Functional Systems ",
-            tr: "SFS Stratejik Fonksiyonel Sistemler Genel Müdürü",
+            en: "General Manager, SFS Software & Consultancy CO.",
+            tr: "Genel Müdür, SFS Software & Consultancy CO.",
         },
         image: "/images/speakers/onursal.png",
         bio: {
@@ -482,8 +491,8 @@ Mutlu Uğursal, born in 1971, graduated in Computer Engineering from ODTÜ METU.
         name: "Bilal Türkmen",
         day:1,
         title: {
-            en: "CEO, RS Holding Destech Technology Group ",
-            tr: "RS Holding Destech Teknoloji Grubu CEO ",
+            en: "CEO, RS Holding Destech Technology Group",
+            tr: "CEO, RS Holding Destech Teknoloji Grubu ",
         },
         image: "/images/speakers/bilal-turkmen.png",
         bio: {
@@ -505,11 +514,12 @@ Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde t
         name: "Emine Feray SEZGİN",
         title: {
             en: "Deputy Chairman of SEDDK",
-            tr: "SEDDK Başkan Yardımcısı",
+            tr: "Vice President, IPRSA ",
         },
         image: "/images/speakers/emine.png",
         bio: {
             en: `
+            Born in Ankara in 1982, Emine Feray Sezgin holds degrees in Mathematics and Business, and completed graduate studies in Actuarial Science at the University of Kent with honors. She began her career at the Turkish Treasury in 2009 as Assistant Actuary and became an Actuary in 2012. Since 2023, she has served as Vice President of the Insurance and Private Pension Regulation and Supervision Authority (SEDDK). She is fluent in English. 
          `,
             tr: `
             1982 yılında Ankara’da doğan Emine Feray SEZGİN, lisans eğitimini 2005 yılında Orta Doğu Teknik Üniversitesi Matematik Bölümünde ve ikinci lisans eğitimini ise 2008 yılında Anadolu Üniversitesi İşletme Bölümünde tamamlamıştır. Ayrıca 2006 yılında başladığı ODTÜ İktisat Bölümünde “İktisat Teorisi” üzerine yan dal programını bitirmiştir. 2005-2006 yılları arasında Ankara Üniversitesi İktisat Bölümü Yüksek Lisans Programının ders aşamasını başarıyla tamamlamıştır.  
@@ -527,8 +537,8 @@ Aktüerler Sicili’ne 148 sicil numarası ile kayıtlı olan Sayın Emine Feray
         name: "Ahmet Yaşar",
         day:2,
         title: {
-            en: "Vice President, Association of Insurance, Reinsurance and Pension Companies of Türkiye",   
-            tr: "Başkan Yardımcısı, Türkiye Sigorta, Reasürans ve Emeklilik Şirketleri Birliği",
+            en: "Vice President, Insurance Association of Türkiye ",   
+            tr: "Başkan Yardımcısı, Türkiye Sigorta Birliği",
         },
         image: "/images/speakers/ahmet-yasar.png",
         bio: {
@@ -562,7 +572,7 @@ Türkiye Sigortacılar Birliği Yönetim Kurulu Başkan Vekilliği, Hayat Dış�
         day:2,
         name: "Fahri Altıngöz",
         title: {
-            en: "Chairman of the Board of Directors and General Manager",
+            en: "President, Sigorta Tatbikatçıları Derneği  ",
             tr: "Başkan, Sigorta Tatbikatçıları Derneği",
         },
         image: "/images/speakers/fahri.png",
@@ -601,8 +611,8 @@ Halen, Sigorta Tatbikatçıları Derneği Başkanlığı görevini sürdürmekte
         day:2,
         name: "Charles Whitmore",
         title: {
-            en: "Global Head of Customer Relations, Guy Carpenter",
-            tr: "Global Müşteri İlişkileri Başkanı, Guy Carpenter ",
+            en: "President Global Clients, Guy Carpenter ",
+            tr: "Global Müşteri İlişkileri Başkanı, Guy Carpenter",
         },
         image: "/images/speakers/charles.png",
         bio: {
@@ -624,8 +634,8 @@ Halen, Sigorta Tatbikatçıları Derneği Başkanlığı görevini sürdürmekte
         name: "Vasilis Katsipis",
         day:2,
         title: {
-            en: "SEO & General Manager, Market Development AM Best ",
-            tr: "SEO ve Genel Müdür, A.M. Best Europe",
+            en: "General Manager, Market Development, MENA South and Central Asia, A.M. Best Europe ",
+            tr: "Genel Müdür, A.M. Best Europe",
         },
         image: "/images/speakers/vasilis.png",
         bio: {
@@ -656,7 +666,7 @@ Vasilis, Galler Üniversitesi'nden MBA ve Pire Üniversitesi'nden ekonomi alanı
         name: "Neslihan Neciboğlu",
         day:2,
         title: {
-            en: "General Manager, Neova Insurance",
+            en: "General Director, Neova Sigorta",
             tr: "Genel Müdür, Neova Sigorta ",
         },
         image: "/images/speakers/neslihan.png",
@@ -681,7 +691,7 @@ Profesyonel kariyerine 2005 yılında Kuveyt Türk Katılım Bankası'nda başla
         day:2,
         name: "Stavros Dimopoulos",
         title: {
-            en: "Vice President, Federation of European Damage Adjusters (FUEDI)",
+            en: "Vice President, European Federation of Loss Adjusting Experts (FUEDI)",
             tr: "Başkan Yardımcısı, Avrupa Hasar Eksperleri Federasyonu (FUEDI)",
         },
         image: "/images/speakers/stavros.png",
@@ -711,8 +721,8 @@ Hasar eksperliği alanında 20 yılı aşkın deneyime sahip olan Stavros, 10.00
         day:2,
         name: "Arnaud R. Kopp",
         title: {
-            en: "Senior Underwriter P&C – Head P&C Türkiye, Swiss Re",
-            tr: "P&C Türkiye Sorumlusu, Kıdemli Sigorta Uzmanı– Swiss RE",
+            en: "Senior Client Underwriter, Swiss Re ",
+            tr: "P&C Türkiye Sorumlusu & Kıdemli Sigorta Uzmanı, Swiss Re ",
         },
         image: "/images/speakers/arnaud.png",
         bio: {
@@ -763,7 +773,7 @@ Munich Re'de Kristian, parametrik doğal afet ve iklim çözümlerinde inovasyon
         name: "Marc M. BÜKER",
         day:2,
         title: {
-            en: "Board Member & Market Manager for Southern Mediterranean, North Africa and Francophone Africa , SCOR SE",
+            en: "Board Member / Market Manager, SCOR ",
             tr: "Yönetim Kurulu Üyesi ve Güney Akdeniz, Kuzey Afrika ve Fransızca Konuşulan Afrika Bölgesi Pazar Müdürü, SCOR SE ",
         },
         image: "/images/speakers/marc.png",
@@ -781,7 +791,7 @@ SCOR Group Board Member (since 2022) and Market Manager for Southern Mediterrane
         day:2,
         name: "María Luisa Álvarez",
         title: {
-            en: "Head of Capital Adequacy Sustainability, General Directorate of Insurance and Pension Funds, Spain",
+            en: " Head of Sustainability at the Solvency II Subdirectorate, Directorate General for Insurance and Pension Funds Spain",
             tr: "Sermaye Yeterliliği Sürdürülebilirlik Başkanı, Sigorta ve Emeklilik Fonları Genel Müdürlüğü, İspanya ",
         },
         image: "/images/speakers/maria.png",
@@ -799,8 +809,8 @@ María Luisa Álvarez Barby has been Insurance Inspector for over 10 years. She 
         day:2,
         name: "Daniela Ghetu",
         title: {
-            en: "Publishing Director, The XPRIMM Publications",
-            tr: "Yayın Direktörü, The XPRIMM Publications ",
+            en: "Editorial Director, XPRIMM",
+            tr: "Yayın Direktörü, XPRIMM",
         },
         image: "/images/speakers/daneila.png",
         bio: {
@@ -827,8 +837,8 @@ Uzmanlık alanları arasında kurumsal ortaklık geliştirme, yayıncılık ve e
         day:2,
         name: "Sinan Akkar",
         title: {
-            en: "Director of the Disaster Modeling and Data Analytics Department, T-Rupt",
-            tr: "Afet Modelleme ve Veri Analitiği Departmanı Direktörü, T-Rupt",
+            en: "Director of Catastrophe Modeling and Data Analytics Department, T-Rupt",
+            tr: "Afet Modelleme ve Veri Analitiği Departmanı Direktörü, T-Rupt ",
         },
         image: "/images/speakers/sinan-akkae.png",
         bio: {
@@ -847,8 +857,8 @@ Sinan Akkar is the principal catastrophe modeler at T Rupt Technology Inc. He se
         day:2,
         name: "Dr Laurent Marescot",
         title: {
-            en: "Senior Director, Insurance Solutions – Catastrophe Risk Management",
-            tr: "Kıdemli Direktör, Moody’s Insurance Solutions ",
+            en: "Senior Director, Moody’s Insurance Solutions ",
+            tr: "Kıdemli Direktör, Moody’s Insurance Solutions",
         },
         image: "/images/speakers/laurent.png",
         bio: {
@@ -873,8 +883,8 @@ Dr Laurent Marescot, Senior Director at Moody’s Insurance Solutions, advises g
         day:2,
         name: "Dario Schiller",
         title: {
-            en: "Business Development Manager - Ultimate Risk Solutions & CConsulting SPA",
-            tr: "İş Geliştirme Müdürü - Ultimate Risk Solutions & CConsulting SPA ",
+            en: "İş Geliştirme Müdürü - Ultimate Risk Solutions  ",
+            tr: "Business Manager CEE, Ultimate Risk Solutions",
         },
         image: "/images/speakers/dario.png",
         bio: {
@@ -936,7 +946,7 @@ Ayrıca, aynı dönemde CConsulting  SPA'da aynı pazarlar için İş Geliştirm
         day:2,
         name: "Gencay Genç",
         title: {
-            en: "Managing Partner, Genç Sigorta and GensureTech",
+            en: "CEO & Founder, Gensure Tech ",
             tr: "Yönetici Partner ,Genç Sigorta & Gensure Tech",
         },
         image: "/images/speakers/gencay.png",
@@ -946,8 +956,7 @@ Ayrıca, aynı dönemde CConsulting  SPA'da aynı pazarlar için İş Geliştirm
             `,
 
             tr: `
-            Sigorta sektöründe uzun yıllara dayanan deneyime sahip iş geliştirme lideri ve girişimci. Brokerlik, sigorta teknolojileri (InsurTech), sağlık sigortası ürünleri ve dijital dağıtım alanlarında uzman. İş planlama, operasyon yönetimi, satış ve dijital pazarlama konularında güçlü bir geçmişe sahip. Çağrı merkezi yönetimi ve yeni iş modelleri geliştirme alanında deneyimli.
-             `
+Gencay Genç, sigorta sektöründe uzun yıllara dayanan deneyime sahip iş geliştirme lideri ve girişimcidir. Brokerlik, sigorta teknolojileri (InsurTech), sağlık sigortası ürünleri ve dijital dağıtım alanlarında uzmanlığı bulunan Genç, iş planlama, operasyon yönetimi, satış ve dijital pazarlama konularında güçlü bir geçmişe sahip olup çağrı merkezi yönetimi ve yeni iş modelleri geliştirme alanında deneyim sahibidir.              `
         },
     },
     {
@@ -955,12 +964,13 @@ Ayrıca, aynı dönemde CConsulting  SPA'da aynı pazarlar için İş Geliştirm
         day:2,
         name: "Zerrin Sonışık",
         title: {
-            en: "Deputy General Manager, Sigortam.net",
+            en: "Assistant General Manager, Sigortam.net  ",
             tr: "Genel Müdür Yardımcısı, Sigortam.net",
         },
         image: "/images/speakers/zerrin.png",
         bio: {
             en: `
+            Zerrin Sonışık is a senior executive with over 30 years of experience in the insurance sector, with a strong background in finance, strategy, compliance, digital transformation, and brokerage. She was part of the founding team of Sigortam.net, Turkey’s first and leading digital insurance platform, where she served as CFO and Deputy GM (CSO & CCO), leading strategic partnerships, regulatory relations, and financial management. She has also served as a Board Member and Head of the Digital Committee at the Association of Insurance and Reinsurance Brokers (SBD). 
              `,
 
             tr: `
@@ -978,6 +988,7 @@ Sigorta sektöründe 30 yılı aşkın deneyime sahip üst düzey yönetici. Fin
         image: "/images/speakers/ersin.png",
         bio: {
             en: `
+            Ersin Al is an executive with over 15 years of experience in the insurance and finance sectors, specializing in digital transformation, strategic planning, and project and portfolio management. He led the digital transformation at Türkiye Sigorta and currently serves as the CEO of Colendi Sigorta. With entrepreneurial experience in the startup ecosystem, he has a strong vision in technology, data analytics, and customer experience. 
              `,
 
             tr: `
@@ -990,12 +1001,13 @@ Sigorta ve finans sektöründe 15 yılı aşkın deneyime sahip yönetici. Dijit
         day:2,
         name: "Buket Arslanalp Erşan",
         title: {
-            en: "Deputy General Manager, Fiba Insurance",
+            en: "Assistant General Manager, Fiba Sigorta",
             tr: "Genel Müdür Yardımcısı,  Fiba Sigorta",
         },
         image: "/images/speakers/buket.png",
         bio: {
             en: `
+            Buket Arslanalp Erşan is an experienced executive with nearly 20 years in the insurance sector, specializing in sales, marketing, alternative distribution channels, and customer experience. She has a strong background in bancassurance, corporate sales, call center management, and project development. She currently serves as the Deputy General Manager responsible for Marketing (CMO) at Fiba Sigorta A.Ş. 
              `,
 
             tr: `
@@ -1007,12 +1019,13 @@ Sigorta sektöründe 20 yıla yakın deneyime sahip, satış, pazarlama, alterna
         day:2,
         name: "Mehmet Akif Özdemir ",
         title: {
-            en: "Co Founder & CEO  EasyCep ",
+            en: "Co-Founder & CEO  EasyCep ",
             tr: "Kurucu Ortak & CEO  EasyCep ",
         },
         image: "/images/speakers/mehmet-akif.png",
         bio: {
             en: `
+            Mehmet Akif Özdemir is an entrepreneur and technology leader. As the co-founder and CEO of EasyCep, he established one of Türkiye’s leading brands in the refurbished electronics market. With a background in software and mechanical engineering, he specializes in business development, operations management, and scalable technology-based business models. He is an active member of global entrepreneurship communities as a member of the Forbes Business Council. 
              `,
 
             tr: `
