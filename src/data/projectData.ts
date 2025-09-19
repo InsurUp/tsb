@@ -513,8 +513,8 @@ Bilal Türkmen, lisans eğitimini Akdeniz Üniversitesi İşletme bölümünde t
         day:2,
         name: "Emine Feray SEZGİN",
         title: {
-            en: "Deputy Chairman of SEDDK",
-            tr: "Vice President, IPRSA ",
+            en: "Vice President, IPRSA",
+            tr: "Başkan Yardımcısı, SEDDK ",
         },
         image: "/images/speakers/emine.png",
         bio: {
