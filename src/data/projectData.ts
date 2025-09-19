@@ -946,6 +946,7 @@ Ayrıca, aynı dönemde CConsulting  SPA'da aynı pazarlar için İş Geliştirm
             `,
 
             tr: `
+            Sigorta sektöründe uzun yıllara dayanan deneyime sahip iş geliştirme lideri ve girişimci. Brokerlik, sigorta teknolojileri (InsurTech), sağlık sigortası ürünleri ve dijital dağıtım alanlarında uzman. İş planlama, operasyon yönetimi, satış ve dijital pazarlama konularında güçlü bir geçmişe sahip. Çağrı merkezi yönetimi ve yeni iş modelleri geliştirme alanında deneyimli.
              `
         },
     },
