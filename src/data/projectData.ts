@@ -280,7 +280,7 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         name: "Levent Tuzun",
         day:1,
         title: {
-            en: "Vice President, European Bank for Reconstruction and Development (EBRD) / Member, Trilateral Commission ",
+            en: " Principal II, European Bank for Reconstruction and Development (EBRD)",
             tr: "II. Başkan, Avrupa İmar ve Kalkınma Bankası (EBRD) / Üye, Üçlü Komisyon ",
         },
         image: "/images/speakers/tuz.png",
@@ -1519,7 +1519,7 @@ Department, T-Rupt)</li>
   <ul>
         <li>Sachin Sahni (Associate Director, S&P Global Ratings)</li>
          <li>Talar Gül (PwC Türkiye Financial Services Leader)</li>
-        <li>Levent Tuzun (Principal II at EBRD & Fellow at the Trilateral Commission)</li>
+        <li>Levent Tuzun ( Principal II, European Bank for Reconstruction and Development (EBRD))</li>
         <li>Alexandru Ciuncan (President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR)</li>
    </ul>
                 `
