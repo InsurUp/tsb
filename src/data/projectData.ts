@@ -1458,10 +1458,10 @@ Department, T-Rupt)</li>
       <p><strong>Moderatör:</strong> Gencay Genç (SBD Board Member)</p>
       <p>Konuşmacılar:</p>
       <ul>
-        <li>Zerrin Sonışık (Sigortam.net Deputy General Manager )</li>
-         <li>Ersin Al (Colendi Sigorta CEO'su ) </li>
-        <li>Buket Erşan (FibaSigorta Asistant General Manager )</li>
-        <li>Mehmet Akif Özdemir (Mehmet Akif Özdemir - EasyCep Co-Founder&CEO ) </li> 
+        <li>Zerrin Sonışık (Sigortam.net Deputy General Manager)</li>
+         <li>Ersin Al (Colendi Sigorta CEO'su) </li>
+        <li>Buket Erşan (FibaSigorta Asistant General Manager)</li>
+        <li>Mehmet Akif Özdemir (Mehmet Akif Özdemir - EasyCep Co-Founder&CEO) </li> 
        </ul>
                     `
                 },
