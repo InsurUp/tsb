@@ -281,7 +281,7 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         day:1,
         title: {
             en: " Principal II, European Bank for Reconstruction and Development (EBRD)",
-            tr: "II. Başkan, Avrupa İmar ve Kalkınma Bankası (EBRD) / Üye, Üçlü Komisyon ",
+            tr: "Principal II, European Bank for Reconstruction and Development (EBRD) ",
         },
         image: "/images/speakers/tuz.png",
         bio: {
@@ -1286,7 +1286,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
       <ul>
         <li>Sachin Sahni (Yardımcı Direktör, S&P Global Ratings)</li>
          <li>Talar Gül (PwC Türkiye Finansal Hizmetler Lideri)</li>
-        <li>Levent Tuzun (Avrupa İmar ve Kalkınma Bankası II. Başkanı & Üçlü Komisyon Üyesi) </li>
+        <li>Levent Tuzun (Principal II, European Bank for Reconstruction and Development (EBRD)) </li>
         <li>Alexandru Ciuncan (Başkan, Romanya Sigorta ve Reasürans Şirketleri Birliği – UNSAR) </li>
        </ul>
                     `
@@ -1454,14 +1454,14 @@ Department, T-Rupt)</li>
                     time: "16.00 - 17.30",
                     title: "OTURUM 3",
                     content: `
-                      <p>Gömülü Sigortacılık Çağı: Ortaya Çıkan Teknolojilerin Sessiz Devrimi</p>
-      <p><strong>Moderatör:</strong> Gencay Genç (Managing Partner , Genç Sigorta & Gensure Tech)</p>
+                      <p>Embedded Insurance Çağı: Son Teknolojilerle Gelen Sessiz Devrim</p>
+      <p><strong>Moderatör:</strong> Gencay Genç (SBD Board Member)</p>
       <p>Konuşmacılar:</p>
       <ul>
-        <li>Zerrin Sonışık (Deputy General Manager, Sigortam.net)</li>
-         <li>Ersin Al (CEO, Colendi Sigorta) </li>
-        <li>Buket Arslanalp Erşan (Asistant General Manager , Fiba Sigorta)</li>
-        <li>Mehmet Akif Özdemir (Co-Founder&CEO  , EasyCep) </li> 
+        <li>Zerrin Sonışık (Sigortam.net Deputy General Manager )</li>
+         <li>Ersin Al (Colendi Sigorta CEO'su ) </li>
+        <li>Buket Erşan (FibaSigorta Asistant General Manager )</li>
+        <li>Mehmet Akif Özdemir (Mehmet Akif Özdemir - EasyCep Co-Founder&CEO ) </li> 
        </ul>
                     `
                 },
@@ -1697,7 +1697,7 @@ Department, T-Rupt)</li>
       <ul>
         <li>Zerrin Sonışık (Deputy General Manager, Sigortam.net)</li>
          <li>Ersin Al (CEO, Colendi Sigorta) </li>
-        <li>Buket Arslanalp Erşan (Asistant General Manager , Fiba Sigorta)</li>
+        <li>Buket Erşan (Asistant General Manager , Fiba Sigorta)</li>
         <li>Mehmet Akif Özdemir (Co-Founder&CEO  , EasyCep) </li> 
        </ul>
                     `
