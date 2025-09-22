@@ -946,8 +946,8 @@ Ayrıca, aynı dönemde CConsulting  SPA'da aynı pazarlar için İş Geliştirm
         day:2,
         name: "Gencay Genç",
         title: {
-            en: "CEO & Founder, Gensure Tech ",
-            tr: "Yönetici Partner ,Genç Sigorta & Gensure Tech",
+            en: "SBD Board Member",
+            tr: "SBD Board Member",
         },
         image: "/images/speakers/gencay.png",
         bio: {
@@ -964,8 +964,8 @@ Gencay Genç, sigorta sektöründe uzun yıllara dayanan deneyime sahip iş geli
         day:2,
         name: "Zerrin Sonışık",
         title: {
-            en: "Assistant General Manager, Sigortam.net  ",
-            tr: "Genel Müdür Yardımcısı, Sigortam.net",
+            en: "Sigortam.net Deputy General Manager",
+            tr: "Sigortam.net Deputy General Manager ",
         },
         image: "/images/speakers/zerrin.png",
         bio: {
@@ -982,8 +982,8 @@ Sigorta sektöründe 30 yılı aşkın deneyime sahip üst düzey yönetici. Fin
         day:2,
         name: "Ersin Al ",
         title: {
-            en: "CEO, Colendi Sigorta",
-            tr: "CEO, Colendi Sigorta",
+            en: "Colendi Sigorta CEO'su",
+            tr: "Colendi Sigorta CEO'su",
         },
         image: "/images/speakers/ersin.png",
         bio: {
@@ -999,10 +999,10 @@ Sigorta ve finans sektöründe 15 yılı aşkın deneyime sahip yönetici. Dijit
     {
         id: 42,
         day:2,
-        name: "Buket Arslanalp Erşan",
+        name: "Buket Erşan",
         title: {
-            en: "Assistant General Manager, Fiba Sigorta",
-            tr: "Genel Müdür Yardımcısı,  Fiba Sigorta",
+            en: "FibaSigorta Asistant General Manager ",
+            tr: "FibaSigorta Asistant General Manager ",
         },
         image: "/images/speakers/buket.png",
         bio: {
@@ -1019,8 +1019,8 @@ Sigorta sektöründe 20 yıla yakın deneyime sahip, satış, pazarlama, alterna
         day:2,
         name: "Mehmet Akif Özdemir ",
         title: {
-            en: "Co-Founder & CEO  EasyCep ",
-            tr: "Kurucu Ortak & CEO  EasyCep ",
+            en: "EasyCep Co-Founder&CEO ",
+            tr: "EasyCep Co-Founder&CEO ",
         },
         image: "/images/speakers/mehmet-akif.png",
         bio: {
