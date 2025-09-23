@@ -123,7 +123,7 @@ const AgendaSection: React.FC<{ locale: string }> = ({ locale }) => {
                                                     className='md:py-[28px]! py-[0]!'
                                                 >
                                                     <Typography className='flex'>
-                                                        <span className="mr-2 text-black text-lg md:mr-[40px]">{item.time}</span>
+                                                        <span className="mr-2 text-black text-lg md:mr-[40px] block md:min-w-[120px]">{item.time}</span>
                                                         {item.href ? (
                                                             <a href={item.href} target="_blank" rel="noopener noreferrer" className="font-bold text-black sm:text-xl!">{item.title}</a>
                                                         ) : (
@@ -136,8 +136,8 @@ const AgendaSection: React.FC<{ locale: string }> = ({ locale }) => {
                                                 </AccordionDetails>
                                             </Accordion>
                                         ) : (
-                                            <Typography key={`item-${dayIndex}-${itemIndex}`} className="font-bold md:py-[40px]! py-[20px]!" sx={{ borderBottom: '1px solid rgb(0, 83, 155,17%)' }}>
-                                                <span className="mr-2 text-black text-lg md:mr-[40px]">{item.time}</span>
+                                            <Typography key={`item-${dayIndex}-${itemIndex}`} className="font-bold md:py-[40px]! py-[20px]! flex" sx={{ borderBottom: '1px solid rgb(0, 83, 155,17%)' }}>
+                                                <span className="mr-2 text-black text-lg md:mr-[40px] block md:min-w-[120px]">{item.time}</span>
                                                 {item.href ? (
                                                     <a href={item.href} target="_blank" rel="noopener noreferrer" className="font-bold text-black text-xl!">{item.title}</a>
                                                 ) : (

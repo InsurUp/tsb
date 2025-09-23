@@ -236,8 +236,8 @@ Sachin Sahni, 2015 yılından beri S&P Global Ratings bünyesinde, DIFC - Dubai 
         name: "Talar Gül",
         day:1,
         title: {
-            en: "Financial Services Leader, PwC Turkey ",
-            tr: "Türkiye Finansal Hizmetler Lideri PwC",
+            en: "Financial Services Leader, PwC Turkey",
+            tr: "Finansal Hizmetler Lideri, PwC Türkiye",
         },
         image: "/images/speakers/talan-gull.png",
         bio: {
@@ -313,7 +313,7 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         day:1,
         title: {
             en: "Global InsurTech Innovation Leader / Senior Director, WTW",
-            tr: "Global InsurTech İnovasyon Lideri / Kıdemli Direktör, WTW ",
+            tr: "Global InsurTech İnovasyon Lideri – Kıdemli Direktör, WTW",
         },
         image: "/images/speakers/ramada.png",
         bio: {
@@ -326,8 +326,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         day:1,
         name: "Melike Nur Çınar",
         title: {
-            en: "Assistant General Manager, Türkiye Sigorta ",
-            tr: "Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı, Türkiye Sigorta ",
+            en: "Assistant General Manager, Türkiye Sigorta",
+            tr: "Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı, Türkiye Sigorta",
         },
         image: "/images/speakers/melike.png",
         bio: {
@@ -345,8 +345,8 @@ sigorta alt komitesi ve Solvency II komitesi üyeliğinde bulunmuştur.
         name: "Yavuz Ölken",
         day:1,
         title: {
-            en: "Member of Non-Life Executive Board, TSB / CEO, AXA Türkiye ",
-            tr: "Hayat Dışı Yönetim Komitesi Üyesi, TSB / CEO, AXA Türkiye  ",
+            en: "Member of Non-Life Executive Board, TSB / CEO, AXA Türkiye",
+            tr: "Hayat Dışı Yönetim Komitesi Üyesi, TSB / CEO, AXA Türkiye",
         },
         image: "/images/speakers/yavuz_olken.png",
         bio: {
@@ -437,7 +437,7 @@ Matt, ayrıca pazarlama alanında yetkin bir uzmandır ve finansal hizmetler sek
         day:1,
         title: {
             en: "CEO, Insurance Information and Monitoring Center",
-            tr: "Merkez Müdürü & İcra Komitesi Başkanı, SBM ",
+            tr: "Merkez Müdürü & İcra Komitesi Başkanı, SBM",
         },
         image: "/images/speakers/serkan.png",
         bio: {
@@ -1090,6 +1090,7 @@ export const sponsorData: LocalizedSponsorData = {
                 tr: "Destek Sponsoru",
             },
             sponsors: [
+                { name: "Destek Sponsor - Affinity Box (AFB Bilişim Sistemleri A.Ş.)", logo: "/images/brands/affinity.jpg", width: 100, height: 100 },
                 { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
                 { name: "C Consulting S.p.A.", logo: "/images/brands/logicc.png", width: 100, height: 100 },
                 { name: "Garanti BBVA", logo: "/images/brands/bbva.jpeg", width: 100, height: 100 },
@@ -1172,6 +1173,8 @@ export const sponsorData: LocalizedSponsorData = {
                 tr: "Destek Sponsoru",
             },
             sponsors: [
+                { name: "Destek Sponsor - Affinity Box (AFB Bilişim Sistemleri A.Ş.)", logo: "/images/brands/affinity.jpg", width: 100, height: 100 },
+
                 { name: "AM Best", logo: "/images/brands/ambest.png", width: 100, height: 67 },
                 { name: "C Consulting S.p.A.", logo: "/images/brands/logicc.png", width: 100, height: 100 },
                 { name: "Garanti BBVA", logo: "/images/brands/bbva.jpeg", width: 100, height: 100 },
@@ -1300,7 +1303,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     title: "Motivasyon Konuşması",
                     content: `
                     <p>Sigortacılıkta Dijital Dönüşüm ve Yapay Zekâ: Yenilik ve Etkinin Güçlü Yolculuğu</p>
-                    <p><strong>Magdalena Ramada Sarasola,</strong> (Global InsurTech İnovasyon Lideri – Kıdemli Direktör, WTW) </p>
+                    <p><strong>Magdalena Ramada Sarasola</strong> (Global InsurTech İnovasyon Lideri – Kıdemli Direktör, WTW) </p>
                     `
                 },
                 {
@@ -1309,7 +1312,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     content: `
                      
                         <p>Hayat dışı sigortacılıkta operasyon, fiyatlama ve risk değerlendirmesinin şekillenmesinde gelişmiş teknolojiler, otomasyon ve yapay zekânın rolü: zorluklar ve fırsatlar</p>
-                      <p><strong>Melike Nur Çınar</strong> Türkiye Sigorta Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı</p>
+                      <p><strong>Melike Nur Çınar</strong> Oto, Tarım Sigortaları ve Aktüerya Genel Müdür Yardımcısı, Türkiye Sigorta</p>
                     `
                 },
                 {
@@ -1323,7 +1326,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                      <p><strong>Avrupa ve Türkiye'de Sigortacılığın Dijital Geleceği Üzerine Bir Diyalog:</strong></p>
                       <p>İnovasyon, Regülasyon ve Sigorta Ekosistemleri Arası İş Birliği </p>
                       <ul>
-                        <li><strong>Yavuz Ölken</strong> (TSB Hayat Dışı Yönetim Komitesi Üyesi & CEO, AXA Türkiye) </li>
+                        <li><strong>Yavuz Ölken</strong> (Hayat Dışı Yönetim Komitesi Üyesi, TSB / CEO, AXA Türkiye) </li>
                         <li><strong>Hassan El-Shabrawishi</strong> (AXA Uluslararası Pazarlar, CEO)</li>
                       </ul>
                     `
@@ -1347,12 +1350,12 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     title: "OTURUM 4",
                     content: ` 
                     <p>Insurtech Bakış Açısıyla Dijitalleşme: Fırsatlar ve Zorluklar</p>
-                    <p><strong>Moderatör:</strong> Serkan Avcı – Merkez Müdürü, SBM </p>
+                    <p><strong>Moderatör:</strong> Serkan Avcı – Merkez Müdürü & İcra Komitesi Başkanı, SBM</p>
                     <p><strong>Konuşmacılar:</strong></p>
                     <ul>
-                      <li>Onursal Polat - SFS Stratejik Fonksiyonel Sistemler Genel Müdürü</li>
-                      <li>Mutlu Uğursal – Agito CEO</li>
-                      <li>Bilal Türkmen - Destech Teknoloji Grubu CEO, RS Holding</li>
+                      <li>Onursal Polat - Genel Müdür, SFS Software & Consultancy CO.</li>
+                      <li>Mutlu Uğursal – CEO, Agito</li>
+                      <li>Bilal Türkmen - CEO, RS Holding Destech Teknoloji Grubu</li>
                     </ul>
                   `
                 },
@@ -1533,7 +1536,7 @@ Department, T-Rupt)</li>
                     title: "Motivational Speaker",
                     content: `
                 <p>Digital Transformation and AI in Insurance: A Tour de Force of Innovation and Impact </p>
-                    <p><strong>Magdalena Ramada Sarasola,</strong> (PhD Global InsurTech Innovation Leader - Senior Director at WTW)   </p>
+                    <p><strong>Magdalena Ramada Sarasola</strong> (PhD Global InsurTech Innovation Leader - Senior Director at WTW)   </p>
                 `
                 },
                 {
@@ -1542,7 +1545,7 @@ Department, T-Rupt)</li>
                     content: `
                 
                     <p> The role of advanced technologies, automation, and AI in reshaping operations, pricing and underwriting in non-life insurance: challenges and opportunities </p>
-                      <p><strong>Melike Nur Çınar</strong> Assistant General Manager</p>
+                      <p><strong>Melike Nur Çınar</strong> Assistant General Manager, Türkiye Sigorta</p>
                 `
                 },
                 {
@@ -1556,7 +1559,7 @@ Department, T-Rupt)</li>
                   <p><strong>A Dialogue on the Digital Future of Insurers in Europe and Türkiye:</strong></p>
                   <p>Exploring Innovation, Regulation, and Collaboration Across Insurance Ecosystems</p>
                   <ul>
-                    <li><strong>Yavuz Ölken</strong> (Member of Non-Life Executive Board, TSB & CEO, AXA Türkiye)</li>
+                    <li><strong>Yavuz Ölken</strong> (Member of Non-Life Executive Board, TSB / CEO, AXA Türkiye)</li>
                         <li><strong>Hassan El-Shabrawishi</strong> (AXA International Markets, CEO)</li>
                   </ul>
 
@@ -1581,12 +1584,12 @@ Department, T-Rupt)</li>
                     title: "SESSION 4",
                     content: ` 
                     <p>Digitalization from Insurtech Perspective Opportunities and Challenges</p>
-                    <p><strong>Moderatör:</strong> Serkan Avcı – CEO Chairman of Executive Committee </p>
+                    <p><strong>Moderatör:</strong> Serkan Avcı – CEO, Insurance Information and Monitoring Center </p>
                     <p><strong>Speakers:</strong></p>
                     <ul>
-                      <li>Onursal Polat - General Manager of Strategic Functional Systems, SFS</li>
+                      <li>Onursal Polat - General Manager, SFS Software & Consultancy CO.</li>
                       <li>Mutlu Uğursal – CEO, Agito</li>
-                      <li>Bilal Türkmen - Member of the Management Board of RS Otomotiv Grubu</li>
+                      <li>Bilal Türkmen - CEO, RS Holding Destech Technology Group</li>
                     </ul>
                   `
                 },
