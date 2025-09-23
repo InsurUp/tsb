@@ -1521,7 +1521,7 @@ Department, T-Rupt)</li>
   <p>Speakers:</p>
   <ul>
         <li>Sachin Sahni (Associate Director, S&P Global Ratings)</li>
-         <li>Talar Gül (PwC Türkiye Financial Services Leader)</li>
+         <li>Talar Gül (Financial Services Leader, PwC Turkey)</li>
         <li>Levent Tuzun ( Principal II, European Bank for Reconstruction and Development (EBRD))</li>
         <li>Alexandru Ciuncan (President & General Manager, The National Union of Insurance and Reinsurance Companies of Romania - UNSAR)</li>
    </ul>
