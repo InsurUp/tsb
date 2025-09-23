@@ -1288,7 +1288,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
       <p>Konuşmacılar:</p>
       <ul>
         <li>Sachin Sahni (Yardımcı Direktör, S&P Global Ratings)</li>
-         <li>Talar Gül (PwC Türkiye Finansal Hizmetler Lideri)</li>
+         <li>Talar Gül (Finansal Hizmetler Lideri, PwC Türkiye)</li>
         <li>Levent Tuzun (Principal II, European Bank for Reconstruction and Development (EBRD)) </li>
         <li>Alexandru Ciuncan (Başkan, Romanya Sigorta ve Reasürans Şirketleri Birliği – UNSAR) </li>
        </ul>
