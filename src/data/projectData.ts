@@ -1320,7 +1320,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     title: "Kahve Molası"
                 },
                 {
-                    time: "15.00 - 15.30",
+                    time: "15.15 - 15.45",
                     title: "OTURUM 2 ",
                     content: `
                      <p><strong>Avrupa ve Türkiye'de Sigortacılığın Dijital Geleceği Üzerine Bir Diyalog:</strong></p>
@@ -1332,7 +1332,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "15.30 - 16.00",
+                    time: "15.45 - 16.15",
                     title: "OTURUM 3",
                     content: `
                       <p>Dijital Dönüşüm, Hayat ve Sağlık Sigortacılığında Yeni Bir Dönem mi Başlatıyor?</p>
@@ -1346,7 +1346,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                     `
                 },
                 {
-                    time: "16.00 - 16.45",
+                    time: "16.15 - 17.00",
                     title: "OTURUM 4",
                     content: ` 
                     <p>Insurtech Bakış Açısıyla Dijitalleşme: Fırsatlar ve Zorluklar</p>
@@ -1360,7 +1360,7 @@ Yeni Teknolojilerin Etkileri, Üretken Yapay Zekâ ve Sigortacıların Karşıla
                   `
                 },
                 {
-                    time: "16.45 - 17.00",
+                    time: "17.00 - 17.15",
                     title: "Kapanış Konuşması",
                 },
                 {
@@ -1553,7 +1553,7 @@ Department, T-Rupt)</li>
                     title: "Coffee Break"
                 },
                 {
-                    time: "15.00 - 15.30",
+                    time: "15.15 - 15.45",
                     title: "SESSION 2",
                     content: `
                   <p><strong>A Dialogue on the Digital Future of Insurers in Europe and Türkiye:</strong></p>
@@ -1566,7 +1566,7 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "15.30 - 16.00",
+                    time: "15.45 - 16.15",
                     title: "SESSION 3",
                     content: `
                   <p> Is Digital Transformation Reshaping the Landscape for Life & Health Insurers? </p>
@@ -1580,7 +1580,7 @@ Department, T-Rupt)</li>
                 `
                 },
                 {
-                    time: "16.00 - 16.45",
+                    time: "16.15 - 17.00",
                     title: "SESSION 4",
                     content: ` 
                     <p>Digitalization from Insurtech Perspective Opportunities and Challenges</p>
@@ -1594,7 +1594,7 @@ Department, T-Rupt)</li>
                   `
                 },
                 {
-                    time: "16.45 - 17.00",
+                    time: "17.00 - 17.15",
                     title: "Closing Remarks",
                 },
                 {
