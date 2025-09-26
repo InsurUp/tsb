@@ -104,7 +104,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
             phone: values.phone,
             company: values.company,
             title: values.title,
-            participation_type: values.participationType,
+            participationType: values.participationType,
           },
           publicKey
         );
