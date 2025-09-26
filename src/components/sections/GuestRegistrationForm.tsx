@@ -73,40 +73,43 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
         },
         onSubmit: async (values, { setSubmitting, resetForm }) => {
             try {
-                const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID';
-                const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
-                const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY'; 
-                if (serviceId === 'YOUR_SERVICE_ID' || templateId === 'YOUR_TEMPLATE_ID' || publicKey === 'YOUR_PUBLIC_KEY') {
-                    console.error("EmailJS credentials missing. Please check the .env.local file.");
-                    MySwal.fire({
-                        icon: 'error',
-                        title: content.errorTitle,
-                        text: content.errorMessageEmailJS,
-                    });
-                    setSubmitting(false);
-                    return;
-                }
-                console.log(serviceId, templateId, publicKey);
-                emailjs.init(publicKey);
-
-                await emailjs.send(serviceId, templateId, values);
-
-                MySwal.fire({
-                    icon: 'success',
-                    title: content.successTitle,
-                    text: content.successMessage,
-                });
-                resetForm();
-            } catch {  
-                MySwal.fire({
-                    icon: 'error',
-                    title: content.errorTitle,
-                    text: content.errorMessageGeneral,
-                });
+              // 1) EmailJS gönder
+              const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
+              const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "";
+              const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "";
+          
+              emailjs.init(publicKey);
+              await emailjs.send(serviceId, templateId, values);
+          
+              // 2) Mailchimp'e abone ekle + tag ver
+              await fetch("/api/mailchimp/subscribe", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  fullName: values.fullName,
+                  email: values.email,
+                  company: values.company,
+                }),
+              });
+          
+              MySwal.fire({
+                icon: "success",
+                title: content.successTitle,
+                text: content.successMessage,
+              });
+          
+              resetForm();
+            } catch {
+              MySwal.fire({
+                icon: "error",
+                title: content.errorTitle,
+                text: content.errorMessageGeneral,
+              });
             } finally {
-                setSubmitting(false);
+              setSubmitting(false);
             }
-        },
+          }
+          
     });
 
     // KVKK metni içindeki bağlantı metnini tespit etmek için
