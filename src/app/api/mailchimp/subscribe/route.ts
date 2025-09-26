@@ -10,9 +10,14 @@ mailchimp.setConfig({
 const LIST_ID = process.env.MAILCHIMP_AUDIENCE_ID!;
 const TAG_NAME = "form-welcome"; // Journey tetiklemek için kullanılacak
 
+// Hata tipini daha güvenli şekilde tanımlayalım
+type ErrorWithMessage = {
+  message?: string;
+};
+
 export async function POST(req: Request) {
   try {
-    const { fullName, email, company } = await req.json();
+    const { fullName, email, company }: { fullName?: string; email: string; company?: string } = await req.json();
 
     if (!email) {
       return NextResponse.json({ ok: false, error: "Email gerekli" }, { status: 400 });
@@ -20,23 +25,17 @@ export async function POST(req: Request) {
 
     const subscriberHash = crypto.createHash("md5").update(email.toLowerCase()).digest("hex");
 
-    // İsim soyisim ayır
-    let firstName = fullName;
-    let lastName = "";
-    if (fullName && fullName.includes(" ")) {
-      const parts = fullName.trim().split(" ");
-      firstName = parts[0];
-      lastName = parts.slice(1).join(" ");
-    }
+    // İsim soyisim ayırmak istersen burayı genişletebilirsin
+    const firstName = fullName || "";
 
     // Audience’a ekle/güncelle
     await mailchimp.lists.setListMember(LIST_ID, subscriberHash, {
       email_address: email,
       status_if_new: "subscribed",
       merge_fields: {
-        FNAME: firstName || "", 
+        FNAME: firstName,
         MMERGE3: company || "", // Şirket
-        EMAIL:email || ""
+        EMAIL: email,
       },
     });
 
@@ -46,9 +45,9 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ ok: true });
-  } catch (err: any) {
-    console.error(err);
-    return NextResponse.json({ ok: false, error: err.message }, { status: 500 });
+  } catch (err: unknown) {
+    const error = err as ErrorWithMessage;
+    console.error(error);
+    return NextResponse.json({ ok: false, error: error.message ?? "Bilinmeyen hata" }, { status: 500 });
   }
 }
- 
