@@ -24,14 +24,7 @@ export async function POST(req: Request) {
 
     // İsim soyisim ayır
     let firstName = fullName;
-    let lastName = "";
-    if (fullName && fullName.includes(" ")) {
-      const parts = fullName.trim().split(" ");
-      firstName = parts[0];
-      lastName = parts.slice(1).join(" ");
-    }
-
-    // Audience’a ekle/güncelle
+ 
     await mailchimp.lists.setListMember(LIST_ID, subscriberHash, {
       email_address: email,
       status_if_new: "subscribed",
