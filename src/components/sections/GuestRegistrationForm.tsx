@@ -108,7 +108,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
           },
           publicKey
         );
-
+   
         // 2) Mailchimp'e abone ekle + tag ver
         await fetch("/api/mailchimp/subscribe", {
           method: "POST",
