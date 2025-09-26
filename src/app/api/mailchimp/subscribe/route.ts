@@ -23,7 +23,7 @@ export async function POST(req: Request) {
     const subscriberHash = crypto.createHash("md5").update(email.toLowerCase()).digest("hex");
 
     // İsim soyisim ayır
-    let firstName = fullName;
+    const firstName = fullName;
  
     await mailchimp.lists.setListMember(LIST_ID, subscriberHash, {
       email_address: email,
