@@ -93,7 +93,7 @@ const GuestRegistrationForm: React.FC<{ locale: string }> = ({ locale }) => {
         const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
         const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
         const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!;
-        console.log("SUBMIT DATA:", values);
+        
         // 1) EmailJS gönder
         await emailjs.send(
           serviceId,
