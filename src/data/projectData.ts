@@ -88,22 +88,7 @@ export interface Speaker {
 }
 
 export const speakers:Speaker[] = [
-    {
-        id: 1,
-        day:1,
-        name: "Mehmet ŞİMŞEK",
-        title: {
-            en: "Minister of Treasury and Finance (TBC)",
-            tr: "Hazine ve Maliye Bakanı (Teyit Bekleniyor)",
-        },
-        image: "/images/speakers/mehmet_simsek.png",
-        bio: {
-            en: `
-            `,
-            tr: `
-            `,
-        },
-    },
+  
     {
         id: 2,
         day:1,
@@ -1258,15 +1243,11 @@ export const agendaData: LocalizedAgendaData = {
                     title: "Hoş Geldiniz Konuşması, Uğur GÜLEN (Başkan, Türkiye Sigorta Birliği - TSB) ",
                 },
                 {
-                    time: "09.45 - 10.00",
+                    time: "09.45 - 10.10",
                     title: "Davut MENTEŞ (Başkan, SEDDK)",
-                },
+                }, 
                 {
-                    time: "10.00 - 10.15",
-                    title: "Mehmet ŞİMŞEK (Hazine ve Maliye Bakanı) (Teyit Bekleniyor)",
-                },
-                {
-                    time: "10.15 - 10.45",
+                    time: "10.10 - 10.45",
                     title: "Kahve Molası",
                 },
                 {
@@ -1493,15 +1474,11 @@ Department, T-Rupt)</li>
                     title: "Welcome Speech, Uğur GÜLEN (Chairman, TSB)  ",
                 },
                 {
-                    time: "09.45 - 10.00",
+                    time: "09.45 - 10.10",
                     title: "Davut MENTEŞ (Chairman, IPRSA)",
-                },
+                }, 
                 {
-                    time: "10.00 - 10.15",
-                    title: "Mehmet ŞİMŞEK (Minister of Treasury and Finance) (TBC)",
-                },
-                {
-                    time: "10.15 - 10.45",
+                    time: "10.10 - 10.45",
                     title: "Coffee Break",
                 },
                 {
