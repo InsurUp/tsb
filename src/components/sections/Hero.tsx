@@ -3,8 +3,7 @@ import { BannerData } from '@/data/projectData'
 import Image from 'next/image'
 import React from 'react'
 import { useCountdown } from '@/hooks/useCountdown'
-import Link from 'next/link'
-
+ 
 function Hero({ locale }: { locale: string }) {
     const [weeks, days, hours] = useCountdown(locale === 'tr' ? BannerData.tr.eventTargetDate : BannerData.en.eventTargetDate);
 
@@ -30,10 +29,7 @@ function Hero({ locale }: { locale: string }) {
                     <h1 className='text-2xl sm:text-3xl md:text-5xl font-extrabold max-w-7xl leading-tight'>
                         {locale === 'tr' ? BannerData.tr.title : BannerData.en.title}
                     </h1>
-                    <Link href={locale === 'tr' ? BannerData.tr.buttonHref : BannerData.en.buttonHref} className='hover:bg-white hover:text-black transition-all duration-300 mb-0 bg-white/30 text-white font-semibold py-5 px-10 sm:px-18 rounded-[20px] text-2xl sm:text-4xl flex items-center justify-center'>
-                        {locale === 'tr' ? BannerData.tr.buttonText : BannerData.en.buttonText}
-                    </Link>
-
+                  
                     <div className='flex max-w-[500px] w-full justify-between mx-auto my-8! sm:mb-8! mb-4! px-12 py-5 rounded-[30px] bg-white'>
                         <div className='flex flex-col items-center'>
                             <span className='md:text-[50px] text-[30px] text-[#06074E] font-semibold leading-none'>{weeks}</span>
