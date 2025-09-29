@@ -30,7 +30,7 @@ function Hero({ locale }: { locale: string }) {
                         {locale === 'tr' ? BannerData.tr.title : BannerData.en.title}
                     </h1>
                   
-                    <div className='flex max-w-[500px] w-full justify-between mx-auto my-8! sm:mb-8! mb-4! px-12 py-5 rounded-[30px] bg-white'>
+                    {/* <div className='flex max-w-[500px] w-full justify-between mx-auto my-8! sm:mb-8! mb-4! px-12 py-5 rounded-[30px] bg-white'>
                         <div className='flex flex-col items-center'>
                             <span className='md:text-[50px] text-[30px] text-[#06074E] font-semibold leading-none'>{weeks}</span>
                             <span className='text-base text-[#482F2F]/40 font-semibold  tracking-wider'>
@@ -49,7 +49,7 @@ function Hero({ locale }: { locale: string }) {
                                 {locale === "en" ? "Hours" : "Saat"}
                             </span>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='text-lg '>
                         <p className='text-[30px] text-[#60C1FF] font-semibold  tracking-wider'>{locale === 'tr' ? BannerData.tr.eventStartDate : BannerData.en.eventStartDate}</p>
