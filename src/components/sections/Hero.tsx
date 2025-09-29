@@ -5,7 +5,7 @@ import React from 'react'
 import { useCountdown } from '@/hooks/useCountdown'
  
 function Hero({ locale }: { locale: string }) {
-    const [weeks, days, hours] = useCountdown(locale === 'tr' ? BannerData.tr.eventTargetDate : BannerData.en.eventTargetDate);
+    // const [weeks, days, hours] = useCountdown(locale === 'tr' ? BannerData.tr.eventTargetDate : BannerData.en.eventTargetDate);
 
 
 
